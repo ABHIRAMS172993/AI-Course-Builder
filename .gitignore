@@ -1,0 +1,76 @@
+# ===========================================
+# Root .gitignore
+# ===========================================
+# Root environment file
+env
+.env
+.env.*
+!.env.example
+# ----------------------------
+# Frontend (React + Vite)
+# ----------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ----------------------------
+# Backend (Django)
+# ----------------------------
+backend/env/
+backend/venv/
+backend/.venv/
+
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*.py[cod]
+
+backend/db.sqlite3
+
+backend/media/
+
+backend/staticfiles/
+
+backend/.env
+backend/.env.*
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------------
+# IDE
+# ----------------------------
+.vscode/
+.idea/
+
+# ----------------------------
+# OS Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# Coverage
+# ----------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# ----------------------------
+# Build files
+# ----------------------------
+build/
+dist/

@@ -1,0 +1,2724 @@
+[
+  {
+    "topic": "HTML & CSS Fundamentals",
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "option1": "<a>",
+    "option2": "<link>",
+    "option3": "<href>",
+    "option4": "<url>",
+    "correct_answer": "<a>",
+    "explanation": "The <a> tag is used to create hyperlinks."
+  },
+  {
+    "topic": "HTML & CSS Fundamentals",
+    "question": "Which CSS property changes the text color?",
+    "option1": "font-color",
+    "option2": "text-color",
+    "option3": "color",
+    "option4": "background-color",
+    "correct_answer": "color",
+    "explanation": "The color property sets the text color."
+  },
+  {
+    "topic": "HTML & CSS Fundamentals",
+    "question": "Which HTML tag is used for the largest heading?",
+    "option1": "<heading>",
+    "option2": "<h6>",
+    "option3": "<head>",
+    "option4": "<h1>",
+    "correct_answer": "<h1>",
+    "explanation": "The <h1> tag represents the largest heading."
+  },
+  {
+    "topic": "HTML & CSS Fundamentals",
+    "question": "Which CSS property is used to add space inside an element?",
+    "option1": "margin",
+    "option2": "padding",
+    "option3": "spacing",
+    "option4": "border-spacing",
+    "correct_answer": "padding",
+    "explanation": "Padding creates space inside an element."
+  },
+  {
+    "topic": "HTML & CSS Fundamentals",
+    "question": "Which HTML tag is used to display an image?",
+    "option1": "<picture>",
+    "option2": "<img>",
+    "option3": "<image>",
+    "option4": "<src>",
+    "correct_answer": "<img>",
+    "explanation": "The <img> tag embeds images in HTML."
+  },
+
+  {
+    "topic": "JavaScript Basics",
+    "question": "Which keyword declares a block-scoped variable?",
+    "option1": "var",
+    "option2": "let",
+    "option3": "define",
+    "option4": "constvar",
+    "correct_answer": "let",
+    "explanation": "let declares a block-scoped variable."
+  },
+  {
+    "topic": "JavaScript Basics",
+    "question": "Which function prints output to the browser console?",
+    "option1": "print()",
+    "option2": "console.log()",
+    "option3": "echo()",
+    "option4": "display()",
+    "correct_answer": "console.log()",
+    "explanation": "console.log() writes messages to the browser console."
+  },
+  {
+    "topic": "JavaScript Basics",
+    "question": "Which operator checks both value and type?",
+    "option1": "==",
+    "option2": "=",
+    "option3": "===",
+    "option4": "!=",
+    "correct_answer": "===",
+    "explanation": "=== compares both value and data type."
+  },
+  {
+    "topic": "JavaScript Basics",
+    "question": "Which loop is guaranteed to execute at least once?",
+    "option1": "for",
+    "option2": "while",
+    "option3": "foreach",
+    "option4": "do...while",
+    "correct_answer": "do...while",
+    "explanation": "A do...while loop executes before checking the condition."
+  },
+  {
+    "topic": "JavaScript Basics",
+    "question": "Which keyword is used to define a function?",
+    "option1": "method",
+    "option2": "function",
+    "option3": "define",
+    "option4": "func",
+    "correct_answer": "function",
+    "explanation": "The function keyword declares a JavaScript function."
+  },
+
+  {
+    "topic": "Responsive Web Design",
+    "question": "Which CSS feature is primarily used to create responsive layouts?",
+    "option1": "Animations",
+    "option2": "Media Queries",
+    "option3": "Gradients",
+    "option4": "Transforms",
+    "correct_answer": "Media Queries",
+    "explanation": "Media queries apply styles based on screen size."
+  },
+  {
+    "topic": "Responsive Web Design",
+    "question": "Which CSS layout model is best for one-dimensional layouts?",
+    "option1": "Grid",
+    "option2": "Flexbox",
+    "option3": "Table",
+    "option4": "Float",
+    "correct_answer": "Flexbox",
+    "explanation": "Flexbox is ideal for one-dimensional layouts."
+  },
+  {
+    "topic": "Responsive Web Design",
+    "question": "Which unit is relative to the viewport width?",
+    "option1": "px",
+    "option2": "em",
+    "option3": "vw",
+    "option4": "%",
+    "correct_answer": "vw",
+    "explanation": "1vw equals 1% of the viewport width."
+  },
+  {
+    "topic": "Responsive Web Design",
+    "question": "Which HTML tag helps configure responsive pages on mobile devices?",
+    "option1": "<responsive>",
+    "option2": "<meta name=\"viewport\">",
+    "option3": "<mobile>",
+    "option4": "<device>",
+    "correct_answer": "<meta name=\"viewport\">",
+    "explanation": "The viewport meta tag enables responsive rendering."
+  },
+  {
+    "topic": "Responsive Web Design",
+    "question": "Which CSS layout system supports two-dimensional layouts?",
+    "option1": "Flexbox",
+    "option2": "Grid",
+    "option3": "Float",
+    "option4": "Inline-block",
+    "correct_answer": "Grid",
+    "explanation": "CSS Grid is designed for two-dimensional layouts."
+  },
+ {
+  "topic": "Git & GitHub",
+  "question": "Which command initializes a new Git repository?",
+  "option1": "git start",
+  "option2": "git init",
+  "option3": "git create",
+  "option4": "git new",
+  "correct_answer": "git init",
+  "explanation": "The git init command creates a new Git repository in the current directory."
+},
+{
+  "topic": "Git & GitHub",
+  "question": "Which command stages all modified files for the next commit?",
+  "option1": "git push .",
+  "option2": "git stage .",
+  "option3": "git add .",
+  "option4": "git commit .",
+  "correct_answer": "git add .",
+  "explanation": "git add . stages all changes in the current directory."
+},
+{
+  "topic": "Git & GitHub",
+  "question": "Which command uploads local commits to a remote repository?",
+  "option1": "git upload",
+  "option2": "git commit",
+  "option3": "git push",
+  "option4": "git sync",
+  "correct_answer": "git push",
+  "explanation": "git push sends committed changes to the remote repository."
+},
+{
+  "topic": "Git & GitHub",
+  "question": "Which GitHub feature is primarily used to merge code changes after review?",
+  "option1": "Fork",
+  "option2": "Issue",
+  "option3": "Pull Request",
+  "option4": "Release",
+  "correct_answer": "Pull Request",
+  "explanation": "A Pull Request allows code review and discussion before merging changes."
+},
+{
+  "topic": "Git & GitHub",
+  "question": "Which command shows the commit history of a Git repository?",
+  "option1": "git history",
+  "option2": "git status",
+  "option3": "git log",
+  "option4": "git commits",
+  "correct_answer": "git log",
+  "explanation": "git log displays the commit history with hashes, authors, and messages."
+},
+{
+  "topic": "Introduction to React",
+  "question": "React is primarily used for building ____.",
+  "option1": "Databases",
+  "option2": "Operating Systems",
+  "option3": "User Interfaces",
+  "option4": "Web Servers",
+  "correct_answer": "User Interfaces",
+  "explanation": "React is a JavaScript library for building user interfaces."
+},
+{
+  "topic": "Introduction to React",
+  "question": "Which function is used to create a React component using modern JavaScript?",
+  "option1": "function Component() {}",
+  "option2": "create Component() {}",
+  "option3": "component() {}",
+  "option4": "new Component()",
+  "correct_answer": "function Component() {}",
+  "explanation": "Functional components are standard in modern React."
+},
+{
+  "topic": "Introduction to React",
+  "question": "JSX stands for ____.",
+  "option1": "Java Syntax Extension",
+  "option2": "JavaScript XML",
+  "option3": "JSON XML",
+  "option4": "JavaScript Extension",
+  "correct_answer": "JavaScript XML",
+  "explanation": "JSX is a syntax extension that allows HTML-like code inside JavaScript."
+},
+{
+  "topic": "Introduction to React",
+  "question": "Which hook is commonly used for managing state in a functional component?",
+  "option1": "useFetch",
+  "option2": "useRouter",
+  "option3": "useState",
+  "option4": "useData",
+  "correct_answer": "useState",
+  "explanation": "useState is the built-in hook for state management."
+},
+{
+  "topic": "Introduction to React",
+  "question": "Props in React are ____.",
+  "option1": "Mutable variables",
+  "option2": "Read-only inputs passed to components",
+  "option3": "CSS properties",
+  "option4": "Database records",
+  "correct_answer": "Read-only inputs passed to components",
+  "explanation": "Props are read-only values used to pass data between components."
+},{
+  "topic": "Advanced JavaScript (ES6+)",
+  "question": "Which keyword declares a block-scoped variable?",
+  "option1": "var",
+  "option2": "const",
+  "option3": "let",
+  "option4": "Both let and const",
+  "correct_answer": "Both let and const",
+  "explanation": "Both let and const are block-scoped in ES6."
+},
+{
+  "topic": "Advanced JavaScript (ES6+)",
+  "question": "Which feature allows writing asynchronous code in a synchronous style?",
+  "option1": "Callbacks",
+  "option2": "Promises",
+  "option3": "async/await",
+  "option4": "setTimeout",
+  "correct_answer": "async/await",
+  "explanation": "async/await makes asynchronous code easier to read and maintain."
+},
+{
+  "topic": "Advanced JavaScript (ES6+)",
+  "question": "Which operator is used to spread elements of an array?",
+  "option1": "...",
+  "option2": "**",
+  "option3": "=>",
+  "option4": "::",
+  "correct_answer": "...",
+  "explanation": "The spread operator expands iterable elements."
+},
+{
+  "topic": "Advanced JavaScript (ES6+)",
+  "question": "Arrow functions differ from regular functions because they ____.",
+  "option1": "Cannot return values",
+  "option2": "Do not have their own 'this'",
+  "option3": "Cannot accept parameters",
+  "option4": "Cannot be assigned to variables",
+  "correct_answer": "Do not have their own 'this'",
+  "explanation": "Arrow functions inherit 'this' from the surrounding lexical scope."
+},
+{
+  "topic": "Advanced JavaScript (ES6+)",
+  "question": "Which keyword is used to import modules in ES6?",
+  "option1": "include",
+  "option2": "require",
+  "option3": "import",
+  "option4": "using",
+  "correct_answer": "import",
+  "explanation": "The import keyword is part of the ES6 module system."
+},
+{
+  "topic": "React Hooks",
+  "question": "Which React Hook is used to add state to a functional component?",
+  "option1": "useEffect",
+  "option2": "useState",
+  "option3": "useContext",
+  "option4": "useReducer",
+  "correct_answer": "useState",
+  "explanation": "useState allows functional components to manage local state."
+},
+{
+  "topic": "React Hooks",
+  "question": "Which Hook is used to perform side effects such as API calls?",
+  "option1": "useMemo",
+  "option2": "useState",
+  "option3": "useEffect",
+  "option4": "useRef",
+  "correct_answer": "useEffect",
+  "explanation": "useEffect runs side effects after rendering, including fetching data."
+},
+{
+  "topic": "React Hooks",
+  "question": "Which Hook provides access to values from a React Context?",
+  "option1": "useReducer",
+  "option2": "useContext",
+  "option3": "useMemo",
+  "option4": "useCallback",
+  "correct_answer": "useContext",
+  "explanation": "useContext consumes values from a Context Provider."
+},
+{
+  "topic": "React Hooks",
+  "question": "Which Hook stores a mutable value that does not trigger a re-render when changed?",
+  "option1": "useState",
+  "option2": "useEffect",
+  "option3": "useRef",
+  "option4": "useContext",
+  "correct_answer": "useRef",
+  "explanation": "useRef stores mutable values and references DOM elements without causing re-renders."
+},
+{
+  "topic": "React Hooks",
+  "question": "When does useEffect run if its dependency array is empty ([])?",
+  "option1": "After every render",
+  "option2": "Only before rendering",
+  "option3": "Only once after the initial render",
+  "option4": "Whenever state changes",
+  "correct_answer": "Only once after the initial render",
+  "explanation": "An empty dependency array makes useEffect run only once after the component mounts."
+},
+
+{
+  "topic": "React Router",
+  "question": "Which package provides routing functionality for React applications?",
+  "option1": "react-route",
+  "option2": "react-router-dom",
+  "option3": "react-navigation",
+  "option4": "react-router-js",
+  "correct_answer": "react-router-dom",
+  "explanation": "react-router-dom is the standard routing library for React web applications."
+},
+{
+  "topic": "React Router",
+  "question": "Which component is used to define application routes?",
+  "option1": "BrowserRouter",
+  "option2": "Routes",
+  "option3": "RouteLink",
+  "option4": "Navigate",
+  "correct_answer": "Routes",
+  "explanation": "The Routes component contains all Route components in React Router v6."
+},
+{
+  "topic": "React Router",
+  "question": "Which component is used for navigation without reloading the page?",
+  "option1": "a",
+  "option2": "Navigate",
+  "option3": "Link",
+  "option4": "Redirect",
+  "correct_answer": "Link",
+  "explanation": "Link performs client-side navigation without refreshing the browser."
+},
+{
+  "topic": "React Router",
+  "question": "Which Hook is used to navigate programmatically?",
+  "option1": "useRoute",
+  "option2": "useNavigate",
+  "option3": "useHistory",
+  "option4": "useLocation",
+  "correct_answer": "useNavigate",
+  "explanation": "useNavigate is the recommended hook for navigation in React Router v6."
+},
+{
+  "topic": "React Router",
+  "question": "Which Hook returns information about the current URL?",
+  "option1": "useCurrent",
+  "option2": "useHistory",
+  "option3": "useLocation",
+  "option4": "useNavigate",
+  "correct_answer": "useLocation",
+  "explanation": "useLocation returns the current location object, including pathname and search parameters."
+},
+
+{
+  "topic": "State Management",
+  "question": "Which React API is commonly used for simple global state management?",
+  "option1": "Context API",
+  "option2": "Express",
+  "option3": "Axios",
+  "option4": "Node.js",
+  "correct_answer": "Context API",
+  "explanation": "The Context API allows data to be shared across components without prop drilling."
+},
+{
+  "topic": "State Management",
+  "question": "Which library is officially recommended for Redux development today?",
+  "option1": "Redux Toolkit",
+  "option2": "MobX",
+  "option3": "Recoil",
+  "option4": "Flux",
+  "correct_answer": "Redux Toolkit",
+  "explanation": "Redux Toolkit simplifies Redux configuration and is the official recommendation."
+},
+{
+  "topic": "State Management",
+  "question": "What is the purpose of a Redux store?",
+  "option1": "Store CSS styles",
+  "option2": "Manage application state",
+  "option3": "Store API endpoints",
+  "option4": "Manage routing",
+  "correct_answer": "Manage application state",
+  "explanation": "The Redux store is the single source of truth for application state."
+},
+{
+  "topic": "State Management",
+  "question": "Which Hook is used to access Redux state inside a React component?",
+  "option1": "useDispatch",
+  "option2": "useStore",
+  "option3": "useSelector",
+  "option4": "useReducer",
+  "correct_answer": "useSelector",
+  "explanation": "useSelector reads values from the Redux store."
+},
+{
+  "topic": "State Management",
+  "question": "Which Hook is used to dispatch Redux actions?",
+  "option1": "useSelector",
+  "option2": "useDispatch",
+  "option3": "useReducer",
+  "option4": "useEffect",
+  "correct_answer": "useDispatch",
+  "explanation": "useDispatch returns the dispatch function used to send actions to the Redux store."
+},
+{
+  "topic": "Tailwind CSS",
+  "question": "What is Tailwind CSS?",
+  "option1": "A JavaScript framework",
+  "option2": "A utility-first CSS framework",
+  "option3": "A database library",
+  "option4": "A backend framework",
+  "correct_answer": "A utility-first CSS framework",
+  "explanation": "Tailwind CSS provides utility classes that help build custom user interfaces quickly."
+},
+{
+  "topic": "Tailwind CSS",
+  "question": "Which utility class sets the background color to blue-500?",
+  "option1": "bg-blue",
+  "option2": "background-blue-500",
+  "option3": "bg-blue-500",
+  "option4": "blue-bg-500",
+  "correct_answer": "bg-blue-500",
+  "explanation": "Tailwind uses the format bg-color-shade for background colors."
+},
+{
+  "topic": "Tailwind CSS",
+  "question": "Which utility class makes a container use Flexbox?",
+  "option1": "display-flex",
+  "option2": "flexbox",
+  "option3": "flex",
+  "option4": "d-flex",
+  "correct_answer": "flex",
+  "explanation": "The flex class applies display: flex."
+},
+{
+  "topic": "Tailwind CSS",
+  "question": "Which prefix applies styles only on medium-sized screens and above?",
+  "option1": "lg:",
+  "option2": "md:",
+  "option3": "sm:",
+  "option4": "xl:",
+  "correct_answer": "md:",
+  "explanation": "The md: prefix applies utilities from the medium breakpoint onwards."
+},
+{
+  "topic": "Tailwind CSS",
+  "question": "Which command is commonly used to install Tailwind CSS using npm?",
+  "option1": "npm install tailwindcss",
+  "option2": "npm add tailwind",
+  "option3": "npm install css-tailwind",
+  "option4": "npm install tailwind",
+  "correct_answer": "npm install tailwindcss",
+  "explanation": "Tailwind CSS is installed using the tailwindcss package."
+},
+
+{
+  "topic": "Next.js",
+  "question": "Next.js is built on top of which JavaScript library?",
+  "option1": "Angular",
+  "option2": "Vue",
+  "option3": "React",
+  "option4": "Svelte",
+  "correct_answer": "React",
+  "explanation": "Next.js is a React framework for production-ready applications."
+},
+{
+  "topic": "Next.js",
+  "question": "Which feature of Next.js improves SEO by rendering pages on the server?",
+  "option1": "Virtual DOM",
+  "option2": "Server-Side Rendering",
+  "option3": "Redux",
+  "option4": "Client Routing",
+  "correct_answer": "Server-Side Rendering",
+  "explanation": "Server-Side Rendering (SSR) generates HTML on the server before sending it to the client."
+},
+{
+  "topic": "Next.js",
+  "question": "Which folder traditionally contains route pages in the Pages Router?",
+  "option1": "components",
+  "option2": "routes",
+  "option3": "pages",
+  "option4": "views",
+  "correct_answer": "pages",
+  "explanation": "Every file inside the pages directory automatically becomes a route."
+},
+{
+  "topic": "Next.js",
+  "question": "Which company maintains Next.js?",
+  "option1": "Google",
+  "option2": "Meta",
+  "option3": "Microsoft",
+  "option4": "Vercel",
+  "correct_answer": "Vercel",
+  "explanation": "Next.js is developed and maintained by Vercel."
+},
+{
+  "topic": "Next.js",
+  "question": "Which Next.js component is optimized for displaying images?",
+  "option1": "<Image>",
+  "option2": "<Picture>",
+  "option3": "<Photo>",
+  "option4": "<Img>",
+  "correct_answer": "<Image>",
+  "explanation": "The built-in Image component automatically optimizes images for performance."
+},
+
+{
+  "topic": "Frontend Performance Optimization",
+  "question": "What is lazy loading?",
+  "option1": "Loading all files before rendering",
+  "option2": "Loading resources only when they are needed",
+  "option3": "Compressing images",
+  "option4": "Deleting unused code",
+  "correct_answer": "Loading resources only when they are needed",
+  "explanation": "Lazy loading improves performance by loading resources only when required."
+},
+{
+  "topic": "Frontend Performance Optimization",
+  "question": "Which technique splits JavaScript into smaller bundles?",
+  "option1": "Tree shaking",
+  "option2": "Caching",
+  "option3": "Code splitting",
+  "option4": "Minification",
+  "correct_answer": "Code splitting",
+  "explanation": "Code splitting reduces the initial bundle size by loading code on demand."
+},
+{
+  "topic": "Frontend Performance Optimization",
+  "question": "Which React function is commonly used for lazy loading components?",
+  "option1": "React.memo",
+  "option2": "React.lazy",
+  "option3": "React.cache",
+  "option4": "React.load",
+  "correct_answer": "React.lazy",
+  "explanation": "React.lazy enables dynamic importing of components."
+},
+{
+  "topic": "Frontend Performance Optimization",
+  "question": "Which browser feature stores resources locally to reduce loading times?",
+  "option1": "Cookies",
+  "option2": "Caching",
+  "option3": "Local Storage",
+  "option4": "Session Storage",
+  "correct_answer": "Caching",
+  "explanation": "Browser caching stores resources locally to avoid repeated downloads."
+},
+{
+  "topic": "Frontend Performance Optimization",
+  "question": "Which metric measures how quickly the largest visible content is displayed?",
+  "option1": "CLS",
+  "option2": "FID",
+  "option3": "LCP",
+  "option4": "TTFB",
+  "correct_answer": "LCP",
+  "explanation": "Largest Contentful Paint (LCP) is a Core Web Vital that measures loading performance."
+},
+{
+  "topic": "Authentication & Authorization",
+  "question": "What is the primary purpose of authentication?",
+  "option1": "To encrypt data",
+  "option2": "To verify a user's identity",
+  "option3": "To improve application speed",
+  "option4": "To compress files",
+  "correct_answer": "To verify a user's identity",
+  "explanation": "Authentication verifies who the user is before granting access."
+},
+{
+  "topic": "Authentication & Authorization",
+  "question": "What is authorization?",
+  "option1": "Verifying user identity",
+  "option2": "Determining what an authenticated user is allowed to access",
+  "option3": "Encrypting passwords",
+  "option4": "Creating user accounts",
+  "correct_answer": "Determining what an authenticated user is allowed to access",
+  "explanation": "Authorization defines permissions after authentication is complete."
+},
+{
+  "topic": "Authentication & Authorization",
+  "question": "What does JWT stand for?",
+  "option1": "Java Web Token",
+  "option2": "JSON Web Token",
+  "option3": "JavaScript Web Transfer",
+  "option4": "JSON Wireless Token",
+  "correct_answer": "JSON Web Token",
+  "explanation": "JWT stands for JSON Web Token and is widely used for secure authentication."
+},
+{
+  "topic": "Authentication & Authorization",
+  "question": "Which part of a JWT contains user information (claims)?",
+  "option1": "Header",
+  "option2": "Payload",
+  "option3": "Signature",
+  "option4": "Footer",
+  "correct_answer": "Payload",
+  "explanation": "The payload contains claims such as user ID, email, and roles."
+},
+{
+  "topic": "Authentication & Authorization",
+  "question": "Which protocol is commonly used for third-party login (Google, GitHub, Facebook)?",
+  "option1": "SMTP",
+  "option2": "FTP",
+  "option3": "OAuth 2.0",
+  "option4": "SOAP",
+  "correct_answer": "OAuth 2.0",
+  "explanation": "OAuth 2.0 enables secure authorization using third-party providers."
+},
+
+{
+  "topic": "Frontend Testing",
+  "question": "Which library is commonly used for testing React components?",
+  "option1": "Mocha",
+  "option2": "React Testing Library",
+  "option3": "Selenium",
+  "option4": "Bootstrap",
+  "correct_answer": "React Testing Library",
+  "explanation": "React Testing Library is the recommended library for testing React components."
+},
+{
+  "topic": "Frontend Testing",
+  "question": "Which testing framework is commonly used together with React Testing Library?",
+  "option1": "Jest",
+  "option2": "Express",
+  "option3": "Redux",
+  "option4": "Axios",
+  "correct_answer": "Jest",
+  "explanation": "Jest provides assertions, mocking, and test execution for React applications."
+},
+{
+  "topic": "Frontend Testing",
+  "question": "What is the purpose of unit testing?",
+  "option1": "Testing the entire application",
+  "option2": "Testing individual functions or components",
+  "option3": "Testing the database",
+  "option4": "Testing server deployment",
+  "correct_answer": "Testing individual functions or components",
+  "explanation": "Unit tests verify that small pieces of code work correctly in isolation."
+},
+{
+  "topic": "Frontend Testing",
+  "question": "Which command is commonly used to run Jest tests?",
+  "option1": "npm test",
+  "option2": "npm deploy",
+  "option3": "npm serve",
+  "option4": "npm build",
+  "correct_answer": "npm test",
+  "explanation": "npm test is commonly configured to execute Jest test suites."
+},
+{
+  "topic": "Frontend Testing",
+  "question": "What is the purpose of integration testing?",
+  "option1": "Testing a single function",
+  "option2": "Testing how multiple components work together",
+  "option3": "Testing CSS styles",
+  "option4": "Testing internet speed",
+  "correct_answer": "Testing how multiple components work together",
+  "explanation": "Integration tests ensure that different parts of the application interact correctly."
+},
+
+{
+  "topic": "Frontend Deployment",
+  "question": "Which platform is commonly used to deploy React applications?",
+  "option1": "MongoDB",
+  "option2": "Vercel",
+  "option3": "MySQL",
+  "option4": "Postman",
+  "correct_answer": "Vercel",
+  "explanation": "Vercel is one of the most popular platforms for deploying React and Next.js applications."
+},
+{
+  "topic": "Frontend Deployment",
+  "question": "Which command creates an optimized production build of a React application?",
+  "option1": "npm build",
+  "option2": "npm deploy",
+  "option3": "npm run build",
+  "option4": "npm start",
+  "correct_answer": "npm run build",
+  "explanation": "npm run build generates optimized production files."
+},
+{
+  "topic": "Frontend Deployment",
+  "question": "Which folder contains the production build generated by Create React App?",
+  "option1": "src",
+  "option2": "dist",
+  "option3": "build",
+  "option4": "public",
+  "correct_answer": "build",
+  "explanation": "The build directory contains the optimized production-ready files."
+},
+{
+  "topic": "Frontend Deployment",
+  "question": "Which CI/CD platform is directly integrated with GitHub for frontend deployments?",
+  "option1": "Vercel",
+  "option2": "SQLite",
+  "option3": "Docker Hub",
+  "option4": "Redis",
+  "correct_answer": "Vercel",
+  "explanation": "Vercel automatically deploys applications from GitHub repositories."
+},
+{
+  "topic": "Frontend Deployment",
+  "question": "What is the main benefit of using CI/CD pipelines?",
+  "option1": "Reducing database size",
+  "option2": "Automating testing and deployment",
+  "option3": "Improving internet speed",
+  "option4": "Replacing version control",
+  "correct_answer": "Automating testing and deployment",
+  "explanation": "CI/CD automates building, testing, and deploying applications, reducing manual effort."
+},
+{
+  "topic": "Python Programming",
+  "question": "Which keyword is used to define a function in Python?",
+  "option1": "func",
+  "option2": "define",
+  "option3": "def",
+  "option4": "function",
+  "correct_answer": "def",
+  "explanation": "The 'def' keyword is used to define a function in Python."
+},
+{
+  "topic": "Python Programming",
+  "question": "Which data type is immutable in Python?",
+  "option1": "List",
+  "option2": "Dictionary",
+  "option3": "Set",
+  "option4": "Tuple",
+  "correct_answer": "Tuple",
+  "explanation": "Tuples are immutable, meaning their elements cannot be changed after creation."
+},
+{
+  "topic": "Python Programming",
+  "question": "Which statement is used to handle exceptions in Python?",
+  "option1": "catch",
+  "option2": "try-except",
+  "option3": "error",
+  "option4": "handle",
+  "correct_answer": "try-except",
+  "explanation": "Python uses try-except blocks for exception handling."
+},
+{
+  "topic": "Python Programming",
+  "question": "Which built-in function returns the length of a list?",
+  "option1": "count()",
+  "option2": "size()",
+  "option3": "length()",
+  "option4": "len()",
+  "correct_answer": "len()",
+  "explanation": "The len() function returns the number of items in an object."
+},
+{
+  "topic": "Python Programming",
+  "question": "Which symbol is used for comments in Python?",
+  "option1": "//",
+  "option2": "/* */",
+  "option3": "#",
+  "option4": "<!-- -->",
+  "correct_answer": "#",
+  "explanation": "Single-line comments in Python begin with the '#' symbol."
+},
+
+{
+  "topic": "Introduction to Django",
+  "question": "Django is primarily a ____.",
+  "option1": "JavaScript library",
+  "option2": "Python web framework",
+  "option3": "Database",
+  "option4": "CSS framework",
+  "correct_answer": "Python web framework",
+  "explanation": "Django is a high-level Python web framework used to build secure and scalable web applications."
+},
+{
+  "topic": "Introduction to Django",
+  "question": "Which command creates a new Django project?",
+  "option1": "django-admin startproject",
+  "option2": "django newproject",
+  "option3": "python createproject",
+  "option4": "django start",
+  "correct_answer": "django-admin startproject",
+  "explanation": "The django-admin startproject command creates a new Django project."
+},
+{
+  "topic": "Introduction to Django",
+  "question": "Which command creates a new Django app?",
+  "option1": "python manage.py createapp",
+  "option2": "django-admin newapp",
+  "option3": "python manage.py startapp",
+  "option4": "django startapp",
+  "correct_answer": "python manage.py startapp",
+  "explanation": "The startapp command creates a reusable Django application."
+},
+{
+  "topic": "Introduction to Django",
+  "question": "Which file contains the list of installed Django applications?",
+  "option1": "urls.py",
+  "option2": "settings.py",
+  "option3": "views.py",
+  "option4": "models.py",
+  "correct_answer": "settings.py",
+  "explanation": "INSTALLED_APPS is defined inside settings.py."
+},
+{
+  "topic": "Introduction to Django",
+  "question": "Which ORM does Django provide by default?",
+  "option1": "SQLAlchemy",
+  "option2": "Hibernate",
+  "option3": "Django ORM",
+  "option4": "Doctrine",
+  "correct_answer": "Django ORM",
+  "explanation": "Django includes its own Object Relational Mapper (ORM) by default."
+},
+
+{
+  "topic": "Database Fundamentals",
+  "question": "Which SQL statement retrieves data from a table?",
+  "option1": "GET",
+  "option2": "FETCH",
+  "option3": "SELECT",
+  "option4": "READ",
+  "correct_answer": "SELECT",
+  "explanation": "The SELECT statement is used to retrieve records from a database."
+},
+{
+  "topic": "Database Fundamentals",
+  "question": "Which key uniquely identifies each record in a table?",
+  "option1": "Foreign Key",
+  "option2": "Unique Key",
+  "option3": "Primary Key",
+  "option4": "Composite Key",
+  "correct_answer": "Primary Key",
+  "explanation": "A Primary Key uniquely identifies every row in a database table."
+},
+{
+  "topic": "Database Fundamentals",
+  "question": "Which SQL command inserts a new record into a table?",
+  "option1": "ADD",
+  "option2": "INSERT INTO",
+  "option3": "CREATE",
+  "option4": "UPDATE",
+  "correct_answer": "INSERT INTO",
+  "explanation": "INSERT INTO is used to add new records to a database table."
+},
+{
+  "topic": "Database Fundamentals",
+  "question": "Which SQL clause filters rows returned by a query?",
+  "option1": "ORDER BY",
+  "option2": "HAVING",
+  "option3": "WHERE",
+  "option4": "GROUP BY",
+  "correct_answer": "WHERE",
+  "explanation": "The WHERE clause filters records before they are returned."
+},
+{
+  "topic": "Database Fundamentals",
+  "question": "Which relationship allows one record in a table to relate to many records in another table?",
+  "option1": "One-to-One",
+  "option2": "One-to-Many",
+  "option3": "Many-to-Many",
+  "option4": "Self-Join",
+  "correct_answer": "One-to-Many",
+  "explanation": "A one-to-many relationship is the most common database relationship."
+},
+{
+  "topic": "REST API Fundamentals",
+  "question": "What does REST stand for?",
+  "option1": "Remote Execution Standard Transfer",
+  "option2": "Representational State Transfer",
+  "option3": "Resource State Transfer",
+  "option4": "Reliable Service Transfer",
+  "correct_answer": "Representational State Transfer",
+  "explanation": "REST stands for Representational State Transfer, an architectural style for designing web APIs."
+},
+{
+  "topic": "REST API Fundamentals",
+  "question": "Which HTTP method is commonly used to retrieve data?",
+  "option1": "POST",
+  "option2": "PUT",
+  "option3": "GET",
+  "option4": "DELETE",
+  "correct_answer": "GET",
+  "explanation": "GET requests are used to retrieve resources from a server."
+},
+{
+  "topic": "REST API Fundamentals",
+  "question": "Which HTTP method is used to create a new resource?",
+  "option1": "GET",
+  "option2": "POST",
+  "option3": "PATCH",
+  "option4": "DELETE",
+  "correct_answer": "POST",
+  "explanation": "POST requests create new resources on the server."
+},
+{
+  "topic": "REST API Fundamentals",
+  "question": "Which HTTP status code indicates a successful request?",
+  "option1": "404",
+  "option2": "500",
+  "option3": "200",
+  "option4": "301",
+  "correct_answer": "200",
+  "explanation": "HTTP 200 OK indicates that the request was successful."
+},
+{
+  "topic": "REST API Fundamentals",
+  "question": "Which data format is most commonly used for REST APIs?",
+  "option1": "XML",
+  "option2": "CSV",
+  "option3": "JSON",
+  "option4": "YAML",
+  "correct_answer": "JSON",
+  "explanation": "JSON is lightweight, human-readable, and widely used for REST APIs."
+},
+
+{
+  "topic": "Authentication Basics",
+  "question": "Which Django app provides built-in user authentication?",
+  "option1": "django.contrib.sessions",
+  "option2": "django.contrib.auth",
+  "option3": "django.contrib.admin",
+  "option4": "django.contrib.messages",
+  "correct_answer": "django.contrib.auth",
+  "explanation": "django.contrib.auth provides authentication, permissions, and user management."
+},
+{
+  "topic": "Authentication Basics",
+  "question": "Which model represents users in Django by default?",
+  "option1": "Profile",
+  "option2": "Person",
+  "option3": "User",
+  "option4": "Account",
+  "correct_answer": "User",
+  "explanation": "Django provides the built-in User model for authentication."
+},
+{
+  "topic": "Authentication Basics",
+  "question": "Which function is commonly used to authenticate a user in Django?",
+  "option1": "login()",
+  "option2": "authenticate()",
+  "option3": "verify()",
+  "option4": "signin()",
+  "correct_answer": "authenticate()",
+  "explanation": "authenticate() verifies user credentials before logging the user in."
+},
+{
+  "topic": "Authentication Basics",
+  "question": "Which function creates a user session after successful authentication?",
+  "option1": "authenticate()",
+  "option2": "login()",
+  "option3": "logout()",
+  "option4": "register()",
+  "correct_answer": "login()",
+  "explanation": "login() creates a session for the authenticated user."
+},
+{
+  "topic": "Authentication Basics",
+  "question": "Which method securely stores user passwords in Django?",
+  "option1": "Plain text",
+  "option2": "Base64 encoding",
+  "option3": "Hashing",
+  "option4": "Encryption only",
+  "correct_answer": "Hashing",
+  "explanation": "Django hashes passwords before storing them in the database."
+},
+
+{
+  "topic": "Django REST Framework",
+  "question": "What does DRF stand for?",
+  "option1": "Django Routing Framework",
+  "option2": "Django REST Framework",
+  "option3": "Database REST Framework",
+  "option4": "Distributed REST Framework",
+  "correct_answer": "Django REST Framework",
+  "explanation": "DRF stands for Django REST Framework."
+},
+{
+  "topic": "Django REST Framework",
+  "question": "Which class is commonly used to convert model instances into JSON?",
+  "option1": "View",
+  "option2": "Serializer",
+  "option3": "Middleware",
+  "option4": "Router",
+  "correct_answer": "Serializer",
+  "explanation": "Serializers convert complex data types into JSON and validate incoming data."
+},
+{
+  "topic": "Django REST Framework",
+  "question": "Which DRF class is commonly extended to build API endpoints?",
+  "option1": "APIView",
+  "option2": "HttpResponse",
+  "option3": "AdminView",
+  "option4": "JsonParser",
+  "correct_answer": "APIView",
+  "explanation": "APIView provides the base class for creating REST API endpoints."
+},
+{
+  "topic": "Django REST Framework",
+  "question": "Which permission class allows only authenticated users to access an API?",
+  "option1": "AllowAny",
+  "option2": "IsAdminUser",
+  "option3": "IsAuthenticated",
+  "option4": "DjangoModelPermissions",
+  "correct_answer": "IsAuthenticated",
+  "explanation": "IsAuthenticated restricts access to logged-in users."
+},
+{
+  "topic": "Django REST Framework",
+  "question": "Which class is commonly used to return JSON responses in DRF?",
+  "option1": "JsonResponse",
+  "option2": "Response",
+  "option3": "HttpResponse",
+  "option4": "TemplateResponse",
+  "correct_answer": "Response",
+  "explanation": "The Response class automatically renders data into the appropriate response format, usually JSON."
+},
+{
+  "topic": "JWT Authentication",
+  "question": "What does JWT stand for?",
+  "option1": "Java Web Token",
+  "option2": "JSON Web Token",
+  "option3": "JavaScript Web Token",
+  "option4": "JSON Wireless Token",
+  "correct_answer": "JSON Web Token",
+  "explanation": "JWT stands for JSON Web Token and is commonly used for stateless authentication."
+},
+{
+  "topic": "JWT Authentication",
+  "question": "A JWT consists of how many parts?",
+  "option1": "2",
+  "option2": "3",
+  "option3": "4",
+  "option4": "5",
+  "correct_answer": "3",
+  "explanation": "A JWT contains Header, Payload, and Signature."
+},
+{
+  "topic": "JWT Authentication",
+  "question": "Which part of a JWT contains user claims?",
+  "option1": "Header",
+  "option2": "Payload",
+  "option3": "Signature",
+  "option4": "Secret",
+  "correct_answer": "Payload",
+  "explanation": "The payload contains user information and claims."
+},
+{
+  "topic": "JWT Authentication",
+  "question": "Which HTTP header is typically used to send a JWT?",
+  "option1": "Content-Type",
+  "option2": "Authorization",
+  "option3": "Accept",
+  "option4": "Cookie",
+  "correct_answer": "Authorization",
+  "explanation": "JWTs are commonly sent using the Authorization header with the Bearer scheme."
+},
+{
+  "topic": "JWT Authentication",
+  "question": "Which keyword usually precedes a JWT in the Authorization header?",
+  "option1": "Token",
+  "option2": "JWT",
+  "option3": "Bearer",
+  "option4": "Auth",
+  "correct_answer": "Bearer",
+  "explanation": "The standard format is 'Authorization: Bearer <token>'."
+},
+
+{
+  "topic": "Database Optimization",
+  "question": "Which Django QuerySet method reduces additional database queries for ForeignKey relationships?",
+  "option1": "values()",
+  "option2": "prefetch_related()",
+  "option3": "select_related()",
+  "option4": "filter()",
+  "correct_answer": "select_related()",
+  "explanation": "select_related() performs SQL joins for ForeignKey and OneToOne relationships."
+},
+{
+  "topic": "Database Optimization",
+  "question": "Which QuerySet method is preferred for ManyToMany relationships?",
+  "option1": "select_related()",
+  "option2": "prefetch_related()",
+  "option3": "aggregate()",
+  "option4": "annotate()",
+  "correct_answer": "prefetch_related()",
+  "explanation": "prefetch_related() efficiently loads ManyToMany and reverse ForeignKey relationships."
+},
+{
+  "topic": "Database Optimization",
+  "question": "What is the main purpose of database indexing?",
+  "option1": "Increase storage",
+  "option2": "Improve query performance",
+  "option3": "Reduce RAM usage",
+  "option4": "Delete duplicate rows",
+  "correct_answer": "Improve query performance",
+  "explanation": "Indexes speed up searching and filtering operations."
+},
+{
+  "topic": "Database Optimization",
+  "question": "Which SQL command is commonly used to inspect how a query is executed?",
+  "option1": "SHOW",
+  "option2": "ANALYZE",
+  "option3": "EXPLAIN",
+  "option4": "DESCRIBE",
+  "correct_answer": "EXPLAIN",
+  "explanation": "EXPLAIN displays the execution plan used by the database."
+},
+{
+  "topic": "Database Optimization",
+  "question": "Which operation is generally more expensive than retrieving indexed data?",
+  "option1": "Primary key lookup",
+  "option2": "Full table scan",
+  "option3": "Indexed search",
+  "option4": "Using WHERE with an index",
+  "correct_answer": "Full table scan",
+  "explanation": "A full table scan checks every row and is slower for large tables."
+},
+
+{
+  "topic": "Docker Fundamentals",
+  "question": "What is Docker primarily used for?",
+  "option1": "Database management",
+  "option2": "Containerizing applications",
+  "option3": "Frontend development",
+  "option4": "Version control",
+  "correct_answer": "Containerizing applications",
+  "explanation": "Docker packages applications and their dependencies into containers."
+},
+{
+  "topic": "Docker Fundamentals",
+  "question": "Which file contains instructions for building a Docker image?",
+  "option1": "docker-compose.yml",
+  "option2": "Dockerfile",
+  "option3": "requirements.txt",
+  "option4": "settings.py",
+  "correct_answer": "Dockerfile",
+  "explanation": "A Dockerfile defines the steps to build a Docker image."
+},
+{
+  "topic": "Docker Fundamentals",
+  "question": "Which command builds a Docker image from a Dockerfile?",
+  "option1": "docker run",
+  "option2": "docker start",
+  "option3": "docker build",
+  "option4": "docker create",
+  "correct_answer": "docker build",
+  "explanation": "The docker build command creates an image from a Dockerfile."
+},
+{
+  "topic": "Docker Fundamentals",
+  "question": "Which command lists all running Docker containers?",
+  "option1": "docker images",
+  "option2": "docker ps",
+  "option3": "docker list",
+  "option4": "docker status",
+  "correct_answer": "docker ps",
+  "explanation": "docker ps displays all currently running containers."
+},
+{
+  "topic": "Docker Fundamentals",
+  "question": "What is the difference between a Docker image and a Docker container?",
+  "option1": "They are the same",
+  "option2": "An image is a template, while a container is a running instance",
+  "option3": "A container stores source code only",
+  "option4": "An image runs applications directly",
+  "correct_answer": "An image is a template, while a container is a running instance",
+  "explanation": "Docker images are blueprints, while containers are executable instances created from images."
+},
+{
+  "topic": "API Security",
+  "question": "What is the primary goal of API security?",
+  "option1": "Increase database speed",
+  "option2": "Protect APIs from unauthorized access and attacks",
+  "option3": "Reduce API response size",
+  "option4": "Improve frontend performance",
+  "correct_answer": "Protect APIs from unauthorized access and attacks",
+  "explanation": "API security focuses on protecting APIs from unauthorized access, abuse, and vulnerabilities."
+},
+{
+  "topic": "API Security",
+  "question": "Which OWASP project focuses specifically on API vulnerabilities?",
+  "option1": "OWASP Top 10",
+  "option2": "OWASP API Security Top 10",
+  "option3": "OWASP Mobile Top 10",
+  "option4": "OWASP Web Security",
+  "correct_answer": "OWASP API Security Top 10",
+  "explanation": "OWASP API Security Top 10 lists the most critical API security risks."
+},
+{
+  "topic": "API Security",
+  "question": "Which HTTP status code is commonly returned when authentication fails?",
+  "option1": "200",
+  "option2": "201",
+  "option3": "401",
+  "option4": "500",
+  "correct_answer": "401",
+  "explanation": "401 Unauthorized indicates that authentication is required or has failed."
+},
+{
+  "topic": "API Security",
+  "question": "Which HTTP status code is returned when a user is authenticated but lacks permission?",
+  "option1": "400",
+  "option2": "401",
+  "option3": "403",
+  "option4": "404",
+  "correct_answer": "403",
+  "explanation": "403 Forbidden means the user is authenticated but not authorized."
+},
+{
+  "topic": "API Security",
+  "question": "What is rate limiting primarily used for?",
+  "option1": "Reducing image sizes",
+  "option2": "Preventing API abuse and excessive requests",
+  "option3": "Improving database indexing",
+  "option4": "Increasing bandwidth",
+  "correct_answer": "Preventing API abuse and excessive requests",
+  "explanation": "Rate limiting protects APIs from abuse, brute-force attacks, and denial-of-service attempts."
+},
+
+{
+  "topic": "Microservices Architecture",
+  "question": "What is a microservice?",
+  "option1": "A small database",
+  "option2": "An independently deployable service focused on a single business function",
+  "option3": "A frontend component",
+  "option4": "A Docker image",
+  "correct_answer": "An independently deployable service focused on a single business function",
+  "explanation": "Each microservice is responsible for one business capability and can be deployed independently."
+},
+{
+  "topic": "Microservices Architecture",
+  "question": "What is a key advantage of microservices?",
+  "option1": "Single deployment for all services",
+  "option2": "Independent scaling of services",
+  "option3": "No network communication",
+  "option4": "No databases are required",
+  "correct_answer": "Independent scaling of services",
+  "explanation": "Each microservice can scale independently based on demand."
+},
+{
+  "topic": "Microservices Architecture",
+  "question": "Microservices usually communicate using which protocols?",
+  "option1": "SMTP only",
+  "option2": "HTTP/REST or messaging systems",
+  "option3": "HTML",
+  "option4": "CSS",
+  "correct_answer": "HTTP/REST or messaging systems",
+  "explanation": "REST APIs, gRPC, RabbitMQ, and Kafka are common communication methods."
+},
+{
+  "topic": "Microservices Architecture",
+  "question": "Which principle encourages each microservice to manage its own database?",
+  "option1": "Shared Database",
+  "option2": "Database per Service",
+  "option3": "Single Database",
+  "option4": "Central Storage",
+  "correct_answer": "Database per Service",
+  "explanation": "Each microservice should own its own data to reduce coupling."
+},
+{
+  "topic": "Microservices Architecture",
+  "question": "Which API is commonly used as the single entry point for multiple microservices?",
+  "option1": "Gateway API",
+  "option2": "Database API",
+  "option3": "REST Client",
+  "option4": "ORM",
+  "correct_answer": "Gateway API",
+  "explanation": "An API Gateway routes requests to the appropriate microservice."
+},
+
+{
+  "topic": "Redis Caching",
+  "question": "What type of database is Redis?",
+  "option1": "Relational database",
+  "option2": "Graph database",
+  "option3": "In-memory key-value database",
+  "option4": "Document database",
+  "correct_answer": "In-memory key-value database",
+  "explanation": "Redis stores data in memory using a key-value structure."
+},
+{
+  "topic": "Redis Caching",
+  "question": "Why is Redis commonly used?",
+  "option1": "For image editing",
+  "option2": "To speed up application performance using caching",
+  "option3": "To replace HTML",
+  "option4": "To compile Python code",
+  "correct_answer": "To speed up application performance using caching",
+  "explanation": "Redis reduces database queries by caching frequently accessed data."
+},
+{
+  "topic": "Redis Caching",
+  "question": "Where is Redis data primarily stored?",
+  "option1": "On disk only",
+  "option2": "In memory (RAM)",
+  "option3": "In browser cache",
+  "option4": "In cookies",
+  "correct_answer": "In memory (RAM)",
+  "explanation": "Redis stores data in RAM, making it extremely fast."
+},
+{
+  "topic": "Redis Caching",
+  "question": "Which command retrieves a value stored under a key in Redis?",
+  "option1": "SELECT",
+  "option2": "GET",
+  "option3": "FETCH",
+  "option4": "READ",
+  "correct_answer": "GET",
+  "explanation": "The GET command retrieves the value associated with a key."
+},
+{
+  "topic": "Redis Caching",
+  "question": "Which feature allows Redis keys to expire automatically?",
+  "option1": "Hashing",
+  "option2": "TTL (Time To Live)",
+  "option3": "Replication",
+  "option4": "Clustering",
+  "correct_answer": "TTL (Time To Live)",
+  "explanation": "TTL automatically removes cached data after a specified duration."
+},
+{
+    "topic": "React + Django Integration",
+    "question": "Which library is commonly used in React to make HTTP requests to a Django backend?",
+    "option1": "Axios",
+    "option2": "NumPy",
+    "option3": "Redux",
+    "option4": "Webpack",
+    "correct_answer": "Axios",
+    "explanation": "Axios is a popular HTTP client for communicating with REST APIs."
+},
+{
+    "topic": "React + Django Integration",
+    "question": "Which Django package is commonly used to build REST APIs?",
+    "option1": "Django REST Framework",
+    "option2": "Flask",
+    "option3": "FastAPI",
+    "option4": "Gunicorn",
+    "correct_answer": "Django REST Framework",
+    "explanation": "Django REST Framework (DRF) is the standard package for creating REST APIs."
+},
+{
+    "topic": "React + Django Integration",
+    "question": "Which React hook is commonly used to fetch data after a component mounts?",
+    "option1": "useState",
+    "option2": "useEffect",
+    "option3": "useContext",
+    "option4": "useReducer",
+    "correct_answer": "useEffect",
+    "explanation": "useEffect is typically used for API requests after rendering."
+},
+{
+    "topic": "REST API Development",
+    "question": "Which HTTP method is generally used to create a new resource?",
+    "option1": "GET",
+    "option2": "POST",
+    "option3": "PUT",
+    "option4": "DELETE",
+    "correct_answer": "POST",
+    "explanation": "POST sends data to the server to create a new resource."
+},
+{
+    "topic": "REST API Development",
+    "question": "Which HTTP method is used to retrieve data?",
+    "option1": "GET",
+    "option2": "POST",
+    "option3": "PATCH",
+    "option4": "DELETE",
+    "correct_answer": "GET",
+    "explanation": "GET requests retrieve data from the server."
+},
+{
+    "topic": "REST API Development",
+    "question": "Which HTTP status code indicates successful resource creation?",
+    "option1": "200",
+    "option2": "201",
+    "option3": "400",
+    "option4": "404",
+    "correct_answer": "201",
+    "explanation": "HTTP 201 Created indicates that a resource was successfully created."
+},
+{
+    "topic": "REST API Development",
+    "question": "Which HTTP method is commonly used for partial updates?",
+    "option1": "PUT",
+    "option2": "PATCH",
+    "option3": "POST",
+    "option4": "OPTIONS",
+    "correct_answer": "PATCH",
+    "explanation": "PATCH updates only specific fields of a resource."
+},
+{
+    "topic": "Authentication & Authorization",
+    "question": "What does JWT stand for?",
+    "option1": "Java Web Token",
+    "option2": "JSON Web Token",
+    "option3": "JavaScript Web Token",
+    "option4": "JSON Wide Token",
+    "correct_answer": "JSON Web Token",
+    "explanation": "JWT stands for JSON Web Token."
+},
+{
+    "topic": "Authentication & Authorization",
+    "question": "Which protocol is commonly used for third-party authentication?",
+    "option1": "OAuth 2.0",
+    "option2": "FTP",
+    "option3": "SMTP",
+    "option4": "SSH",
+    "correct_answer": "OAuth 2.0",
+    "explanation": "OAuth 2.0 allows secure third-party authentication."
+},
+{
+    "topic": "Authentication & Authorization",
+    "question": "Authentication answers which question?",
+    "option1": "What can you do?",
+    "option2": "Who are you?",
+    "option3": "Where are you?",
+    "option4": "What device are you using?",
+    "correct_answer": "Who are you?",
+    "explanation": "Authentication verifies the user's identity."
+},
+{
+    "topic": "Authentication & Authorization",
+    "question": "Authorization determines...",
+    "option1": "Who the user is",
+    "option2": "What resources the user can access",
+    "option3": "The user's password",
+    "option4": "The server location",
+    "correct_answer": "What resources the user can access",
+    "explanation": "Authorization defines permissions after authentication."
+},
+{
+    "topic": "CRUD Application Development",
+    "question": "CRUD stands for?",
+    "option1": "Create, Read, Update, Delete",
+    "option2": "Copy, Read, Update, Download",
+    "option3": "Create, Remove, Upload, Delete",
+    "option4": "Connect, Read, Upload, Deploy",
+    "correct_answer": "Create, Read, Update, Delete",
+    "explanation": "CRUD represents the four basic database operations."
+},
+{
+    "topic": "CRUD Application Development",
+    "question": "Which HTTP method is commonly used to delete a resource?",
+    "option1": "POST",
+    "option2": "PATCH",
+    "option3": "DELETE",
+    "option4": "GET",
+    "correct_answer": "DELETE",
+    "explanation": "DELETE removes a resource from the server."
+},
+{
+    "topic": "CRUD Application Development",
+    "question": "Which React hook is commonly used to store form input values?",
+    "option1": "useMemo",
+    "option2": "useState",
+    "option3": "useRef",
+    "option4": "useEffect",
+    "correct_answer": "useState",
+    "explanation": "useState is typically used for controlled form inputs."
+},
+{
+    "topic": "CRUD Application Development",
+    "question": "Which database operation retrieves existing records?",
+    "option1": "Create",
+    "option2": "Read",
+    "option3": "Update",
+    "option4": "Delete",
+    "correct_answer": "Read",
+    "explanation": "Read fetches existing data from the database."
+},
+{
+    "topic": "Application Deployment",
+    "question": "Which platform is commonly used to deploy React applications?",
+    "option1": "Vercel",
+    "option2": "MySQL",
+    "option3": "MongoDB",
+    "option4": "Redis",
+    "correct_answer": "Vercel",
+    "explanation": "Vercel is one of the most popular platforms for deploying React applications."
+},
+{
+    "topic": "Application Deployment",
+    "question": "Which command creates a production build of a React application?",
+    "option1": "npm start",
+    "option2": "npm run build",
+    "option3": "npm install",
+    "option4": "npm test",
+    "correct_answer": "npm run build",
+    "explanation": "The production-ready optimized build is generated using npm run build."
+},
+{
+    "topic": "Application Deployment",
+    "question": "Which web server is commonly used to serve Django applications in production?",
+    "option1": "Gunicorn",
+    "option2": "SQLite",
+    "option3": "Axios",
+    "option4": "Webpack",
+    "correct_answer": "Gunicorn",
+    "explanation": "Gunicorn is a popular WSGI server used for Django deployments."
+},
+{
+    "topic": "Application Deployment",
+    "question": "What is the primary purpose of environment variables during deployment?",
+    "option1": "Store sensitive configuration",
+    "option2": "Increase internet speed",
+    "option3": "Compress images",
+    "option4": "Create database tables",
+    "correct_answer": "Store sensitive configuration",
+    "explanation": "Environment variables securely store secrets such as API keys and database credentials."
+},
+{
+    "topic": "Application Deployment",
+    "question": "Which file commonly stores Python project dependencies?",
+    "option1": "requirements.txt",
+    "option2": "package.json",
+    "option3": "docker-compose.yml",
+    "option4": ".gitignore",
+    "correct_answer": "requirements.txt",
+    "explanation": "Python dependencies are listed in requirements.txt."
+},
+{
+    "topic": "System Design Fundamentals",
+    "question": "Which component distributes incoming traffic across multiple servers?",
+    "option1": "Load Balancer",
+    "option2": "Database",
+    "option3": "Firewall",
+    "option4": "Cache",
+    "correct_answer": "Load Balancer",
+    "explanation": "A load balancer evenly distributes requests to improve availability."
+},
+{
+    "topic": "System Design Fundamentals",
+    "question": "Why is caching used in scalable systems?",
+    "option1": "To reduce latency",
+    "option2": "To increase database size",
+    "option3": "To encrypt passwords",
+    "option4": "To compile code",
+    "correct_answer": "To reduce latency",
+    "explanation": "Caching reduces repeated database queries and speeds up responses."
+},
+{
+    "topic": "System Design Fundamentals",
+    "question": "What does horizontal scaling mean?",
+    "option1": "Adding more servers",
+    "option2": "Increasing RAM of one server",
+    "option3": "Deleting servers",
+    "option4": "Compressing files",
+    "correct_answer": "Adding more servers",
+    "explanation": "Horizontal scaling improves capacity by adding additional machines."
+},
+{
+    "topic": "System Design Fundamentals",
+    "question": "Which database property ensures data consistency during transactions?",
+    "option1": "ACID",
+    "option2": "REST",
+    "option3": "JSON",
+    "option4": "SOAP",
+    "correct_answer": "ACID",
+    "explanation": "ACID properties guarantee reliable database transactions."
+},
+{
+    "topic": "System Design Fundamentals",
+    "question": "Which database type is commonly used for highly structured data?",
+    "option1": "Relational Database",
+    "option2": "File System",
+    "option3": "Browser Cache",
+    "option4": "CDN",
+    "correct_answer": "Relational Database",
+    "explanation": "Relational databases organize structured data using tables."
+},
+{
+    "topic": "Docker & Containerization",
+    "question": "What is Docker primarily used for?",
+    "option1": "Containerization",
+    "option2": "Database Management",
+    "option3": "Version Control",
+    "option4": "Web Hosting",
+    "correct_answer": "Containerization",
+    "explanation": "Docker packages applications and dependencies into containers."
+},
+{
+    "topic": "Docker & Containerization",
+    "question": "Which file defines how a Docker image should be built?",
+    "option1": "Dockerfile",
+    "option2": "requirements.txt",
+    "option3": "README.md",
+    "option4": "settings.py",
+    "correct_answer": "Dockerfile",
+    "explanation": "Dockerfile contains instructions for creating Docker images."
+},
+{
+    "topic": "Docker & Containerization",
+    "question": "Which command lists running Docker containers?",
+    "option1": "docker ps",
+    "option2": "docker build",
+    "option3": "docker pull",
+    "option4": "docker images",
+    "correct_answer": "docker ps",
+    "explanation": "docker ps displays all currently running containers."
+},
+{
+    "topic": "Docker & Containerization",
+    "question": "Which command downloads an image from Docker Hub?",
+    "option1": "docker pull",
+    "option2": "docker run",
+    "option3": "docker exec",
+    "option4": "docker stop",
+    "correct_answer": "docker pull",
+    "explanation": "docker pull retrieves images from Docker Hub."
+},
+{
+    "topic": "Docker & Containerization",
+    "question": "Which command starts a container from an image?",
+    "option1": "docker run",
+    "option2": "docker build",
+    "option3": "docker images",
+    "option4": "docker login",
+    "correct_answer": "docker run",
+    "explanation": "docker run creates and starts a new container."
+},
+{
+    "topic": "Kubernetes Basics",
+    "question": "What is Kubernetes primarily used for?",
+    "option1": "Container orchestration",
+    "option2": "Version control",
+    "option3": "Database management",
+    "option4": "Operating system development",
+    "correct_answer": "Container orchestration",
+    "explanation": "Kubernetes automates deployment, scaling, and management of containerized applications."
+},
+{
+    "topic": "Kubernetes Basics",
+    "question": "Which command lists all Kubernetes pods?",
+    "option1": "kubectl get pods",
+    "option2": "docker ps",
+    "option3": "kubectl create pod",
+    "option4": "kubectl logs",
+    "correct_answer": "kubectl get pods",
+    "explanation": "The kubectl get pods command displays all running pods."
+},
+{
+    "topic": "Kubernetes Basics",
+    "question": "What is the smallest deployable unit in Kubernetes?",
+    "option1": "Pod",
+    "option2": "Node",
+    "option3": "Container",
+    "option4": "Cluster",
+    "correct_answer": "Pod",
+    "explanation": "A Pod is the smallest deployable object in Kubernetes."
+},
+{
+    "topic": "Kubernetes Basics",
+    "question": "What is a Kubernetes Deployment responsible for?",
+    "option1": "Managing replica Pods",
+    "option2": "Managing databases",
+    "option3": "Creating Docker images",
+    "option4": "Writing YAML files",
+    "correct_answer": "Managing replica Pods",
+    "explanation": "Deployments ensure the desired number of Pod replicas are running."
+},
+{
+    "topic": "Kubernetes Basics",
+    "question": "Which file format is commonly used for Kubernetes configuration?",
+    "option1": "YAML",
+    "option2": "XML",
+    "option3": "CSV",
+    "option4": "TXT",
+    "correct_answer": "YAML",
+    "explanation": "Kubernetes resources are typically defined in YAML files."
+},
+{
+    "topic": "Cloud Services (AWS)",
+    "question": "What does AWS stand for?",
+    "option1": "Amazon Web Services",
+    "option2": "Advanced Web Server",
+    "option3": "Application Web Solution",
+    "option4": "Automated Web System",
+    "correct_answer": "Amazon Web Services",
+    "explanation": "AWS is Amazon's cloud computing platform."
+},
+{
+    "topic": "Cloud Services (AWS)",
+    "question": "Which AWS service provides virtual servers?",
+    "option1": "EC2",
+    "option2": "S3",
+    "option3": "Lambda",
+    "option4": "RDS",
+    "correct_answer": "EC2",
+    "explanation": "Amazon EC2 provides scalable virtual servers in the cloud."
+},
+{
+    "topic": "Cloud Services (AWS)",
+    "question": "Which AWS service is used for object storage?",
+    "option1": "S3",
+    "option2": "EC2",
+    "option3": "CloudFront",
+    "option4": "IAM",
+    "correct_answer": "S3",
+    "explanation": "Amazon S3 stores files and objects securely in the cloud."
+},
+{
+    "topic": "Cloud Services (AWS)",
+    "question": "Which AWS service allows serverless function execution?",
+    "option1": "Lambda",
+    "option2": "EC2",
+    "option3": "S3",
+    "option4": "RDS",
+    "correct_answer": "Lambda",
+    "explanation": "AWS Lambda runs code without managing servers."
+},
+{
+    "topic": "Cloud Services (AWS)",
+    "question": "Which AWS service manages user permissions?",
+    "option1": "IAM",
+    "option2": "CloudWatch",
+    "option3": "Route 53",
+    "option4": "SQS",
+    "correct_answer": "IAM",
+    "explanation": "Identity and Access Management (IAM) controls authentication and authorization."
+},
+{
+    "topic": "Production Ready Projects",
+    "question": "Which practice helps keep production code maintainable?",
+    "option1": "Clean Architecture",
+    "option2": "Hardcoding secrets",
+    "option3": "Skipping testing",
+    "option4": "Ignoring documentation",
+    "correct_answer": "Clean Architecture",
+    "explanation": "Clean Architecture improves maintainability and scalability."
+},
+{
+    "topic": "Production Ready Projects",
+    "question": "Where should API keys be stored?",
+    "option1": "Environment variables",
+    "option2": "Source code",
+    "option3": "README.md",
+    "option4": "HTML files",
+    "correct_answer": "Environment variables",
+    "explanation": "Secrets should be stored securely using environment variables."
+},
+{
+    "topic": "Production Ready Projects",
+    "question": "Why are automated tests important?",
+    "option1": "To detect bugs before deployment",
+    "option2": "To reduce internet usage",
+    "option3": "To increase CPU usage",
+    "option4": "To replace documentation",
+    "correct_answer": "To detect bugs before deployment",
+    "explanation": "Automated tests improve software reliability."
+},
+{
+    "topic": "Production Ready Projects",
+    "question": "What is the benefit of CI/CD pipelines?",
+    "option1": "Automated testing and deployment",
+    "option2": "Manual code reviews",
+    "option3": "Increasing RAM",
+    "option4": "Reducing source code",
+    "correct_answer": "Automated testing and deployment",
+    "explanation": "CI/CD automates software integration and deployment."
+},
+{
+    "topic": "Production Ready Projects",
+    "question": "Why should applications include logging?",
+    "option1": "To monitor and debug issues",
+    "option2": "To increase storage usage",
+    "option3": "To replace testing",
+    "option4": "To slow down execution",
+    "correct_answer": "To monitor and debug issues",
+    "explanation": "Logging helps developers identify and troubleshoot production problems."
+},
+
+{
+    "topic": "Big Data Analytics",
+    "question": "Which framework is widely used for distributed big data processing?",
+    "option1": "Apache Spark",
+    "option2": "React",
+    "option3": "NumPy",
+    "option4": "Bootstrap",
+    "correct_answer": "Apache Spark",
+    "explanation": "Apache Spark is a popular distributed data processing framework."
+},
+{
+    "topic": "Big Data Analytics",
+    "question": "What is one of the defining characteristics of Big Data?",
+    "option1": "High Volume",
+    "option2": "Small datasets",
+    "option3": "Single user access",
+    "option4": "Low storage requirements",
+    "correct_answer": "High Volume",
+    "explanation": "Volume is one of the 5 Vs of Big Data."
+},
+{
+    "topic": "Big Data Analytics",
+    "question": "Which language is commonly used with Apache Spark?",
+    "option1": "Python",
+    "option2": "HTML",
+    "option3": "CSS",
+    "option4": "PHP",
+    "correct_answer": "Python",
+    "explanation": "PySpark enables developers to use Apache Spark with Python."
+},
+{
+    "topic": "Big Data Analytics",
+    "question": "What is the main purpose of Hadoop HDFS?",
+    "option1": "Distributed storage",
+    "option2": "Web hosting",
+    "option3": "Frontend development",
+    "option4": "Container orchestration",
+    "correct_answer": "Distributed storage",
+    "explanation": "HDFS stores large datasets across multiple machines."
+},
+{
+    "topic": "Big Data Analytics",
+    "question": "Which of these is NOT one of the 5 Vs of Big Data?",
+    "option1": "Virtualization",
+    "option2": "Volume",
+    "option3": "Velocity",
+    "option4": "Variety",
+    "correct_answer": "Virtualization",
+    "explanation": "The 5 Vs are Volume, Velocity, Variety, Veracity, and Value."
+},
+{
+    "topic": "Time Series Analysis",
+    "question": "What type of data is analyzed in time series analysis?",
+    "option1": "Data collected over time",
+    "option2": "Random text",
+    "option3": "Static images",
+    "option4": "Database schemas",
+    "correct_answer": "Data collected over time",
+    "explanation": "Time series analysis focuses on observations recorded sequentially over time."
+},
+{
+    "topic": "Time Series Analysis",
+    "question": "What is forecasting?",
+    "option1": "Predicting future values",
+    "option2": "Deleting old data",
+    "option3": "Compressing datasets",
+    "option4": "Sorting records",
+    "correct_answer": "Predicting future values",
+    "explanation": "Forecasting estimates future values based on historical data."
+},
+{
+    "topic": "Time Series Analysis",
+    "question": "Which component represents long-term movement in time series data?",
+    "option1": "Trend",
+    "option2": "Noise",
+    "option3": "Variance",
+    "option4": "Median",
+    "correct_answer": "Trend",
+    "explanation": "Trend indicates the long-term direction of the data."
+},
+{
+    "topic": "Time Series Analysis",
+    "question": "What is seasonality?",
+    "option1": "Repeating patterns at fixed intervals",
+    "option2": "Random errors",
+    "option3": "Database normalization",
+    "option4": "Feature scaling",
+    "correct_answer": "Repeating patterns at fixed intervals",
+    "explanation": "Seasonality refers to periodic patterns occurring over time."
+},
+{
+    "topic": "Time Series Analysis",
+    "question": "Which Python library is commonly used for time series forecasting?",
+    "option1": "statsmodels",
+    "option2": "Bootstrap",
+    "option3": "Express",
+    "option4": "Tailwind CSS",
+    "correct_answer": "statsmodels",
+    "explanation": "statsmodels provides ARIMA and other forecasting models."
+},
+{
+    "topic": "Deep Learning for Data Science",
+    "question": "Deep learning is a subset of which field?",
+    "option1": "Machine Learning",
+    "option2": "Networking",
+    "option3": "Database Design",
+    "option4": "Operating Systems",
+    "correct_answer": "Machine Learning",
+    "explanation": "Deep learning uses neural networks to solve complex learning problems."
+},
+{
+    "topic": "Deep Learning for Data Science",
+    "question": "What is the basic building block of deep learning?",
+    "option1": "Artificial Neuron",
+    "option2": "Database Table",
+    "option3": "REST API",
+    "option4": "Docker Container",
+    "correct_answer": "Artificial Neuron",
+    "explanation": "Artificial neurons form neural networks."
+},
+{
+    "topic": "Deep Learning for Data Science",
+    "question": "Which framework is widely used for deep learning?",
+    "option1": "TensorFlow",
+    "option2": "Bootstrap",
+    "option3": "Git",
+    "option4": "SQLite",
+    "correct_answer": "TensorFlow",
+    "explanation": "TensorFlow is one of the most popular deep learning frameworks."
+},
+{
+    "topic": "Deep Learning for Data Science",
+    "question": "Which neural network is commonly used for image recognition?",
+    "option1": "CNN",
+    "option2": "Decision Tree",
+    "option3": "K-Means",
+    "option4": "Naive Bayes",
+    "correct_answer": "CNN",
+    "explanation": "Convolutional Neural Networks (CNNs) are designed for image processing."
+},
+{
+    "topic": "Deep Learning for Data Science",
+    "question": "What does GPU acceleration improve in deep learning?",
+    "option1": "Training speed",
+    "option2": "Database storage",
+    "option3": "Internet speed",
+    "option4": "Code readability",
+    "correct_answer": "Training speed",
+    "explanation": "GPUs significantly speed up neural network training."
+},
+
+{
+    "topic": "Model Deployment",
+    "question": "What is the primary goal of model deployment?",
+    "option1": "Make trained models available for real-world use",
+    "option2": "Train larger datasets",
+    "option3": "Delete training data",
+    "option4": "Increase model complexity",
+    "correct_answer": "Make trained models available for real-world use",
+    "explanation": "Model deployment makes machine learning models accessible to users or applications."
+},
+{
+    "topic": "Model Deployment",
+    "question": "Which Python framework is commonly used to deploy ML models as APIs?",
+    "option1": "FastAPI",
+    "option2": "NumPy",
+    "option3": "Pandas",
+    "option4": "Matplotlib",
+    "correct_answer": "FastAPI",
+    "explanation": "FastAPI is widely used for serving machine learning models through REST APIs."
+},
+{
+    "topic": "Model Deployment",
+    "question": "Which file format is commonly used to save Scikit-learn models?",
+    "option1": "joblib",
+    "option2": "CSV",
+    "option3": "HTML",
+    "option4": "XML",
+    "correct_answer": "joblib",
+    "explanation": "joblib is commonly used for serializing Scikit-learn models."
+},
+{
+    "topic": "Model Deployment",
+    "question": "What is the purpose of an inference API?",
+    "option1": "Generate predictions from a trained model",
+    "option2": "Train new models",
+    "option3": "Store datasets",
+    "option4": "Visualize data",
+    "correct_answer": "Generate predictions from a trained model",
+    "explanation": "Inference APIs accept input data and return predictions."
+},
+{
+    "topic": "Model Deployment",
+    "question": "Which tool helps track machine learning experiments and models?",
+    "option1": "MLflow",
+    "option2": "Git Bash",
+    "option3": "Bootstrap",
+    "option4": "Tailwind CSS",
+    "correct_answer": "MLflow",
+    "explanation": "MLflow is widely used for experiment tracking and model management."
+},
+{
+    "topic": "Data Engineering Fundamentals",
+    "question": "What is ETL?",
+    "option1": "Extract, Transform, Load",
+    "option2": "Evaluate, Test, Learn",
+    "option3": "Encrypt, Transfer, Log",
+    "option4": "Execute, Train, Launch",
+    "correct_answer": "Extract, Transform, Load",
+    "explanation": "ETL is the process of extracting, transforming, and loading data."
+},
+{
+    "topic": "Data Engineering Fundamentals",
+    "question": "What is the primary purpose of a data pipeline?",
+    "option1": "Move and process data automatically",
+    "option2": "Design websites",
+    "option3": "Train neural networks",
+    "option4": "Store images",
+    "correct_answer": "Move and process data automatically",
+    "explanation": "Data pipelines automate data movement and transformation."
+},
+{
+    "topic": "Data Engineering Fundamentals",
+    "question": "Which cloud service is commonly used for large-scale data storage?",
+    "option1": "Amazon S3",
+    "option2": "React",
+    "option3": "Bootstrap",
+    "option4": "SQLite",
+    "correct_answer": "Amazon S3",
+    "explanation": "Amazon S3 provides scalable object storage for data engineering."
+},
+{
+    "topic": "Data Engineering Fundamentals",
+    "question": "Which technology is widely used for distributed data processing?",
+    "option1": "Apache Spark",
+    "option2": "Git",
+    "option3": "Flask",
+    "option4": "Tailwind CSS",
+    "correct_answer": "Apache Spark",
+    "explanation": "Apache Spark enables distributed processing of large datasets."
+},
+{
+    "topic": "Data Engineering Fundamentals",
+    "question": "Why is data validation important in data pipelines?",
+    "option1": "To ensure data quality",
+    "option2": "To reduce RAM usage",
+    "option3": "To improve internet speed",
+    "option4": "To compress images",
+    "correct_answer": "To ensure data quality",
+    "explanation": "Validation helps detect incorrect or missing data before analysis."
+},
+{
+    "topic": "Neural Networks",
+    "question": "What is the basic computational unit of a neural network?",
+    "option1": "Neuron",
+    "option2": "Kernel",
+    "option3": "Thread",
+    "option4": "Socket",
+    "correct_answer": "Neuron",
+    "explanation": "Neurons process inputs and generate outputs in neural networks."
+},
+{
+    "topic": "Neural Networks",
+    "question": "What is the purpose of an activation function?",
+    "option1": "Introduce non-linearity",
+    "option2": "Increase storage",
+    "option3": "Sort datasets",
+    "option4": "Reduce internet latency",
+    "correct_answer": "Introduce non-linearity",
+    "explanation": "Activation functions allow neural networks to learn complex patterns."
+},
+{
+    "topic": "Neural Networks",
+    "question": "Which activation function is most commonly used in deep learning?",
+    "option1": "ReLU",
+    "option2": "Bubble Sort",
+    "option3": "Merge Sort",
+    "option4": "Binary Search",
+    "correct_answer": "ReLU",
+    "explanation": "ReLU is computationally efficient and widely used in hidden layers."
+},
+{
+    "topic": "Neural Networks",
+    "question": "What is backpropagation used for?",
+    "option1": "Updating model weights",
+    "option2": "Loading datasets",
+    "option3": "Visualizing graphs",
+    "option4": "Compressing files",
+    "correct_answer": "Updating model weights",
+    "explanation": "Backpropagation computes gradients to update network weights."
+},
+{
+    "topic": "Neural Networks",
+    "question": "Which optimizer is commonly used for training neural networks?",
+    "option1": "Adam",
+    "option2": "Bubble",
+    "option3": "DFS",
+    "option4": "BFS",
+    "correct_answer": "Adam",
+    "explanation": "Adam is one of the most popular optimization algorithms in deep learning."
+},
+
+{
+    "topic": "TensorFlow",
+    "question": "What is TensorFlow primarily used for?",
+    "option1": "Building and training machine learning models",
+    "option2": "Creating websites",
+    "option3": "Managing databases",
+    "option4": "Writing operating systems",
+    "correct_answer": "Building and training machine learning models",
+    "explanation": "TensorFlow is an open-source framework for machine learning and deep learning."
+},
+{
+    "topic": "TensorFlow",
+    "question": "Who developed TensorFlow?",
+    "option1": "Google",
+    "option2": "Microsoft",
+    "option3": "Meta",
+    "option4": "Amazon",
+    "correct_answer": "Google",
+    "explanation": "TensorFlow was developed by the Google Brain team."
+},
+{
+    "topic": "TensorFlow",
+    "question": "Which high-level API is integrated with TensorFlow?",
+    "option1": "Keras",
+    "option2": "Django",
+    "option3": "Flask",
+    "option4": "Express",
+    "correct_answer": "Keras",
+    "explanation": "TensorFlow includes Keras as its official high-level API."
+},
+{
+    "topic": "TensorFlow",
+    "question": "What is a tensor?",
+    "option1": "A multidimensional array",
+    "option2": "A database table",
+    "option3": "A Python package",
+    "option4": "A REST endpoint",
+    "correct_answer": "A multidimensional array",
+    "explanation": "Tensors are the fundamental data structures in TensorFlow."
+},
+{
+    "topic": "TensorFlow",
+    "question": "Which file format is commonly used to save TensorFlow models?",
+    "option1": "SavedModel",
+    "option2": "CSV",
+    "option3": "TXT",
+    "option4": "HTML",
+    "correct_answer": "SavedModel",
+    "explanation": "SavedModel is TensorFlow's standard model serialization format."
+},
+{
+    "topic": "PyTorch",
+    "question": "Who developed PyTorch?",
+    "option1": "Meta (Facebook)",
+    "option2": "Google",
+    "option3": "Microsoft",
+    "option4": "Apple",
+    "correct_answer": "Meta (Facebook)",
+    "explanation": "PyTorch was developed by Meta AI (formerly Facebook AI Research)."
+},
+{
+    "topic": "PyTorch",
+    "question": "What makes PyTorch popular among researchers?",
+    "option1": "Dynamic computation graphs",
+    "option2": "No Python support",
+    "option3": "Only works on CPUs",
+    "option4": "Requires Java",
+    "correct_answer": "Dynamic computation graphs",
+    "explanation": "Dynamic graphs make debugging and experimentation easier."
+},
+{
+    "topic": "PyTorch",
+    "question": "Which module is commonly used to define neural networks in PyTorch?",
+    "option1": "torch.nn",
+    "option2": "torch.db",
+    "option3": "torch.sql",
+    "option4": "torch.web",
+    "correct_answer": "torch.nn",
+    "explanation": "torch.nn provides layers, activation functions, and loss functions."
+},
+{
+    "topic": "PyTorch",
+    "question": "What is the equivalent of TensorFlow tensors in PyTorch?",
+    "option1": "torch.Tensor",
+    "option2": "DataFrame",
+    "option3": "Series",
+    "option4": "MatrixTable",
+    "correct_answer": "torch.Tensor",
+    "explanation": "torch.Tensor is the primary data structure in PyTorch."
+},
+{
+    "topic": "PyTorch",
+    "question": "Which optimizer is available in torch.optim?",
+    "option1": "Adam",
+    "option2": "Quick Sort",
+    "option3": "Merge Sort",
+    "option4": "Dijkstra",
+    "correct_answer": "Adam",
+    "explanation": "torch.optim contains optimization algorithms like SGD and Adam."
+},
+{
+    "topic": "Computer Vision",
+    "question": "What is the primary goal of computer vision?",
+    "option1": "Enable computers to understand images",
+    "option2": "Manage databases",
+    "option3": "Create websites",
+    "option4": "Compress videos",
+    "correct_answer": "Enable computers to understand images",
+    "explanation": "Computer vision focuses on extracting information from images and videos."
+},
+{
+    "topic": "Computer Vision",
+    "question": "Which library is commonly used for image processing in Python?",
+    "option1": "OpenCV",
+    "option2": "Pandas",
+    "option3": "Requests",
+    "option4": "Flask",
+    "correct_answer": "OpenCV",
+    "explanation": "OpenCV provides extensive tools for image and video processing."
+},
+{
+    "topic": "Computer Vision",
+    "question": "Which neural network architecture is commonly used for image classification?",
+    "option1": "CNN",
+    "option2": "RNN",
+    "option3": "LSTM",
+    "option4": "Naive Bayes",
+    "correct_answer": "CNN",
+    "explanation": "CNNs are specifically designed for image-related tasks."
+},
+{
+    "topic": "Computer Vision",
+    "question": "What is image classification?",
+    "option1": "Assigning a label to an image",
+    "option2": "Reducing image size",
+    "option3": "Changing image colors",
+    "option4": "Compressing files",
+    "correct_answer": "Assigning a label to an image",
+    "explanation": "Image classification predicts the category of an image."
+},
+{
+    "topic": "Computer Vision",
+    "question": "What is object detection?",
+    "option1": "Identifying and locating objects in an image",
+    "option2": "Creating images",
+    "option3": "Deleting objects",
+    "option4": "Compressing videos",
+    "correct_answer": "Identifying and locating objects in an image",
+    "explanation": "Object detection identifies both the class and location of objects."
+},
+
+{
+    "topic": "Natural Language Processing",
+    "question": "What is Natural Language Processing (NLP)?",
+    "option1": "A field that enables computers to understand human language",
+    "option2": "A database optimization technique",
+    "option3": "A computer networking protocol",
+    "option4": "A web development framework",
+    "correct_answer": "A field that enables computers to understand human language",
+    "explanation": "NLP combines artificial intelligence and linguistics to process human language."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "Which Python library is widely used for NLP?",
+    "option1": "NLTK",
+    "option2": "OpenCV",
+    "option3": "Matplotlib",
+    "option4": "TensorBoard",
+    "correct_answer": "NLTK",
+    "explanation": "NLTK provides tools for tokenization, stemming, tagging, and more."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "What is tokenization?",
+    "option1": "Splitting text into smaller units like words or sentences",
+    "option2": "Encrypting text",
+    "option3": "Compressing text files",
+    "option4": "Translating text",
+    "correct_answer": "Splitting text into smaller units like words or sentences",
+    "explanation": "Tokenization is usually the first preprocessing step in NLP."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "What is stemming?",
+    "option1": "Reducing words to their root form",
+    "option2": "Removing punctuation only",
+    "option3": "Sorting words alphabetically",
+    "option4": "Translating languages",
+    "correct_answer": "Reducing words to their root form",
+    "explanation": "Stemming removes prefixes and suffixes to obtain the word stem."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "What is lemmatization?",
+    "option1": "Reducing words to their dictionary form",
+    "option2": "Converting text to uppercase",
+    "option3": "Removing duplicate words",
+    "option4": "Compressing documents",
+    "correct_answer": "Reducing words to their dictionary form",
+    "explanation": "Lemmatization considers a word's meaning and grammar."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "Which model architecture revolutionized NLP in recent years?",
+    "option1": "Transformer",
+    "option2": "Decision Tree",
+    "option3": "K-Means",
+    "option4": "Linear Regression",
+    "correct_answer": "Transformer",
+    "explanation": "Transformer models power modern NLP systems like BERT and GPT."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "What is sentiment analysis?",
+    "option1": "Determining the emotional tone of text",
+    "option2": "Finding duplicate files",
+    "option3": "Compressing text",
+    "option4": "Generating graphs",
+    "correct_answer": "Determining the emotional tone of text",
+    "explanation": "Sentiment analysis classifies text as positive, negative, or neutral."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "Which company developed the BERT language model?",
+    "option1": "Google",
+    "option2": "Microsoft",
+    "option3": "Amazon",
+    "option4": "Meta",
+    "correct_answer": "Google",
+    "explanation": "BERT was introduced by Google in 2018."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "What does NLP preprocessing commonly remove?",
+    "option1": "Stop words",
+    "option2": "Neural networks",
+    "option3": "Databases",
+    "option4": "HTTP requests",
+    "correct_answer": "Stop words",
+    "explanation": "Common words like 'the' and 'is' are often removed during preprocessing."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "What is Named Entity Recognition (NER)?",
+    "option1": "Identifying names, places, and organizations in text",
+    "option2": "Recognizing images",
+    "option3": "Detecting duplicate records",
+    "option4": "Building databases",
+    "correct_answer": "Identifying names, places, and organizations in text",
+    "explanation": "NER extracts structured information from unstructured text."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "Which Hugging Face library is commonly used for transformer models?",
+    "option1": "transformers",
+    "option2": "requests",
+    "option3": "BeautifulSoup",
+    "option4": "NumPy",
+    "correct_answer": "transformers",
+    "explanation": "The transformers library provides pretrained transformer models."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "Which task converts spoken language into text?",
+    "option1": "Speech Recognition",
+    "option2": "Image Classification",
+    "option3": "Regression",
+    "option4": "Clustering",
+    "correct_answer": "Speech Recognition",
+    "explanation": "Speech recognition systems convert audio into text."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "What is text generation?",
+    "option1": "Automatically producing human-like text",
+    "option2": "Removing text formatting",
+    "option3": "Compressing documents",
+    "option4": "Encrypting messages",
+    "correct_answer": "Automatically producing human-like text",
+    "explanation": "Large language models generate coherent text from prompts."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "Which evaluation metric is commonly used for text generation quality?",
+    "option1": "BLEU Score",
+    "option2": "Accuracy",
+    "option3": "R² Score",
+    "option4": "Mean Absolute Error",
+    "correct_answer": "BLEU Score",
+    "explanation": "BLEU compares generated text with reference text."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "Which of the following is an NLP application?",
+    "option1": "Machine Translation",
+    "option2": "Image Segmentation",
+    "option3": "3D Rendering",
+    "option4": "CPU Scheduling",
+    "correct_answer": "Machine Translation",
+    "explanation": "Machine translation automatically converts text from one language to another."
+},
+{
+    "topic": "TensorFlow",
+    "question": "Which TensorFlow API is most commonly used for building neural networks?",
+    "option1": "tf.keras",
+    "option2": "tf.sql",
+    "option3": "tf.http",
+    "option4": "tf.imageio",
+    "correct_answer": "tf.keras",
+    "explanation": "tf.keras is TensorFlow's high-level API for building and training deep learning models."
+},
+{
+    "topic": "TensorFlow",
+    "question": "Which method is commonly used to train a Keras model?",
+    "option1": "model.fit()",
+    "option2": "model.train()",
+    "option3": "model.execute()",
+    "option4": "model.learn()",
+    "correct_answer": "model.fit()",
+    "explanation": "The fit() method trains a model using training data."
+},
+{
+    "topic": "TensorFlow",
+    "question": "Which TensorFlow component is responsible for automatic differentiation?",
+    "option1": "GradientTape",
+    "option2": "TensorBoard",
+    "option3": "Dataset",
+    "option4": "Estimator",
+    "correct_answer": "GradientTape",
+    "explanation": "GradientTape records operations for automatic gradient computation."
+},
+{
+    "topic": "TensorFlow",
+    "question": "What is TensorBoard mainly used for?",
+    "option1": "Visualizing training metrics",
+    "option2": "Editing images",
+    "option3": "Database management",
+    "option4": "Web hosting",
+    "correct_answer": "Visualizing training metrics",
+    "explanation": "TensorBoard provides graphs and visualizations of model training."
+},
+{
+    "topic": "TensorFlow",
+    "question": "TensorFlow supports GPU acceleration for faster training.",
+    "option1": "True",
+    "option2": "False",
+    "option3": "Only on macOS",
+    "option4": "Only for CNNs",
+    "correct_answer": "True",
+    "explanation": "TensorFlow can utilize GPUs and TPUs to significantly speed up training."
+},
+{
+    "topic": "PyTorch",
+    "question": "Which function is used to compute gradients in PyTorch?",
+    "option1": "loss.backward()",
+    "option2": "loss.gradient()",
+    "option3": "loss.train()",
+    "option4": "loss.compute()",
+    "correct_answer": "loss.backward()",
+    "explanation": "backward() computes gradients using automatic differentiation."
+},
+{
+    "topic": "PyTorch",
+    "question": "What is Autograd in PyTorch?",
+    "option1": "Automatic differentiation engine",
+    "option2": "Image processing library",
+    "option3": "Database optimizer",
+    "option4": "Visualization tool",
+    "correct_answer": "Automatic differentiation engine",
+    "explanation": "Autograd automatically computes gradients during training."
+},
+{
+    "topic": "PyTorch",
+    "question": "Which method switches a PyTorch model to evaluation mode?",
+    "option1": "model.eval()",
+    "option2": "model.test()",
+    "option3": "model.stop()",
+    "option4": "model.freeze()",
+    "correct_answer": "model.eval()",
+    "explanation": "eval() disables dropout and batch normalization updates."
+},
+{
+    "topic": "PyTorch",
+    "question": "Which method switches a model back to training mode?",
+    "option1": "model.train()",
+    "option2": "model.start()",
+    "option3": "model.run()",
+    "option4": "model.begin()",
+    "correct_answer": "model.train()",
+    "explanation": "train() enables layers like dropout during training."
+},
+{
+    "topic": "PyTorch",
+    "question": "PyTorch tensors can run on which devices?",
+    "option1": "CPU and GPU",
+    "option2": "CPU only",
+    "option3": "GPU only",
+    "option4": "TPU only",
+    "correct_answer": "CPU and GPU",
+    "explanation": "PyTorch supports both CPU and CUDA-enabled GPUs."
+},
+{
+    "topic": "Computer Vision",
+    "question": "Which OpenCV function is commonly used to read an image?",
+    "option1": "cv2.imread()",
+    "option2": "cv2.load()",
+    "option3": "cv2.open()",
+    "option4": "cv2.fetch()",
+    "correct_answer": "cv2.imread()",
+    "explanation": "imread() loads an image from disk into memory."
+},
+{
+    "topic": "Computer Vision",
+    "question": "Which color format does OpenCV use by default?",
+    "option1": "BGR",
+    "option2": "RGB",
+    "option3": "HSV",
+    "option4": "CMYK",
+    "correct_answer": "BGR",
+    "explanation": "OpenCV stores images in BGR order by default."
+},
+{
+    "topic": "Computer Vision",
+    "question": "What is image segmentation?",
+    "option1": "Dividing an image into meaningful regions",
+    "option2": "Compressing images",
+    "option3": "Changing image resolution",
+    "option4": "Converting images to text",
+    "correct_answer": "Dividing an image into meaningful regions",
+    "explanation": "Segmentation separates objects or regions within an image."
+},
+{
+    "topic": "Computer Vision",
+    "question": "Which metric is commonly used in object detection?",
+    "option1": "Intersection over Union (IoU)",
+    "option2": "BLEU Score",
+    "option3": "R² Score",
+    "option4": "Silhouette Score",
+    "correct_answer": "Intersection over Union (IoU)",
+    "explanation": "IoU measures the overlap between predicted and actual bounding boxes."
+},
+{
+    "topic": "Computer Vision",
+    "question": "Which task predicts the location of objects using bounding boxes?",
+    "option1": "Object Detection",
+    "option2": "Regression",
+    "option3": "Clustering",
+    "option4": "Tokenization",
+    "correct_answer": "Object Detection",
+    "explanation": "Object detection predicts both object class and location."
+},
+
+{
+    "topic": "TensorFlow",
+    "question": "Which TensorFlow module is used for loading datasets efficiently?",
+    "option1": "tf.data",
+    "option2": "tf.loader",
+    "option3": "tf.dataset",
+    "option4": "tf.input",
+    "correct_answer": "tf.data",
+    "explanation": "The tf.data API provides efficient input pipelines for machine learning."
+},
+{
+    "topic": "TensorFlow",
+    "question": "Which loss function is commonly used for multi-class classification in TensorFlow?",
+    "option1": "Categorical Crossentropy",
+    "option2": "Mean Squared Error",
+    "option3": "Huber Loss",
+    "option4": "Cosine Similarity",
+    "correct_answer": "Categorical Crossentropy",
+    "explanation": "Categorical Crossentropy is widely used for multi-class classification problems."
+},
+{
+    "topic": "TensorFlow",
+    "question": "What is an epoch in TensorFlow model training?",
+    "option1": "One complete pass through the training dataset",
+    "option2": "One prediction",
+    "option3": "One gradient calculation",
+    "option4": "One layer of the network",
+    "correct_answer": "One complete pass through the training dataset",
+    "explanation": "An epoch represents one full iteration over the entire training dataset."
+},
+{
+    "topic": "PyTorch",
+    "question": "Which package provides pretrained models in PyTorch?",
+    "option1": "torchvision.models",
+    "option2": "torch.datasets",
+    "option3": "torch.files",
+    "option4": "torch.images",
+    "correct_answer": "torchvision.models",
+    "explanation": "torchvision.models provides many pretrained CNN architectures."
+},
+{
+    "topic": "PyTorch",
+    "question": "Which function is used to disable gradient computation during inference?",
+    "option1": "torch.no_grad()",
+    "option2": "torch.disable()",
+    "option3": "torch.eval()",
+    "option4": "torch.freeze()",
+    "correct_answer": "torch.no_grad()",
+    "explanation": "torch.no_grad() improves inference speed and reduces memory usage."
+},
+{
+    "topic": "PyTorch",
+    "question": "Which dataset package is commonly used with PyTorch for computer vision?",
+    "option1": "torchvision.datasets",
+    "option2": "torch.database",
+    "option3": "torch.storage",
+    "option4": "torch.models",
+    "correct_answer": "torchvision.datasets",
+    "explanation": "torchvision.datasets provides popular datasets such as MNIST and CIFAR-10."
+},
+{
+    "topic": "Computer Vision",
+    "question": "Which OpenCV function displays an image in a window?",
+    "option1": "cv2.imshow()",
+    "option2": "cv2.display()",
+    "option3": "cv2.show()",
+    "option4": "cv2.render()",
+    "correct_answer": "cv2.imshow()",
+    "explanation": "cv2.imshow() is used to display an image in an OpenCV window."
+},
+{
+    "topic": "Computer Vision",
+    "question": "Which OpenCV function converts an image from BGR to grayscale?",
+    "option1": "cv2.cvtColor()",
+    "option2": "cv2.convert()",
+    "option3": "cv2.gray()",
+    "option4": "cv2.color()",
+    "correct_answer": "cv2.cvtColor()",
+    "explanation": "cv2.cvtColor() converts images between different color spaces."
+},
+{
+    "topic": "Computer Vision",
+    "question": "Which deep learning architecture is commonly used for object detection?",
+    "option1": "YOLO",
+    "option2": "Naive Bayes",
+    "option3": "K-Means",
+    "option4": "Apriori",
+    "correct_answer": "YOLO",
+    "explanation": "YOLO (You Only Look Once) is a popular real-time object detection algorithm."
+},
+{
+    "topic": "Computer Vision",
+    "question": "What does CNN stand for?",
+    "option1": "Convolutional Neural Network",
+    "option2": "Central Neural Node",
+    "option3": "Connected Network Node",
+    "option4": "Computational Neural Network",
+    "correct_answer": "Convolutional Neural Network",
+    "explanation": "CNNs are specialized neural networks for processing image data."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "What does BERT stand for?",
+    "option1": "Bidirectional Encoder Representations from Transformers",
+    "option2": "Basic Encoder for Recursive Training",
+    "option3": "Binary Encoding for Text Retrieval",
+    "option4": "Bidirectional Embedding Retrieval Technique",
+    "correct_answer": "Bidirectional Encoder Representations from Transformers",
+    "explanation": "BERT is Google's transformer-based language representation model."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "Which NLP task predicts the next word in a sentence?",
+    "option1": "Language Modeling",
+    "option2": "Image Classification",
+    "option3": "Clustering",
+    "option4": "Regression",
+    "correct_answer": "Language Modeling",
+    "explanation": "Language models learn to predict the next token in a sequence."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "Which library is maintained by Hugging Face?",
+    "option1": "Transformers",
+    "option2": "TensorBoard",
+    "option3": "BeautifulSoup",
+    "option4": "SciPy",
+    "correct_answer": "Transformers",
+    "explanation": "The Transformers library provides thousands of pretrained NLP models."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "Which task automatically converts text from one language to another?",
+    "option1": "Machine Translation",
+    "option2": "Topic Modeling",
+    "option3": "Text Summarization",
+    "option4": "Tokenization",
+    "correct_answer": "Machine Translation",
+    "explanation": "Machine translation converts text between different languages."
+},
+{
+    "topic": "Natural Language Processing",
+    "question": "Which of the following is an example of a Large Language Model (LLM)?",
+    "option1": "GPT",
+    "option2": "K-Means",
+    "option3": "Random Forest",
+    "option4": "XGBoost",
+    "correct_answer": "GPT",
+    "explanation": "GPT is a transformer-based Large Language Model capable of understanding and generating text."
+}
+
+
+]

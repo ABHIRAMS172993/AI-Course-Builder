@@ -1,0 +1,3063 @@
+[
+  {
+    "topic": "HTML & CSS Fundamentals",
+    "title": "HTML & CSS Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/G3e-cpL7ofc",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 4.9
+  },
+  {
+    "topic": "HTML & CSS Fundamentals",
+    "title": "HTML Introduction",
+    "provider": "MDN",
+    "resource_type": "Article",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "HTML & CSS Fundamentals",
+    "title": "HTML & CSS: Design and Build Websites",
+    "provider": "Jon Duckett",
+    "resource_type": "Book",
+    "url": "https://www.amazon.com/dp/1118008189",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+  },
+  {
+    "topic": "HTML & CSS Fundamentals",
+    "title": "Build a Personal Portfolio Website",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 5.0
+  },
+
+  {
+    "topic": "JavaScript Basics",
+    "title": "JavaScript Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/PkZNo7MFNFg",
+    "duration": "3.5 Hours",
+    "is_free": true,
+    "rating": 4.9
+  },
+  {
+    "topic": "JavaScript Basics",
+    "title": "JavaScript Guide",
+    "provider": "MDN",
+    "resource_type": "Article",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "duration": "60 Minutes",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "JavaScript Basics",
+    "title": "Eloquent JavaScript",
+    "provider": "Marijn Haverbeke",
+    "resource_type": "Book",
+    "url": "https://eloquentjavascript.net/",
+    "duration": "",
+    "is_free": true,
+    "rating": 4.8
+  },
+  {
+    "topic": "JavaScript Basics",
+    "title": "Build a Calculator",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "5 Hours",
+    "is_free": true,
+    "rating": 5.0
+  },
+
+  {
+    "topic": "Responsive Web Design",
+    "title": "Responsive Web Design Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/srvUrASNj0s",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.8
+  },
+  {
+    "topic": "Responsive Web Design",
+    "title": "Responsive Design Basics",
+    "provider": "MDN",
+    "resource_type": "Article",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design",
+    "duration": "40 Minutes",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "Responsive Web Design",
+    "title": "Responsive Web Design with HTML5 & CSS",
+    "provider": "Packt",
+    "resource_type": "Book",
+    "url": "https://www.packtpub.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.6
+  },
+  {
+    "topic": "Responsive Web Design",
+    "title": "Build a Responsive Landing Page",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 5.0
+  },
+
+  {
+    "topic": "Git & GitHub",
+    "title": "Git and GitHub Crash Course",
+    "provider": "Traversy Media",
+    "resource_type": "Video",
+    "url": "https://youtu.be/SWYqp7iY_Tc",
+    "duration": "1.5 Hours",
+    "is_free": true,
+    "rating": 4.9
+  },
+  {
+    "topic": "Git & GitHub",
+    "title": "Git Handbook",
+    "provider": "GitHub Docs",
+    "resource_type": "Article",
+    "url": "https://docs.github.com/en/get-started",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "Git & GitHub",
+    "title": "Pro Git",
+    "provider": "Scott Chacon",
+    "resource_type": "Book",
+    "url": "https://git-scm.com/book/en/v2",
+    "duration": "",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "Git & GitHub",
+    "title": "Host Your Portfolio on GitHub",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+  },
+
+  {
+    "topic": "Introduction to React",
+    "title": "React Course for Beginners",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/bMknfKXIFA8",
+    "duration": "12 Hours",
+    "is_free": true,
+    "rating": 4.9
+  },
+  {
+    "topic": "Introduction to React",
+    "title": "React Quick Start",
+    "provider": "React Docs",
+    "resource_type": "Article",
+    "url": "https://react.dev/learn",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "Introduction to React",
+    "title": "Learning React",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/learning-react-2nd/9781492051718/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+  },
+  {
+    "topic": "Introduction to React",
+    "title": "Build a React Todo Application",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "Advanced JavaScript (ES6+)",
+    "title": "JavaScript ES6 Tutorial",
+    "provider": "Programming with Mosh",
+    "resource_type": "Video",
+    "url": "https://youtu.be/NCwa_xi0Uuc",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.9
+  },
+  {
+    "topic": "Advanced JavaScript (ES6+)",
+    "title": "JavaScript ES6 Features",
+    "provider": "MDN",
+    "resource_type": "Article",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "duration": "50 Minutes",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "Advanced JavaScript (ES6+)",
+    "title": "You Don't Know JS Yet",
+    "provider": "Kyle Simpson",
+    "resource_type": "Book",
+    "url": "https://github.com/getify/You-Dont-Know-JS",
+    "duration": "",
+    "is_free": true,
+    "rating": 4.9
+  },
+  {
+    "topic": "Advanced JavaScript (ES6+)",
+    "title": "Build a Weather App using Async/Await",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+  },
+
+  {
+    "topic": "React Hooks",
+    "title": "React Hooks Crash Course",
+    "provider": "Traversy Media",
+    "resource_type": "Video",
+    "url": "https://youtu.be/f687hBjwFcM",
+    "duration": "1.5 Hours",
+    "is_free": true,
+    "rating": 4.9
+  },
+  {
+    "topic": "React Hooks",
+    "title": "Using React Hooks",
+    "provider": "React Docs",
+    "resource_type": "Article",
+    "url": "https://react.dev/reference/react",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "React Hooks",
+    "title": "Learning React",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/learning-react-2nd/9781492051718/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+  },
+  {
+    "topic": "React Hooks",
+    "title": "Build a Notes App using React Hooks",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+  },
+
+  {
+    "topic": "React Router",
+    "title": "React Router Tutorial",
+    "provider": "Codevolution",
+    "resource_type": "Video",
+    "url": "https://youtu.be/Law7wfdg_ls",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.8
+  },
+  {
+    "topic": "React Router",
+    "title": "React Router Documentation",
+    "provider": "React Router",
+    "resource_type": "Article",
+    "url": "https://reactrouter.com/en/main",
+    "duration": "40 Minutes",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "React Router",
+    "title": "Fullstack React",
+    "provider": "Fullstack.io",
+    "resource_type": "Book",
+    "url": "https://www.fullstackreact.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.7
+  },
+  {
+    "topic": "React Router",
+    "title": "Build a Multi-page React Application",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+  },
+
+  {
+    "topic": "State Management",
+    "title": "Redux Toolkit Crash Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/9zySeP5vH9c",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.9
+  },
+  {
+    "topic": "State Management",
+    "title": "Redux Essentials",
+    "provider": "Redux Docs",
+    "resource_type": "Article",
+    "url": "https://redux.js.org/tutorials/essentials",
+    "duration": "50 Minutes",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "State Management",
+    "title": "Redux in Action",
+    "provider": "Manning",
+    "resource_type": "Book",
+    "url": "https://www.manning.com/books/redux-in-action",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.7
+  },
+  {
+    "topic": "State Management",
+    "title": "Build an E-commerce Cart with Redux",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+  },
+
+  {
+    "topic": "Tailwind CSS",
+    "title": "Tailwind CSS Full Course",
+    "provider": "Traversy Media",
+    "resource_type": "Video",
+    "url": "https://youtu.be/dFgzHOX84xQ",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.9
+  },
+  {
+    "topic": "Tailwind CSS",
+    "title": "Tailwind CSS Documentation",
+    "provider": "Tailwind CSS",
+    "resource_type": "Article",
+    "url": "https://tailwindcss.com/docs",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+  },
+  {
+    "topic": "Tailwind CSS",
+    "title": "Refactoring UI",
+    "provider": "Adam Wathan",
+    "resource_type": "Book",
+    "url": "https://www.refactoringui.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+  },
+  {
+    "topic": "Tailwind CSS",
+    "title": "Build an Admin Dashboard using Tailwind CSS",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+  },
+
+  {
+    "topic": "Next.js",
+    "title": "Next.js Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/1WmNXEVia8I",
+    "duration": "5 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Next.js",
+    "title": "Next.js Documentation",
+    "provider": "Vercel",
+    "resource_type": "Article",
+    "url": "https://nextjs.org/docs",
+    "duration": "60 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Next.js",
+    "title": "Learning Next.js",
+    "provider": "Packt",
+    "resource_type": "Book",
+    "url": "https://www.packtpub.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.7
+},
+{
+    "topic": "Next.js",
+    "title": "Build a Full Stack Blog with Next.js",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "10 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Frontend Performance Optimization",
+    "title": "Web Performance Crash Course",
+    "provider": "Google Chrome Developers",
+    "resource_type": "Video",
+    "url": "https://youtu.be/aqvz5Oqs238",
+    "duration": "1.5 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Frontend Performance Optimization",
+    "title": "Web Performance",
+    "provider": "web.dev",
+    "resource_type": "Article",
+    "url": "https://web.dev/performance",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Frontend Performance Optimization",
+    "title": "High Performance Browser Networking",
+    "provider": "Ilya Grigorik",
+    "resource_type": "Book",
+    "url": "https://hpbn.co/",
+    "duration": "",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Frontend Performance Optimization",
+    "title": "Optimize a React Dashboard",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Authentication & Authorization",
+    "title": "JWT Authentication Tutorial",
+    "provider": "Web Dev Simplified",
+    "resource_type": "Video",
+    "url": "https://youtu.be/mbsmsi7l3r4",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Authentication & Authorization",
+    "title": "Authentication Concepts",
+    "provider": "Auth0",
+    "resource_type": "Article",
+    "url": "https://auth0.com/docs",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Authentication & Authorization",
+    "title": "OAuth 2 in Action",
+    "provider": "Manning",
+    "resource_type": "Book",
+    "url": "https://www.manning.com/books/oauth-2-in-action",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Authentication & Authorization",
+    "title": "Implement JWT Login System",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Frontend Testing",
+    "title": "React Testing Library Tutorial",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/FgnxcUQ5vho",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Frontend Testing",
+    "title": "Testing React Apps",
+    "provider": "Jest Docs",
+    "resource_type": "Article",
+    "url": "https://jestjs.io/docs/getting-started",
+    "duration": "40 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Frontend Testing",
+    "title": "Testing JavaScript Applications",
+    "provider": "Manning",
+    "resource_type": "Book",
+    "url": "https://www.manning.com/books/testing-javascript-applications",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.7
+},
+{
+    "topic": "Frontend Testing",
+    "title": "Write Tests for a React App",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Frontend Deployment",
+    "title": "Deploy React Apps",
+    "provider": "Traversy Media",
+    "resource_type": "Video",
+    "url": "https://youtu.be/l134cBAJCuc",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Frontend Deployment",
+    "title": "Deploying React Applications",
+    "provider": "Vercel Docs",
+    "resource_type": "Article",
+    "url": "https://vercel.com/docs",
+    "duration": "30 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Frontend Deployment",
+    "title": "Web Development with Node and React",
+    "provider": "Full Stack Open",
+    "resource_type": "Book",
+    "url": "https://fullstackopen.com/en/",
+    "duration": "",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Frontend Deployment",
+    "title": "Deploy a React App to Vercel",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Python Programming",
+    "title": "Python Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/rfscVS0vtbw",
+    "duration": "4 Hours 30 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Python Programming",
+    "title": "Python Official Tutorial",
+    "provider": "Python",
+    "resource_type": "Article",
+    "url": "https://docs.python.org/3/tutorial/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Python Programming",
+    "title": "Python Crash Course",
+    "provider": "Eric Matthes",
+    "resource_type": "Book",
+    "url": "https://nostarch.com/pythoncrashcourse2e",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Python Programming",
+    "title": "Build a Student Management System",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Introduction to Django",
+    "title": "Django Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/F5mRW0jo-U4",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Introduction to Django",
+    "title": "Django Documentation",
+    "provider": "Django",
+    "resource_type": "Article",
+    "url": "https://docs.djangoproject.com/en/stable/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Introduction to Django",
+    "title": "Django for Beginners",
+    "provider": "William Vincent",
+    "resource_type": "Book",
+    "url": "https://djangoforbeginners.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Introduction to Django",
+    "title": "Build a Blog Application",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Database Fundamentals",
+    "title": "SQL Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/HXV3zeQKqGY",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Database Fundamentals",
+    "title": "MySQL Documentation",
+    "provider": "MySQL",
+    "resource_type": "Article",
+    "url": "https://dev.mysql.com/doc/",
+    "duration": "90 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Database Fundamentals",
+    "title": "Learning SQL",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Database Fundamentals",
+    "title": "Library Database Management System",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "REST API Fundamentals",
+    "title": "REST API Crash Course",
+    "provider": "Traversy Media",
+    "resource_type": "Video",
+    "url": "https://youtu.be/Q-BpqyOT3a8",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "REST API Fundamentals",
+    "title": "REST API Design Guide",
+    "provider": "Microsoft",
+    "resource_type": "Article",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "REST API Fundamentals",
+    "title": "RESTful Web APIs",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/restful-web-apis/9781449359713/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.7
+},
+{
+    "topic": "REST API Fundamentals",
+    "title": "Build a Student REST API",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "7 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Authentication Basics",
+    "title": "Authentication in Django",
+    "provider": "CodeWithHarry",
+    "resource_type": "Video",
+    "url": "https://youtu.be/JxzZxdht-XY",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Authentication Basics",
+    "title": "Django Authentication Docs",
+    "provider": "Django",
+    "resource_type": "Article",
+    "url": "https://docs.djangoproject.com/en/stable/topics/auth/",
+    "duration": "40 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Authentication Basics",
+    "title": "Django 4 by Example",
+    "provider": "Packt",
+    "resource_type": "Book",
+    "url": "https://www.packtpub.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Authentication Basics",
+    "title": "User Login & Registration System",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Django REST Framework",
+    "title": "Django REST Framework Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/c708Nf0cHrs",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Django REST Framework",
+    "title": "DRF Official Documentation",
+    "provider": "Django REST Framework",
+    "resource_type": "Article",
+    "url": "https://www.django-rest-framework.org/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Django REST Framework",
+    "title": "Django for APIs",
+    "provider": "William Vincent",
+    "resource_type": "Book",
+    "url": "https://djangoforapis.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Django REST Framework",
+    "title": "Build a Blog REST API",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "JWT Authentication",
+    "title": "JWT Authentication Tutorial",
+    "provider": "Web Dev Simplified",
+    "resource_type": "Video",
+    "url": "https://youtu.be/mbsmsi7l3r4",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "JWT Authentication",
+    "title": "JWT Introduction",
+    "provider": "JWT.io",
+    "resource_type": "Article",
+    "url": "https://jwt.io/introduction",
+    "duration": "30 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "JWT Authentication",
+    "title": "OAuth 2 in Action",
+    "provider": "Manning",
+    "resource_type": "Book",
+    "url": "https://www.manning.com/books/oauth-2-in-action",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "JWT Authentication",
+    "title": "Implement JWT Login System",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Database Optimization",
+    "title": "SQL Performance Tuning",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/HXV3zeQKqGY",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Database Optimization",
+    "title": "Django Query Optimization",
+    "provider": "Django Docs",
+    "resource_type": "Article",
+    "url": "https://docs.djangoproject.com/en/stable/topics/db/optimization/",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Database Optimization",
+    "title": "High Performance MySQL",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Database Optimization",
+    "title": "Optimize an E-Commerce Database",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Docker Fundamentals",
+    "title": "Docker Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/fqMOX6JJhGo",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Docker Fundamentals",
+    "title": "Docker Documentation",
+    "provider": "Docker",
+    "resource_type": "Article",
+    "url": "https://docs.docker.com/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Docker Fundamentals",
+    "title": "Docker Deep Dive",
+    "provider": "Nigel Poulton",
+    "resource_type": "Book",
+    "url": "https://www.nigelpoulton.com/books",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Docker Fundamentals",
+    "title": "Dockerize a Django Application",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "API Security",
+    "title": "API Security Best Practices",
+    "provider": "OWASP",
+    "resource_type": "Video",
+    "url": "https://youtu.be/4YOpILi9Oxs",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "API Security",
+    "title": "OWASP API Security Top 10",
+    "provider": "OWASP",
+    "resource_type": "Article",
+    "url": "https://owasp.org/www-project-api-security/",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "API Security",
+    "title": "API Security in Action",
+    "provider": "Manning",
+    "resource_type": "Book",
+    "url": "https://www.manning.com/books/api-security-in-action",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "API Security",
+    "title": "Secure a REST API with JWT",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Microservices Architecture",
+    "title": "Microservices Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/rv4LlmLmVWk",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Microservices Architecture",
+    "title": "Microservices.io",
+    "provider": "Chris Richardson",
+    "resource_type": "Article",
+    "url": "https://microservices.io/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Microservices Architecture",
+    "title": "Microservices Patterns",
+    "provider": "Manning",
+    "resource_type": "Book",
+    "url": "https://www.manning.com/books/microservices-patterns",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Microservices Architecture",
+    "title": "Build an E-Commerce Microservices System",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "15 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Redis Caching",
+    "title": "Redis Crash Course",
+    "provider": "Traversy Media",
+    "resource_type": "Video",
+    "url": "https://youtu.be/Hbt56gFj998",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Redis Caching",
+    "title": "Redis Documentation",
+    "provider": "Redis",
+    "resource_type": "Article",
+    "url": "https://redis.io/docs/",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Redis Caching",
+    "title": "Redis Essentials",
+    "provider": "Packt",
+    "resource_type": "Book",
+    "url": "https://www.packtpub.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.7
+},
+{
+    "topic": "Redis Caching",
+    "title": "Implement Redis Cache in Django",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "CI/CD Pipelines",
+    "title": "GitHub Actions CI/CD",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/R8_veQiYBjI",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "CI/CD Pipelines",
+    "title": "GitHub Actions Documentation",
+    "provider": "GitHub",
+    "resource_type": "Article",
+    "url": "https://docs.github.com/en/actions",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "CI/CD Pipelines",
+    "title": "Continuous Delivery",
+    "provider": "Addison-Wesley",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/continuous-delivery/9780321670250/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "CI/CD Pipelines",
+    "title": "Deploy Django with GitHub Actions",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Scalable System Design",
+    "title": "System Design Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/m8Icp_Cid5o",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Scalable System Design",
+    "title": "System Design Primer",
+    "provider": "GitHub",
+    "resource_type": "Article",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Scalable System Design",
+    "title": "Designing Data-Intensive Applications",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://dataintensive.net/",
+    "duration": "",
+    "is_free": false,
+    "rating": 5.0
+},
+{
+    "topic": "Scalable System Design",
+    "title": "Design a URL Shortener",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "10 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Cloud Deployment",
+    "title": "AWS Cloud Practitioner Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/SOTamWNgDKc",
+    "duration": "14 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Cloud Deployment",
+    "title": "AWS Documentation",
+    "provider": "Amazon AWS",
+    "resource_type": "Article",
+    "url": "https://docs.aws.amazon.com/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Cloud Deployment",
+    "title": "AWS Certified Cloud Practitioner Study Guide",
+    "provider": "Sybex",
+    "resource_type": "Book",
+    "url": "https://www.wiley.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Cloud Deployment",
+    "title": "Deploy Django on AWS EC2",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "HTML, CSS & JavaScript",
+    "title": "HTML & CSS Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/mU6anWqZJcc",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "HTML, CSS & JavaScript",
+    "title": "MDN Web Docs",
+    "provider": "Mozilla",
+    "resource_type": "Article",
+    "url": "https://developer.mozilla.org/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "HTML, CSS & JavaScript",
+    "title": "HTML & CSS: Design and Build Websites",
+    "provider": "Jon Duckett",
+    "resource_type": "Book",
+    "url": "https://www.amazon.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "HTML, CSS & JavaScript",
+    "title": "Responsive Portfolio Website",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "React Fundamentals",
+    "title": "React Course for Beginners",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/bMknfKXIFA8",
+    "duration": "12 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "React Fundamentals",
+    "title": "React Official Documentation",
+    "provider": "React",
+    "resource_type": "Article",
+    "url": "https://react.dev/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "React Fundamentals",
+    "title": "Learning React",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "React Fundamentals",
+    "title": "Build a Todo App in React",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "5 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Python Programming",
+    "title": "Python Full Course",
+    "provider": "Programming with Mosh",
+    "resource_type": "Video",
+    "url": "https://youtu.be/_uQrJ0TkZlc",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Python Programming",
+    "title": "Python Official Tutorial",
+    "provider": "Python",
+    "resource_type": "Article",
+    "url": "https://docs.python.org/3/tutorial/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Python Programming",
+    "title": "Python Crash Course",
+    "provider": "Eric Matthes",
+    "resource_type": "Book",
+    "url": "https://nostarch.com/pythoncrashcourse2e",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Python Programming",
+    "title": "Student Management System",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Django Fundamentals",
+    "title": "Django Crash Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/F5mRW0jo-U4",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Django Fundamentals",
+    "title": "Django Documentation",
+    "provider": "Django",
+    "resource_type": "Article",
+    "url": "https://docs.djangoproject.com/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Django Fundamentals",
+    "title": "Django for Beginners",
+    "provider": "William Vincent",
+    "resource_type": "Book",
+    "url": "https://djangoforbeginners.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Django Fundamentals",
+    "title": "Blog Application using Django",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "7 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Git & GitHub",
+    "title": "Git & GitHub Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://youtu.be/RGOj5yH7evk",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Git & GitHub",
+    "title": "Git Documentation",
+    "provider": "Git",
+    "resource_type": "Article",
+    "url": "https://git-scm.com/doc",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Git & GitHub",
+    "title": "Pro Git",
+    "provider": "Scott Chacon",
+    "resource_type": "Book",
+    "url": "https://git-scm.com/book/en/v2",
+    "duration": "",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Git & GitHub",
+    "title": "Host Your First Open Source Project",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "React + Django Integration",
+    "title": "React Django Full Stack Tutorial",
+    "provider": "CodeWithHarry",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=c-QsfbznSXI",
+    "duration": "5 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "React + Django Integration",
+    "title": "Django REST Framework with React",
+    "provider": "Django REST Framework",
+    "resource_type": "Article",
+    "url": "https://www.django-rest-framework.org/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "React + Django Integration",
+    "title": "Full Stack Django and React",
+    "provider": "Packt",
+    "resource_type": "Book",
+    "url": "https://www.packtpub.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.7
+},
+{
+    "topic": "React + Django Integration",
+    "title": "Build a Full Stack Blog Application",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "12 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "REST API Development",
+    "title": "REST API Design Tutorial",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=Q-BpqyOT3a8",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "REST API Development",
+    "title": "REST API Best Practices",
+    "provider": "Microsoft",
+    "resource_type": "Article",
+    "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "REST API Development",
+    "title": "RESTful Web APIs",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "REST API Development",
+    "title": "Student Management REST API",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Authentication & Authorization",
+    "title": "JWT Authentication in React & Django",
+    "provider": "CodeWithHarry",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=jwt+authentication+django+react",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Authentication & Authorization",
+    "title": "OAuth 2.0 Explained",
+    "provider": "Auth0",
+    "resource_type": "Article",
+    "url": "https://auth0.com/docs",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Authentication & Authorization",
+    "title": "OAuth 2 in Action",
+    "provider": "Manning",
+    "resource_type": "Book",
+    "url": "https://www.manning.com/books/oauth-2-in-action",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Authentication & Authorization",
+    "title": "Complete Authentication System",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "10 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "CRUD Application Development",
+    "title": "Build CRUD App with React & Django",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=react+django+crud",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "CRUD Application Development",
+    "title": "CRUD Operations Guide",
+    "provider": "GeeksforGeeks",
+    "resource_type": "Article",
+    "url": "https://www.geeksforgeeks.org/",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "CRUD Application Development",
+    "title": "Full Stack Development with Django",
+    "provider": "Packt",
+    "resource_type": "Book",
+    "url": "https://www.packtpub.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.7
+},
+{
+    "topic": "CRUD Application Development",
+    "title": "Employee Management System",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "10 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Application Deployment",
+    "title": "Deploy Full Stack Apps",
+    "provider": "Traversy Media",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=deploy+react+django+application",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Application Deployment",
+    "title": "Vercel Documentation",
+    "provider": "Vercel",
+    "resource_type": "Article",
+    "url": "https://vercel.com/docs",
+    "duration": "30 Minutes",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Application Deployment",
+    "title": "Docker in Practice",
+    "provider": "Manning",
+    "resource_type": "Book",
+    "url": "https://www.manning.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Application Deployment",
+    "title": "Deploy Blog Application to AWS",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "System Design Fundamentals",
+    "title": "System Design Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=m8Icp_Cid5o",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "System Design Fundamentals",
+    "title": "System Design Primer",
+    "provider": "GitHub",
+    "resource_type": "Article",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "System Design Fundamentals",
+    "title": "Designing Data-Intensive Applications",
+    "provider": "Martin Kleppmann",
+    "resource_type": "Book",
+    "url": "https://dataintensive.net/",
+    "duration": "",
+    "is_free": false,
+    "rating": 5.0
+},
+{
+    "topic": "System Design Fundamentals",
+    "title": "Design a URL Shortener",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "12 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Docker & Containerization",
+    "title": "Docker Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Docker & Containerization",
+    "title": "Docker Documentation",
+    "provider": "Docker",
+    "resource_type": "Article",
+    "url": "https://docs.docker.com/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Docker & Containerization",
+    "title": "Docker Deep Dive",
+    "provider": "Nigel Poulton",
+    "resource_type": "Book",
+    "url": "https://www.nigelpoulton.com/books",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Docker & Containerization",
+    "title": "Dockerize a MERN/Django Application",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Kubernetes Basics",
+    "title": "Kubernetes Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=X48VuDVv0do",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Kubernetes Basics",
+    "title": "Kubernetes Documentation",
+    "provider": "Kubernetes",
+    "resource_type": "Article",
+    "url": "https://kubernetes.io/docs/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Kubernetes Basics",
+    "title": "Kubernetes Up & Running",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/kubernetes-up-and/9781098110192/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Kubernetes Basics",
+    "title": "Deploy Microservices using Kubernetes",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "12 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Cloud Services (AWS)",
+    "title": "AWS Cloud Practitioner Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=SOTamWNgDKc",
+    "duration": "14 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Cloud Services (AWS)",
+    "title": "AWS Official Documentation",
+    "provider": "Amazon AWS",
+    "resource_type": "Article",
+    "url": "https://docs.aws.amazon.com/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Cloud Services (AWS)",
+    "title": "AWS Certified Cloud Practitioner Study Guide",
+    "provider": "Sybex",
+    "resource_type": "Book",
+    "url": "https://www.wiley.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Cloud Services (AWS)",
+    "title": "Deploy Full Stack App on AWS",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "10 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Production Ready Projects",
+    "title": "Build Production Ready Full Stack Apps",
+    "provider": "CodeWithMosh",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=production+ready+full+stack+project",
+    "duration": "5 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Production Ready Projects",
+    "title": "Production Deployment Best Practices",
+    "provider": "Microsoft Learn",
+    "resource_type": "Article",
+    "url": "https://learn.microsoft.com/",
+    "duration": "45 Minutes",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Production Ready Projects",
+    "title": "Clean Architecture",
+    "provider": "Robert C. Martin",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Production Ready Projects",
+    "title": "AI Course Builder (Industry Level)",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "20 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Python for Data Science",
+    "title": "Python for Data Science Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=LHBE6Q9XlzI",
+    "duration": "12 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Python for Data Science",
+    "title": "Python for Data Science Handbook",
+    "provider": "Jake VanderPlas",
+    "resource_type": "Article",
+    "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Python for Data Science",
+    "title": "Python for Data Analysis",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/python-for-data/9781098104023/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Python for Data Science",
+    "title": "Titanic Data Analysis",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "NumPy Fundamentals",
+    "title": "NumPy Tutorial for Beginners",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "NumPy Fundamentals",
+    "title": "NumPy Documentation",
+    "provider": "NumPy",
+    "resource_type": "Article",
+    "url": "https://numpy.org/doc/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "NumPy Fundamentals",
+    "title": "Python Data Science Handbook",
+    "provider": "Jake VanderPlas",
+    "resource_type": "Book",
+    "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+    "duration": "",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "NumPy Fundamentals",
+    "title": "Linear Algebra using NumPy",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "5 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Pandas Fundamentals",
+    "title": "Pandas Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=vmEHCJofslg",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Pandas Fundamentals",
+    "title": "Pandas Documentation",
+    "provider": "Pandas",
+    "resource_type": "Article",
+    "url": "https://pandas.pydata.org/docs/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Pandas Fundamentals",
+    "title": "Python for Data Analysis",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/python-for-data/9781098104023/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Pandas Fundamentals",
+    "title": "COVID-19 Dataset Analysis",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Data Visualization",
+    "title": "Matplotlib & Seaborn Tutorial",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=GPVsHOlRBBI",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Data Visualization",
+    "title": "Matplotlib Documentation",
+    "provider": "Matplotlib",
+    "resource_type": "Article",
+    "url": "https://matplotlib.org/stable/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Data Visualization",
+    "title": "Storytelling with Data",
+    "provider": "Cole Nussbaumer Knaflic",
+    "resource_type": "Book",
+    "url": "https://www.storytellingwithdata.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Data Visualization",
+    "title": "Sales Dashboard using Python",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Statistics for Data Science",
+    "title": "Statistics for Data Science",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=xxpc-HPKN28",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Statistics for Data Science",
+    "title": "Statistics Tutorial",
+    "provider": "Khan Academy",
+    "resource_type": "Article",
+    "url": "https://www.khanacademy.org/math/statistics-probability",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Statistics for Data Science",
+    "title": "Practical Statistics for Data Scientists",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Statistics for Data Science",
+    "title": "Student Performance Data Analysis",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "SQL for Data Analysis",
+    "title": "SQL for Data Analysis Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "SQL for Data Analysis",
+    "title": "SQLBolt Interactive Tutorial",
+    "provider": "SQLBolt",
+    "resource_type": "Article",
+    "url": "https://sqlbolt.com/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "SQL for Data Analysis",
+    "title": "Learning SQL",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/learning-sql-3rd/9781492057604/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "SQL for Data Analysis",
+    "title": "E-Commerce Sales SQL Analysis",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Exploratory Data Analysis",
+    "title": "Exploratory Data Analysis with Python",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=exploratory+data+analysis+python",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Exploratory Data Analysis",
+    "title": "EDA with Pandas Guide",
+    "provider": "Towards Data Science",
+    "resource_type": "Article",
+    "url": "https://towardsdatascience.com/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Exploratory Data Analysis",
+    "title": "Python for Data Analysis",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/python-for-data/9781098104023/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Exploratory Data Analysis",
+    "title": "Netflix Dataset EDA",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Feature Engineering",
+    "title": "Feature Engineering Tutorial",
+    "provider": "Krish Naik",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=feature+engineering+krish+naik",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Feature Engineering",
+    "title": "Feature Engineering Techniques",
+    "provider": "Kaggle",
+    "resource_type": "Article",
+    "url": "https://www.kaggle.com/learn",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Feature Engineering",
+    "title": "Feature Engineering for Machine Learning",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/feature-engineering-for/9781491953235/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Feature Engineering",
+    "title": "House Price Prediction Feature Engineering",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "7 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Machine Learning Fundamentals",
+    "title": "Machine Learning for Beginners",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=NWONeJKn6kc",
+    "duration": "10 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Machine Learning Fundamentals",
+    "title": "Scikit-learn User Guide",
+    "provider": "Scikit-learn",
+    "resource_type": "Article",
+    "url": "https://scikit-learn.org/stable/user_guide.html",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Machine Learning Fundamentals",
+    "title": "Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow",
+    "provider": "Aurélien Géron",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/",
+    "duration": "",
+    "is_free": false,
+    "rating": 5.0
+},
+{
+    "topic": "Machine Learning Fundamentals",
+    "title": "Customer Churn Prediction",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "10 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Power BI",
+    "title": "Power BI Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=AGrl-H87pRU",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Power BI",
+    "title": "Microsoft Power BI Documentation",
+    "provider": "Microsoft",
+    "resource_type": "Article",
+    "url": "https://learn.microsoft.com/power-bi/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Power BI",
+    "title": "Microsoft Power BI Cookbook",
+    "provider": "Packt",
+    "resource_type": "Book",
+    "url": "https://www.packtpub.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.7
+},
+{
+    "topic": "Power BI",
+    "title": "Interactive Sales Dashboard",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Big Data Analytics",
+    "title": "Big Data Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=big+data+full+course",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Big Data Analytics",
+    "title": "Apache Spark Documentation",
+    "provider": "Apache",
+    "resource_type": "Article",
+    "url": "https://spark.apache.org/docs/latest/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Big Data Analytics",
+    "title": "Learning Spark",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/learning-spark-2nd/9781492050032/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Big Data Analytics",
+    "title": "Twitter Data Analysis using Spark",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "12 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Time Series Analysis",
+    "title": "Time Series Forecasting in Python",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=time+series+analysis+python",
+    "duration": "5 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Time Series Analysis",
+    "title": "Time Series Forecasting Guide",
+    "provider": "Towards Data Science",
+    "resource_type": "Article",
+    "url": "https://towardsdatascience.com/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Time Series Analysis",
+    "title": "Forecasting: Principles and Practice",
+    "provider": "OTexts",
+    "resource_type": "Book",
+    "url": "https://otexts.com/fpp3/",
+    "duration": "",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Time Series Analysis",
+    "title": "Stock Price Prediction",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "10 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Deep Learning for Data Science",
+    "title": "Deep Learning Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=deep+learning+freecodecamp",
+    "duration": "10 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Deep Learning for Data Science",
+    "title": "Deep Learning Documentation",
+    "provider": "TensorFlow",
+    "resource_type": "Article",
+    "url": "https://www.tensorflow.org/tutorials",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Deep Learning for Data Science",
+    "title": "Deep Learning",
+    "provider": "Ian Goodfellow",
+    "resource_type": "Book",
+    "url": "https://www.deeplearningbook.org/",
+    "duration": "",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Deep Learning for Data Science",
+    "title": "Image Classification using CNN",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "15 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Model Deployment",
+    "title": "Deploy Machine Learning Models",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=deploy+machine+learning+models",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Model Deployment",
+    "title": "MLflow Documentation",
+    "provider": "MLflow",
+    "resource_type": "Article",
+    "url": "https://mlflow.org/docs/latest/index.html",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Model Deployment",
+    "title": "Machine Learning Engineering",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Model Deployment",
+    "title": "Deploy ML Model with FastAPI",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Data Engineering Fundamentals",
+    "title": "Data Engineering Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=data+engineering+freecodecamp",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Data Engineering Fundamentals",
+    "title": "Data Engineering Concepts",
+    "provider": "Google Cloud",
+    "resource_type": "Article",
+    "url": "https://cloud.google.com/learn",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Data Engineering Fundamentals",
+    "title": "Fundamentals of Data Engineering",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Data Engineering Fundamentals",
+    "title": "Build an ETL Pipeline",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "12 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Python for Machine Learning",
+    "title": "Python for Machine Learning Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/watch?v=LHBE6Q9XlzI",
+    "duration": "12 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Python for Machine Learning",
+    "title": "Python Machine Learning Tutorial",
+    "provider": "Real Python",
+    "resource_type": "Article",
+    "url": "https://realpython.com/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Python for Machine Learning",
+    "title": "Python Machine Learning",
+    "provider": "Packt",
+    "resource_type": "Book",
+    "url": "https://www.packtpub.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Python for Machine Learning",
+    "title": "Student Performance Prediction",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Linear Algebra for ML",
+    "title": "Linear Algebra for Machine Learning",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=linear+algebra+for+machine+learning",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Linear Algebra for ML",
+    "title": "Essence of Linear Algebra",
+    "provider": "3Blue1Brown",
+    "resource_type": "Article",
+    "url": "https://www.3blue1brown.com/topics/linear-algebra",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Linear Algebra for ML",
+    "title": "Linear Algebra and Its Applications",
+    "provider": "Pearson",
+    "resource_type": "Book",
+    "url": "https://www.pearson.com/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Linear Algebra for ML",
+    "title": "Matrix Operations using NumPy",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Probability & Statistics",
+    "title": "Probability and Statistics Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=probability+statistics+machine+learning",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Probability & Statistics",
+    "title": "Statistics for Machine Learning",
+    "provider": "Towards Data Science",
+    "resource_type": "Article",
+    "url": "https://towardsdatascience.com/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Probability & Statistics",
+    "title": "Practical Statistics for Data Scientists",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Probability & Statistics",
+    "title": "Customer Behavior Analysis",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "NumPy & Pandas",
+    "title": "NumPy & Pandas Crash Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=numpy+pandas+course",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "NumPy & Pandas",
+    "title": "NumPy and Pandas Documentation",
+    "provider": "NumPy & Pandas",
+    "resource_type": "Article",
+    "url": "https://numpy.org/doc/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "NumPy & Pandas",
+    "title": "Python for Data Analysis",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/python-for-data/9781098104023/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "NumPy & Pandas",
+    "title": "Data Cleaning Pipeline",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Scikit-learn Fundamentals",
+    "title": "Scikit-learn Tutorial",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=scikit+learn+tutorial",
+    "duration": "5 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Scikit-learn Fundamentals",
+    "title": "Scikit-learn User Guide",
+    "provider": "Scikit-learn",
+    "resource_type": "Article",
+    "url": "https://scikit-learn.org/stable/user_guide.html",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Scikit-learn Fundamentals",
+    "title": "Hands-On Machine Learning",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/",
+    "duration": "",
+    "is_free": false,
+    "rating": 5.0
+},
+{
+    "topic": "Scikit-learn Fundamentals",
+    "title": "Iris Flower Classification",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Regression Algorithms",
+    "title": "Machine Learning Regression Tutorial",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=machine+learning+regression+tutorial",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Regression Algorithms",
+    "title": "Linear Regression in Scikit-learn",
+    "provider": "Scikit-learn",
+    "resource_type": "Article",
+    "url": "https://scikit-learn.org/stable/modules/linear_model.html",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Regression Algorithms",
+    "title": "Hands-On Machine Learning",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/",
+    "duration": "",
+    "is_free": false,
+    "rating": 5.0
+},
+{
+    "topic": "Regression Algorithms",
+    "title": "House Price Prediction",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Classification Algorithms",
+    "title": "Classification Algorithms in Machine Learning",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=classification+algorithms+machine+learning",
+    "duration": "5 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Classification Algorithms",
+    "title": "Classification User Guide",
+    "provider": "Scikit-learn",
+    "resource_type": "Article",
+    "url": "https://scikit-learn.org/stable/supervised_learning.html",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Classification Algorithms",
+    "title": "Introduction to Machine Learning with Python",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Classification Algorithms",
+    "title": "Spam Email Classifier",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Clustering Techniques",
+    "title": "Clustering Algorithms Explained",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=clustering+algorithms+machine+learning",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Clustering Techniques",
+    "title": "K-Means Clustering Guide",
+    "provider": "Scikit-learn",
+    "resource_type": "Article",
+    "url": "https://scikit-learn.org/stable/modules/clustering.html",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Clustering Techniques",
+    "title": "Data Mining Concepts and Techniques",
+    "provider": "Morgan Kaufmann",
+    "resource_type": "Book",
+    "url": "https://www.elsevier.com/books/data-mining-concepts-and-techniques/han/978-0-12-381479-1",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Clustering Techniques",
+    "title": "Customer Segmentation using K-Means",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "7 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Model Evaluation",
+    "title": "Model Evaluation Metrics",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=model+evaluation+machine+learning",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Model Evaluation",
+    "title": "Model Evaluation Documentation",
+    "provider": "Scikit-learn",
+    "resource_type": "Article",
+    "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Model Evaluation",
+    "title": "Machine Learning Yearning",
+    "provider": "Andrew Ng",
+    "resource_type": "Book",
+    "url": "https://www.deeplearning.ai/machine-learning-yearning/",
+    "duration": "",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Model Evaluation",
+    "title": "Evaluate Multiple ML Models",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Feature Engineering",
+    "title": "Feature Engineering Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=feature+engineering+machine+learning",
+    "duration": "4 Hours",
+    "is_free": true,
+    "rating": 4.8
+},
+{
+    "topic": "Feature Engineering",
+    "title": "Feature Engineering Guide",
+    "provider": "Towards Data Science",
+    "resource_type": "Article",
+    "url": "https://towardsdatascience.com/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Feature Engineering",
+    "title": "Feature Engineering for Machine Learning",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/feature-engineering-for/9781491953235/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "Feature Engineering",
+    "title": "Titanic Feature Engineering Pipeline",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "7 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Neural Networks",
+    "title": "Neural Networks Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=neural+networks+freecodecamp",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Neural Networks",
+    "title": "Neural Networks Explained",
+    "provider": "DeepLearning.AI",
+    "resource_type": "Article",
+    "url": "https://www.deeplearning.ai/resources/",
+    "duration": "1 Hour",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Neural Networks",
+    "title": "Deep Learning",
+    "provider": "Ian Goodfellow",
+    "resource_type": "Book",
+    "url": "https://www.deeplearningbook.org/",
+    "duration": "",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Neural Networks",
+    "title": "Handwritten Digit Recognition",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "10 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "TensorFlow",
+    "title": "TensorFlow for Beginners",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=tensorflow+tutorial+freecodecamp",
+    "duration": "6 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "TensorFlow",
+    "title": "TensorFlow Tutorials",
+    "provider": "TensorFlow",
+    "resource_type": "Article",
+    "url": "https://www.tensorflow.org/tutorials",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "TensorFlow",
+    "title": "Hands-On Machine Learning",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/",
+    "duration": "",
+    "is_free": false,
+    "rating": 5.0
+},
+{
+    "topic": "TensorFlow",
+    "title": "Image Classifier using TensorFlow",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "12 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "PyTorch",
+    "title": "PyTorch Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=pytorch+course+freecodecamp",
+    "duration": "7 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "PyTorch",
+    "title": "PyTorch Tutorials",
+    "provider": "PyTorch",
+    "resource_type": "Article",
+    "url": "https://pytorch.org/tutorials/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "PyTorch",
+    "title": "Deep Learning with PyTorch",
+    "provider": "Manning",
+    "resource_type": "Book",
+    "url": "https://www.manning.com/books/deep-learning-with-pytorch",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.9
+},
+{
+    "topic": "PyTorch",
+    "title": "Cats vs Dogs Classifier",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "12 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Computer Vision",
+    "title": "Computer Vision Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=computer+vision+course+freecodecamp",
+    "duration": "8 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Computer Vision",
+    "title": "OpenCV Documentation",
+    "provider": "OpenCV",
+    "resource_type": "Article",
+    "url": "https://docs.opencv.org/",
+    "duration": "2 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Computer Vision",
+    "title": "Programming Computer Vision with Python",
+    "provider": "O'Reilly",
+    "resource_type": "Book",
+    "url": "https://www.oreilly.com/library/view/programming-computer-vision/9781449341916/",
+    "duration": "",
+    "is_free": false,
+    "rating": 4.8
+},
+{
+    "topic": "Computer Vision",
+    "title": "Face Mask Detection System",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "15 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+
+{
+    "topic": "Natural Language Processing",
+    "title": "Natural Language Processing Full Course",
+    "provider": "freeCodeCamp",
+    "resource_type": "Video",
+    "url": "https://www.youtube.com/results?search_query=natural+language+processing+course+freecodecamp",
+    "duration": "9 Hours",
+    "is_free": true,
+    "rating": 4.9
+},
+{
+    "topic": "Natural Language Processing",
+    "title": "Hugging Face NLP Course",
+    "provider": "Hugging Face",
+    "resource_type": "Article",
+    "url": "https://huggingface.co/learn",
+    "duration": "3 Hours",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Natural Language Processing",
+    "title": "Speech and Language Processing",
+    "provider": "Stanford",
+    "resource_type": "Book",
+    "url": "https://web.stanford.edu/~jurafsky/slp3/",
+    "duration": "",
+    "is_free": true,
+    "rating": 5.0
+},
+{
+    "topic": "Natural Language Processing",
+    "title": "Sentiment Analysis using BERT",
+    "provider": "Project",
+    "resource_type": "Project",
+    "url": "https://github.com/",
+    "duration": "15 Hours",
+    "is_free": true,
+    "rating": 5.0
+}
+]

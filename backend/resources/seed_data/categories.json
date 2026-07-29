@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Frontend Development",
+        "description": "Build modern user interfaces and web applications."
+    },
+    {
+        "name": "Backend Development",
+        "description": "Develop scalable APIs, databases, and server-side applications."
+    },
+    {
+        "name": "Full Stack Development",
+        "description": "Master both frontend and backend development."
+    },
+    {
+        "name": "Data Science",
+        "description": "Analyze data and build data-driven solutions."
+    },
+    {
+        "name": "Machine Learning",
+        "description": "Develop intelligent systems using AI and machine learning."
+    }
+]
