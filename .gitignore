@@ -6,11 +6,11 @@ env
 .env
 .env.*
 !.env.example
+
 # ----------------------------
 # Frontend (React + Vite)
 # ----------------------------
 frontend/node_modules/
-frontend/dist/
 frontend/.vite/
 frontend/.env
 frontend/.env.*
@@ -18,6 +18,9 @@ frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
 frontend/pnpm-debug.log*
+
+# Ignore local React build
+frontend/vite-project/dist/
 
 # ----------------------------
 # Backend (Django)
@@ -73,4 +76,6 @@ htmlcov/
 # Build files
 # ----------------------------
 build/
-dist/
+
+# Ignore normal React build
+frontend/vite-project/dist/
