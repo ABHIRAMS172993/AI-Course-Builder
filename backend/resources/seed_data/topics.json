@@ -1,0 +1,452 @@
+[
+  {
+    "category": "Machine Learning",
+    "name": "Natural Language Processing",
+    "description": "Learn techniques for processing and understanding human language.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Computer Vision",
+    "description": "Build applications that analyze and interpret images and videos.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "PyTorch",
+    "description": "Develop and train deep learning models using PyTorch.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "TensorFlow",
+    "description": "Build machine learning and deep learning models with TensorFlow.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Neural Networks",
+    "description": "Understand the fundamentals of artificial neural networks.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Feature Engineering",
+    "description": "Create meaningful features to improve machine learning models.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Model Evaluation",
+    "description": "Evaluate and compare machine learning model performance.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Clustering Techniques",
+    "description": "Learn unsupervised learning algorithms for grouping data.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Classification Algorithms",
+    "description": "Study algorithms used for predicting categorical outcomes.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Regression Algorithms",
+    "description": "Learn predictive models for continuous numerical outputs.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Scikit-learn Fundamentals",
+    "description": "Use Scikit-learn for building machine learning models.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "NumPy & Pandas",
+    "description": "Manipulate data efficiently using NumPy and Pandas.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Probability & Statistics",
+    "description": "Understand statistical concepts used in machine learning.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Linear Algebra for ML",
+    "description": "Learn the mathematical foundations behind ML algorithms.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Python for Machine Learning",
+    "description": "Use Python effectively for machine learning projects.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Data Science",
+    "name": "Data Engineering Fundamentals",
+    "description": "Understand data pipelines and processing workflows.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Machine Learning",
+    "name": "Model Deployment",
+    "description": "Deploy machine learning models into production.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Data Science",
+    "name": "Deep Learning for Data Science",
+    "description": "Apply deep learning techniques to data science problems.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Data Science",
+    "name": "Time Series Analysis",
+    "description": "Analyze and forecast sequential data over time.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Data Science",
+    "name": "Big Data Analytics",
+    "description": "Analyze large-scale datasets using modern technologies.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Data Science",
+    "name": "Power BI",
+    "description": "Create interactive dashboards and business reports.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Data Science",
+    "name": "Machine Learning Fundamentals",
+    "description": "Learn the basics of machine learning concepts and workflows.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Data Science",
+    "name": "Feature Engineering",
+    "description": "Prepare and transform data for predictive modeling.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Data Science",
+    "name": "Exploratory Data Analysis",
+    "description": "Discover insights from datasets using visualization and statistics.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Data Science",
+    "name": "SQL for Data Analysis",
+    "description": "Query and analyze structured data using SQL.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Data Science",
+    "name": "Statistics for Data Science",
+    "description": "Apply statistical techniques to analyze data.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Data Science",
+    "name": "Data Visualization",
+    "description": "Present insights effectively through charts and graphs.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Data Science",
+    "name": "Pandas Fundamentals",
+    "description": "Learn data manipulation using Pandas.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Data Science",
+    "name": "NumPy Fundamentals",
+    "description": "Perform numerical computations with NumPy.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Data Science",
+    "name": "Python for Data Science",
+    "description": "Use Python libraries for data science workflows.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "Production Ready Projects",
+    "description": "Build complete projects following production standards.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "Cloud Services (AWS)",
+    "description": "Deploy and manage applications using AWS services.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "Kubernetes Basics",
+    "description": "Learn container orchestration using Kubernetes.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "Docker & Containerization",
+    "description": "Package and deploy applications using Docker.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "System Design Fundamentals",
+    "description": "Understand scalable application architecture.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "Application Deployment",
+    "description": "Deploy web applications to production servers.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "CRUD Application Development",
+    "description": "Build complete CRUD applications.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "Authentication & Authorization",
+    "description": "Secure applications with authentication systems.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "REST API Development",
+    "description": "Build RESTful APIs for web applications.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "React + Django Integration",
+    "description": "Connect React frontend with Django backend.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "Git & GitHub",
+    "description": "Manage projects using Git version control.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "Django Fundamentals",
+    "description": "Learn backend web development with Django.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "Python Programming",
+    "description": "Master Python programming fundamentals.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "React Fundamentals",
+    "description": "Build modern user interfaces with React.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Full Stack Development",
+    "name": "HTML, CSS & JavaScript",
+    "description": "Learn the core technologies of web development.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Backend Development",
+    "name": "Cloud Deployment",
+    "description": "Deploy backend applications to cloud platforms.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Backend Development",
+    "name": "Scalable System Design",
+    "description": "Design highly scalable backend systems.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Backend Development",
+    "name": "CI/CD Pipelines",
+    "description": "Automate software deployment using CI/CD.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Backend Development",
+    "name": "Redis Caching",
+    "description": "Improve application performance with Redis caching.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Backend Development",
+    "name": "Microservices Architecture",
+    "description": "Build distributed backend systems using microservices.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Backend Development",
+    "name": "API Security",
+    "description": "Protect APIs using authentication and security best practices.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Backend Development",
+    "name": "Docker Fundamentals",
+    "description": "Containerize backend applications with Docker.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Backend Development",
+    "name": "Database Optimization",
+    "description": "Improve database performance and efficiency.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Backend Development",
+    "name": "JWT Authentication",
+    "description": "Implement JWT-based authentication.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Backend Development",
+    "name": "Django REST Framework",
+    "description": "Build REST APIs using Django REST Framework.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Backend Development",
+    "name": "Authentication Basics",
+    "description": "Learn user authentication concepts.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Backend Development",
+    "name": "REST API Fundamentals",
+    "description": "Understand REST principles and API design.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Backend Development",
+    "name": "Database Fundamentals",
+    "description": "Learn relational database concepts and SQL.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Backend Development",
+    "name": "Introduction to Django",
+    "description": "Get started with Django web development.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Backend Development",
+    "name": "Python Programming",
+    "description": "Learn Python for backend development.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "Frontend Deployment",
+    "description": "Deploy frontend applications to production.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "Frontend Testing",
+    "description": "Test frontend applications using modern testing tools.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "Authentication & Authorization",
+    "description": "Implement authentication in frontend applications.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "Frontend Performance Optimization",
+    "description": "Optimize frontend applications for speed and responsiveness.",
+    "difficulty": "Advanced"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "Next.js",
+    "description": "Build server-rendered React applications using Next.js.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "Tailwind CSS",
+    "description": "Create responsive user interfaces using Tailwind CSS.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "State Management",
+    "description": "Manage application state using React Context or Redux.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "React Router",
+    "description": "Implement routing in React applications.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "React Hooks",
+    "description": "Use React Hooks for state and lifecycle management.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "Advanced JavaScript (ES6+)",
+    "description": "Master modern JavaScript features and syntax.",
+    "difficulty": "Intermediate"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "Introduction to React",
+    "description": "Build interactive user interfaces with React.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "Git & GitHub",
+    "description": "Track and collaborate on frontend projects using Git.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "Responsive Web Design",
+    "description": "Build websites that adapt to different screen sizes.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "JavaScript Basics",
+    "description": "Learn JavaScript programming fundamentals.",
+    "difficulty": "Beginner"
+  },
+  {
+    "category": "Frontend Development",
+    "name": "HTML & CSS Fundamentals",
+    "description": "Build the structure and styling of web pages.",
+    "difficulty": "Beginner"
+  }
+]
