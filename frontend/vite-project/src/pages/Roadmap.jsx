@@ -149,6 +149,11 @@ const RoadmapPage = () => {
     }
   };
 
+   const logout = () => {
+    localStorage.clear();
+    navigate("/login");
+  };
+
   const completedWeeks = roadmap.filter((week) => week.completed).length;
 
   if (loading) {
@@ -165,7 +170,7 @@ const RoadmapPage = () => {
   return (
     <div className="bg-slate-100 min-h-screen antialiased">
       <div className="flex">
-        <Sidebar />
+        <Sidebar logout={logout} />
 
        
         <main className="flex-1 ml-0 lg:ml-64 px-4 sm:px-6 lg:px-8 pt-20 lg:pt-8 pb-12 min-w-0 transition-all duration-300">

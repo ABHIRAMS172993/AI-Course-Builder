@@ -44,6 +44,12 @@ const RoadmapDetail = () => {
   const progressPercentage =
     weeks.length > 0 ? Math.round((completedWeeks / weeks.length) * 100) : 0;
 
+
+   const logout = () => {
+    localStorage.clear();
+    navigate("/login");
+  };
+
   // Generate certificate
   const downloadCertificate = async (id) => {
     try {
@@ -58,6 +64,8 @@ const RoadmapDetail = () => {
           responseType: "blob",
         }
       );
+
+
 
       const url = window.URL.createObjectURL(new Blob([response.data]));
       const link = document.createElement("a");
@@ -75,7 +83,7 @@ const RoadmapDetail = () => {
   return (
     <div className="bg-slate-100 min-h-screen">
       <div className="flex">
-        <Sidebar />
+        <Sidebar logout={logout} />
 
         {/* Responsive Content Container */}
         <main className="flex-1 ml-0 lg:ml-64 px-4 sm:px-6 lg:px-8 pt-16 lg:pt-8 pb-12 w-full max-w-7xl mx-auto min-w-0 transition-all duration-300">

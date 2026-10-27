@@ -66,10 +66,17 @@ const QuizResult = () => {
     };
   }, [results]);
 
+
+   const logout = () => {
+    localStorage.clear();
+    navigate("/login");
+  };
+
+
   return (
     <div className="bg-slate-50 min-h-screen text-slate-800 antialiased">
       <div className="flex">
-        <Sidebar />
+        <Sidebar logout={logout}/>
 
        
         <main className="flex-1 ml-0 lg:ml-64 px-4 sm:px-6 lg:px-8 pt-20 lg:pt-8 pb-12 max-w-7xl mx-auto w-full min-w-0 transition-all duration-300">

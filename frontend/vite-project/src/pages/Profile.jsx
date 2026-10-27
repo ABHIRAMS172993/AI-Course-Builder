@@ -22,6 +22,12 @@ const Profile = () => {
   const [activity, setActivity] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+   const logout = () => {
+    localStorage.clear();
+    navigate("/login");
+  };
+
+
   useEffect(() => {
     const token = localStorage.getItem("access");
 
@@ -85,7 +91,7 @@ const Profile = () => {
             isSidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
           }`}
         >
-          <Sidebar />
+          <Sidebar logout={logout}/>
         </div>
 
         {/* Backdrop for Mobile Sidebar */}

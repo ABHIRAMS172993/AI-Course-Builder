@@ -32,6 +32,9 @@ ALLOWED_HOSTS = [
 ]
 
 
+# settings.py
+SECURE_CROSS_ORIGIN_OPENER_POLICY = 'same-origin-allow-popups'
+
 # Application definition
 
 INSTALLED_APPS = [

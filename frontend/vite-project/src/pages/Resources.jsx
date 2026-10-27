@@ -30,6 +30,13 @@ const Resources = () => {
     );
   };
 
+
+   const logout = () => {
+    localStorage.clear();
+    navigate("/login");
+  };
+
+
   const filteredResources = resources.filter((resource) => {
     const matchesFilter =
       filter === "all" || resource.type === filter;
@@ -53,7 +60,7 @@ const Resources = () => {
 
       <div className="flex">
         {/* Main Navigation */}
-        <Sidebar />
+        <Sidebar logout={logout}/>
 
         {/* Topic Filter Sidebar */}
         {/* <TopicSidebar

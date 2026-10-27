@@ -29,8 +29,14 @@ const Quiz = () => {
 
     const [result, setResult] = useState(null);
 
-    // 15 minute timer
+    // 4 minute timer
     const [timeLeft, setTimeLeft] = useState(4 * 60);
+
+
+     const logout = () => {
+    localStorage.clear();
+    navigate("/login");
+  };
 
     // Timer
     useEffect(() => {
@@ -233,7 +239,7 @@ return (
 
     <div className="flex">
 
-      <Sidebar />
+      <Sidebar logout={logout}/>
 
       <main className="flex-1 p-8 max-w-6xl mt-8 ml-60">
 

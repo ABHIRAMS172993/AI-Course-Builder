@@ -60,10 +60,15 @@ const CertificatesAll = () => {
     }
   };
 
+  const logout = () => {
+    localStorage.clear();
+    navigate("/login");
+  };
+
   return (
     <div className="bg-slate-50 min-h-screen text-slate-800 antialiased">
       <div className="flex">
-        <Sidebar />
+        <Sidebar logout={logout} />
 
         {/* 
           Responsive Layout Fixes:

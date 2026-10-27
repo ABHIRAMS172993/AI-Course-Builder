@@ -108,10 +108,10 @@ const Dashboard = () => {
         {/* Stats Grid - 1 col on mobile, 2 on tablet, 4 on desktop */}
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 sm:gap-5">
           {/* Card 1: Total Weeks */}
-          <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 sm:p-6 flex items-center justify-between transition-all hover:border-slate-300">
+          <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 sm:p-6 flex items-center justify-between transition-all duration-200 hover:border-blue-300 hover:shadow-md hover:-translate-y-0.5">
             <div>
               <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Total Weeks</p>
-              <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mt-1.5 sm:mt-2">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1.5 sm:mt-2">
                 {dashboard.total_weeks}
               </h2>
             </div>
@@ -121,10 +121,10 @@ const Dashboard = () => {
           </div>
 
           {/* Card 2: Completed Weeks */}
-          <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 sm:p-6 flex items-center justify-between transition-all hover:border-slate-300">
+          <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 sm:p-6 flex items-center justify-between transition-all duration-200 hover:border-emerald-300 hover:shadow-md hover:-translate-y-0.5">
             <div>
               <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Completed Weeks</p>
-              <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mt-1.5 sm:mt-2">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1.5 sm:mt-2">
                 {dashboard.completed_weeks}
               </h2>
             </div>
@@ -134,10 +134,10 @@ const Dashboard = () => {
           </div>
 
           {/* Card 3: Resources Completed */}
-          <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 sm:p-6 flex items-center justify-between transition-all hover:border-slate-300">
+          <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 sm:p-6 flex items-center justify-between transition-all duration-200 hover:border-amber-300 hover:shadow-md hover:-translate-y-0.5">
             <div>
               <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Resources Completed</p>
-              <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mt-1.5 sm:mt-2">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1.5 sm:mt-2">
                 {dashboard.completed_resources}/{dashboard.total_resources}
               </h2>
             </div>
@@ -147,10 +147,10 @@ const Dashboard = () => {
           </div>
 
           {/* Card 4: Progress */}
-          <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 sm:p-6 flex items-center justify-between transition-all hover:border-slate-300">
+          <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs p-5 sm:p-6 flex items-center justify-between transition-all duration-200 hover:border-purple-300 hover:shadow-md hover:-translate-y-0.5">
             <div>
               <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider">Overall Progress</p>
-              <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mt-1.5 sm:mt-2">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1.5 sm:mt-2">
                 {dashboard.progress_percentage}%
               </h2>
             </div>

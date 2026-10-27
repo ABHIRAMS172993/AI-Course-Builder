@@ -11,6 +11,12 @@ const MyRoadmaps = () => {
   const [roadmaps, setRoadmaps] = useState([]);
   const [loading, setLoading] = useState(true);
 
+   const logout = () => {
+    localStorage.clear();
+    navigate("/login");
+  };
+
+
   useEffect(() => {
     loadRoadmaps();
   }, []);
@@ -65,7 +71,7 @@ const MyRoadmaps = () => {
   return (
     <div className="bg-slate-50 min-h-screen text-slate-800 antialiased">
       <div className="flex">
-        <Sidebar />
+        <Sidebar  logout={logout}/>
 
         {/* 
           Fixes applied:

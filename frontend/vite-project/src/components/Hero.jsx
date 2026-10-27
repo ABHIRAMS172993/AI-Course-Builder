@@ -1,121 +1,227 @@
 import { Link } from "react-router-dom";
+import {
+  FaArrowRight,
+  FaCircleCheck,
+  FaPlay,
+  FaBolt,
+} from "react-icons/fa6";
 
 const Hero = () => {
   return (
     <section
       id="home"
-      className="pt-14 min-h-[90vh] flex items-center bg-white"
+      className="relative pt-28 pb-20 lg:pt-36 lg:pb-32 overflow-hidden bg-gradient-to-b from-blue-50/60 via-white to-slate-50"
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full py-20">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+      {/* Radiant Background Aura Orbs */}
+      <div className="absolute top-12 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-tr from-blue-400/20 via-indigo-400/20 to-purple-400/15 blur-3xl pointer-events-none rounded-full" />
+      <div className="absolute -top-24 right-0 w-96 h-96 bg-cyan-400/15 blur-3xl pointer-events-none rounded-full" />
+      <div className="absolute top-1/2 left-0 w-80 h-80 bg-blue-500/10 blur-3xl pointer-events-none rounded-full" />
 
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           {/* Left Content */}
-          <div className="w-full lg:w-[58%]">
+          <div className="w-full lg:w-[55%] text-center lg:text-left">
+            {/* Feature pill badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-blue-200/80 shadow-xs mb-6 hover:border-blue-300 transition-colors">
+              <span className="flex h-2 w-2 rounded-full bg-blue-600 animate-pulse" />
+              <span className="text-xs font-bold text-slate-800 tracking-wide">
+                Next-Gen AI Learning Platform
+              </span>
+              <span className="text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-md bg-blue-50 text-blue-700">
+                v2.0
+              </span>
+            </div>
 
-            <div className="relative inline-flex items-center rounded-full p-[1px] mb-8 overflow-hidden bg-gradient-to-r from-blue-500 via-cyan-500 to-purple-500 animate-pulse">
-              <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2">
-                <div className="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></div>
-
-                <span className="text-xs font-semibold uppercase tracking-wider text-slate-500">
-                  AI Powered Learning Platform
-                </span>
-             </div>
-          </div>
-
-
-            <h1 className="text-5xl lg:text-6xl font-extrabold leading-tight text-slate-900">
-              Build Your
-              <span className="text-blue-600"> Personalized </span>
-              Learning Roadmap
+            {/* Main Headline */}
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.12]">
+              Master Any Skill with{" "}
+              <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-500 bg-clip-text text-transparent">
+                Personalized AI
+              </span>{" "}
+              Roadmaps.
             </h1>
 
-            <p className="mt-6 text-lg text-slate-500 leading-8 max-w-xl">
-              Learn smarter with AI-generated study plans, personalized
-              resources, quizzes, progress tracking, and certificates —
-              everything tailored to your career goals.
+            {/* Subtitle */}
+            <p className="mt-6 text-base sm:text-lg text-slate-600 leading-relaxed max-w-xl mx-auto lg:mx-0">
+              Transform your career goals into weekly step-by-step curriculums.
+              Get curated resources, test your mastery with smart quizzes,
+              track your streak, and earn verified certificates.
             </p>
 
-            <div className="flex flex-wrap gap-4 mt-10">
-            <Link
-              to="/register"
-              className="relative overflow-hidden bg-blue-600 text-white px-7 py-3 rounded-lg font-semibold shadow-lg hover:bg-blue-700 transition-all duration-300 group"
-            >
-              <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:translate-x-full transition-transform duration-700"></span>
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mt-8 sm:mt-10">
+              <Link
+                to="/register"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-3.5 rounded-xl font-bold text-sm text-white bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 shadow-lg shadow-blue-500/25 hover:shadow-xl hover:shadow-blue-500/35 hover:-translate-y-0.5 active:scale-95 transition-all duration-200"
+              >
+                <span>Generate Free Roadmap</span>
+                <FaArrowRight size={13} />
+              </Link>
 
-              <span className="relative">
-                Get Started
-              </span>
-            </Link>
-          </div>
-
-            <div className="flex gap-10 mt-12">
-
-              <div>
-                <h3 className="text-2xl font-bold">100+</h3>
-                <p className="text-slate-500 text-sm">
-                  Learning Resources
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold">AI</h3>
-                <p className="text-slate-500 text-sm">
-                  Personalized Roadmaps
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-2xl font-bold">Free</h3>
-                <p className="text-slate-500 text-sm">
-                  Forever
-                </p>
-              </div>
-
+              <a
+                href="#how-it-works"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-semibold text-sm text-slate-700 bg-white hover:bg-slate-50 border border-slate-200/90 shadow-xs hover:border-slate-300 transition-all duration-200"
+              >
+                <FaPlay size={10} className="text-blue-600" />
+                <span>See How It Works</span>
+              </a>
             </div>
 
-          </div>
-
-          {/* Right Image */}
-          <div className="w-full lg:w-[42%]">
-
-            <div className="relative">
-
-              <div className="absolute inset-0 bg-blue-100 rounded-3xl rotate-3"></div>
-
-              <div className="relative rounded-3xl overflow-hidden shadow-xl border bg-white p-3">
-
-                <img
-                  src="https://storage.googleapis.com/uxpilot-auth.appspot.com/gen_1b744f77c9_fd19e58d054bf8d3.png"
-                  alt="AI Learning"
-                  className="rounded-2xl w-full"
-                />
-
-                <div className="absolute bottom-8 left-6 right-6 bg-white shadow-xl rounded-xl p-4 flex items-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 animate-[float_4s_ease-in-out_infinite]">
-
-                <div className="bg-blue-100 w-10 h-10 rounded-lg flex items-center justify-center text-xl animate-pulse">
-                  🧠
+            {/* Quick Metrics Bar */}
+            <div className="grid grid-cols-3 gap-4 sm:gap-8 mt-12 pt-10 border-t border-slate-200/70 max-w-lg mx-auto lg:mx-0">
+              <div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+                  100+
                 </div>
-
-                <div className="ml-4">
-                  <h4 className="font-semibold">
-                    Roadmap Generated
-                  </h4>
-                  <p className="text-sm text-slate-500">
-                    20 Weeks • Personalized
-                  </p>
+                <div className="text-xs font-semibold text-slate-500 mt-0.5">
+                  Curated Domains
                 </div>
-
-                <div className="ml-auto text-green-500 text-2xl animate-bounce">
-                  ✓
-                </div>
-
-              </div>
               </div>
 
+              <div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-blue-600 tracking-tight">
+                  Gemini
+                </div>
+                <div className="text-xs font-semibold text-slate-500 mt-0.5">
+                  AI Powered Engine
+                </div>
+              </div>
+
+              <div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+                  100%
+                </div>
+                <div className="text-xs font-semibold text-slate-500 mt-0.5">
+                  Free & Open
+                </div>
+              </div>
             </div>
-
           </div>
 
+          {/* Right Visual Interactive Showcase Card */}
+          <div className="w-full lg:w-[45%]">
+            <div className="relative mx-auto max-w-lg lg:max-w-none">
+              {/* Outer decorative gradient border */}
+              <div className="absolute -inset-1.5 rounded-3xl bg-gradient-to-r from-blue-600 via-cyan-500 to-indigo-600 opacity-20 blur-lg transition duration-1000 group-hover:opacity-100" />
+
+              {/* Main Card UI */}
+              <div className="relative bg-white rounded-2xl sm:rounded-3xl border border-slate-200/90 shadow-2xl p-5 sm:p-7 overflow-hidden">
+                {/* Header of Mockup */}
+                <div className="flex items-center justify-between pb-5 border-b border-slate-100">
+                  <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center font-bold text-lg">
+                      <FaBolt />
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-2">
+                        <h3 className="font-bold text-slate-900 text-sm sm:text-base">
+                          AI & Machine Learning
+                        </h3>
+                        <span className="px-2 py-0.5 text-[10px] font-bold rounded-full bg-emerald-50 text-emerald-700">
+                          Active
+                        </span>
+                      </div>
+                      <p className="text-xs text-slate-400">
+                        12 Weeks Roadmap • Intermediate
+                      </p>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <span className="text-xs font-bold text-blue-600">
+                      75% Done
+                    </span>
+                  </div>
+                </div>
+
+                {/* Progress bar */}
+                <div className="mt-4 w-full h-2 rounded-full bg-slate-100 overflow-hidden">
+                  <div className="w-3/4 h-full rounded-full bg-gradient-to-r from-blue-600 to-cyan-500" />
+                </div>
+
+                {/* Modules list */}
+                <div className="mt-5 space-y-3">
+                  {/* Module 1 */}
+                  <div className="flex items-start gap-3 p-3 rounded-xl bg-slate-50/80 border border-slate-100 hover:bg-slate-100/70 transition-colors">
+                    <FaCircleCheck className="text-emerald-500 shrink-0 mt-0.5 text-base" />
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center justify-between">
+                        <p className="text-xs font-bold text-slate-800 truncate">
+                          Week 1: Math & Foundations of ML
+                        </p>
+                        <span className="text-[10px] font-semibold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">
+                          Completed
+                        </span>
+                      </div>
+                      <p className="text-[11px] text-slate-500 mt-0.5">
+                        Linear Algebra, Calculus, Python NumPy
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Module 2 */}
+                  <div className="flex items-start gap-3 p-3 rounded-xl bg-blue-50/60 border border-blue-200/80">
+                    <div className="w-4 h-4 rounded-full border-2 border-blue-600 flex items-center justify-center shrink-0 mt-0.5">
+                      <div className="w-1.5 h-1.5 rounded-full bg-blue-600" />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center justify-between">
+                        <p className="text-xs font-bold text-slate-900 truncate">
+                          Week 2: Deep Learning & Neural Nets
+                        </p>
+                        <span className="text-[10px] font-semibold text-blue-700 bg-blue-100 px-2 py-0.5 rounded-md">
+                          In Progress
+                        </span>
+                      </div>
+                      <p className="text-[11px] text-slate-600 mt-0.5">
+                        Backpropagation, PyTorch, Multi-layer Perceptrons
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Module 3 */}
+                  <div className="flex items-start gap-3 p-3 rounded-xl bg-white border border-slate-100 text-slate-400">
+                    <div className="w-4 h-4 rounded-full border-2 border-slate-300 shrink-0 mt-0.5" />
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center justify-between">
+                        <p className="text-xs font-medium text-slate-600 truncate">
+                          Week 3: Transformers & Large Language Models
+                        </p>
+                        <span className="text-[10px] font-medium text-slate-400">
+                          Next
+                        </span>
+                      </div>
+                      <p className="text-[11px] text-slate-400 mt-0.5">
+                        Attention Mechanism, Fine-tuning, RAG
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Floating pill badge 1: Quiz Badge */}
+                <div className="mt-5 p-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 text-white flex items-center justify-between shadow-md shadow-blue-500/20">
+                  <div className="flex items-center gap-2.5">
+                    <div className="w-8 h-8 rounded-lg bg-white/20 backdrop-blur-xs flex items-center justify-center font-bold text-sm">
+                      🏆
+                    </div>
+                    <div>
+                      <p className="text-xs font-bold">Latest Quiz Result</p>
+                      <p className="text-[11px] text-blue-100">
+                        Neural Networks Module
+                      </p>
+                    </div>
+                  </div>
+                  <div className="text-right">
+                    <span className="text-base font-extrabold text-white">
+                      95%
+                    </span>
+                    <span className="block text-[10px] text-blue-100">
+                      Mastered
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

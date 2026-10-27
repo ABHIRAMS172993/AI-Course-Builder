@@ -3,166 +3,143 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-gray-300">
-
-      <div className="max-w-7xl mx-auto px-6 py-16">
-
-        <div className="grid md:grid-cols-4 gap-10">
-
-          {/* Logo */}
-
-          <div>
-
-            <div className="flex items-center gap-3 mb-5">
-
-              <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center">
-
-                <FaGraduationCap className="text-white" />
-
+    <footer className="bg-slate-950 text-slate-400 border-t border-slate-900">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
+          {/* Brand Col */}
+          <div className="lg:col-span-2 space-y-4">
+            <Link to="/" className="inline-flex items-center gap-2.5">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20">
+                <FaGraduationCap className="text-lg" />
               </div>
+              <span className="font-extrabold text-lg text-white tracking-tight">
+                AI Course Builder
+              </span>
+            </Link>
 
-              <div>
-
-                <h2 className="font-bold text-xl text-white">
-                  AI Course Builder
-                </h2>
-
-                <p className="text-sm text-gray-400">
-                  Personalized Learning
-                </p>
-
-              </div>
-
-            </div>
-
-            <p className="leading-7 text-gray-400">
-              AI-powered personalized learning roadmap platform with
-              resource recommendations, quizzes, progress tracking,
-              and certificates.
+            <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
+              Empowering learners worldwide with Gemini AI-synthesized curriculums, curated multi-modal resources, smart quizzes, and verified completion credentials.
             </p>
 
+            <div className="flex items-center gap-3 pt-2">
+              <a
+                href="https://github.com"
+                target="_blank"
+                rel="noreferrer"
+                className="w-9 h-9 rounded-xl bg-slate-900 hover:bg-blue-600 text-slate-400 hover:text-white flex items-center justify-center transition-all duration-200 border border-slate-800"
+                aria-label="GitHub"
+              >
+                <FaGithub size={16} />
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noreferrer"
+                className="w-9 h-9 rounded-xl bg-slate-900 hover:bg-blue-600 text-slate-400 hover:text-white flex items-center justify-center transition-all duration-200 border border-slate-800"
+                aria-label="LinkedIn"
+              >
+                <FaLinkedin size={16} />
+              </a>
+              <a
+                href="mailto:support@aicoursebuilder.com"
+                className="w-9 h-9 rounded-xl bg-slate-900 hover:bg-blue-600 text-slate-400 hover:text-white flex items-center justify-center transition-all duration-200 border border-slate-800"
+                aria-label="Email"
+              >
+                <FaEnvelope size={14} />
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
-
           <div>
-
-            <h3 className="text-white font-semibold mb-5">
-              Quick Links
-            </h3>
-
-            <ul className="space-y-3">
-
+            <h4 className="text-xs font-bold text-white uppercase tracking-widest mb-4">
+              Explore
+            </h4>
+            <ul className="space-y-2.5 text-xs sm:text-sm">
               <li>
-                <a href="#home" className="hover:text-white transition">
+                <a href="#home" className="hover:text-white transition-colors">
                   Home
                 </a>
               </li>
-
               <li>
-                <a href="#features" className="hover:text-white transition">
+                <a href="#features" className="hover:text-white transition-colors">
                   Features
                 </a>
               </li>
-
               <li>
-                <a href="#about" className="hover:text-white transition">
-                  About
+                <a href="#how-it-works" className="hover:text-white transition-colors">
+                  How It Works
                 </a>
               </li>
-
               <li>
-                <Link to="/login" className="hover:text-white transition">
-                  Login
+                <a href="#about" className="hover:text-white transition-colors">
+                  Architecture
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Platform */}
+          <div>
+            <h4 className="text-xs font-bold text-white uppercase tracking-widest mb-4">
+              Platform
+            </h4>
+            <ul className="space-y-2.5 text-xs sm:text-sm">
+              <li>
+                <Link to="/dashboard" className="hover:text-white transition-colors">
+                  Student Dashboard
                 </Link>
               </li>
-
+              <li>
+                <Link to="/preferences" className="hover:text-white transition-colors">
+                  Generate Roadmap
+                </Link>
+              </li>
+              <li>
+                <Link to="/quiz/results" className="hover:text-white transition-colors">
+                  Quiz Assessments
+                </Link>
+              </li>
+              <li>
+                <Link to="/certificates" className="hover:text-white transition-colors">
+                  Certificates
+                </Link>
+              </li>
             </ul>
-
           </div>
 
-          {/* Features */}
-
+          {/* Account */}
           <div>
-
-            <h3 className="text-white font-semibold mb-5">
-              Platform
-            </h3>
-
-            <ul className="space-y-3">
-
-              <li>AI Roadmaps</li>
-
-              <li>Learning Resources</li>
-
-              <li>Progress Tracking</li>
-
-              <li>AI Quiz</li>
-
-              <li>Certificates</li>
-
+            <h4 className="text-xs font-bold text-white uppercase tracking-widest mb-4">
+              Get Started
+            </h4>
+            <ul className="space-y-2.5 text-xs sm:text-sm">
+              <li>
+                <Link to="/register" className="text-blue-400 hover:text-blue-300 font-semibold transition-colors">
+                  Create Free Account
+                </Link>
+              </li>
+              <li>
+                <Link to="/login" className="hover:text-white transition-colors">
+                  Sign In
+                </Link>
+              </li>
+              <li>
+                <span className="inline-block mt-2 px-2.5 py-1 text-[11px] font-semibold rounded-md bg-slate-900 border border-slate-800 text-emerald-400">
+                  ● All Systems Normal
+                </span>
+              </li>
             </ul>
-
           </div>
-
-          {/* Contact */}
-
-          <div>
-
-            <h3 className="text-white font-semibold mb-5">
-              Contact
-            </h3>
-
-            <div className="space-y-4">
-
-              <div className="flex items-center gap-3">
-
-                <FaEnvelope />
-
-                <span>aicoursebuilder@gmail.com</span>
-
-              </div>
-
-              <div className="flex gap-5 mt-6">
-
-                <a
-                  href="#"
-                  className="w-10 h-10 rounded-full bg-slate-800 hover:bg-blue-600 flex items-center justify-center transition"
-                >
-                  <FaGithub />
-                </a>
-
-                <a
-                  href="#"
-                  className="w-10 h-10 rounded-full bg-slate-800 hover:bg-blue-600 flex items-center justify-center transition"
-                >
-                  <FaLinkedin />
-                </a>
-
-              </div>
-
-            </div>
-
-          </div>
-
         </div>
 
-        <hr className="border-slate-700 my-10" />
-
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-
-          <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} AI Course Builder. All Rights Reserved.
+        <div className="mt-14 pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+          <p>© {new Date().getFullYear()} AI Course Builder. Built with React, Django REST & Gemini AI.</p>
+          <p className="flex items-center gap-1.5">
+            Designed for curious learners worldwide
           </p>
-
-          <p className="text-gray-500 text-sm">
-            Built using React, Django REST Framework & Gemini AI
-          </p>
-
         </div>
-
       </div>
-
     </footer>
   );
 };

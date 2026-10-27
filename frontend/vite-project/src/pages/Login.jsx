@@ -22,6 +22,8 @@ import { GoogleLogin } from "@react-oauth/google";
 
 const Login = () => {
 
+  console.log("Origin:", window.location.origin);
+  console.log("Client ID:", import.meta.env.VITE_GOOGLE_CLIENT_ID);
     
   const navigate = useNavigate();
 
@@ -35,6 +37,7 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
 
   const API = import.meta.env.VITE_API_URL;
+
 
   const handleChange = (e) => {
     setFormData({
@@ -101,113 +104,95 @@ const Login = () => {
 
 
   return (
-    <div className="flex min-h-screen bg-white">
+    <div className="flex min-h-screen bg-slate-50 lg:bg-white">
 
       {/* LEFT PANEL */}
-      <div className="hidden lg:flex lg:w-1/2 bg-slate-50 border-r px-12 py-10 flex-col justify-between relative overflow-hidden">
+      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white p-12 flex-col justify-between relative overflow-hidden">
 
-        <div className="absolute -top-20 -left-20 w-80 h-80 rounded-full bg-blue-100 blur-3xl opacity-50" />
-        <div className="absolute -bottom-20 -right-20 w-72 h-72 rounded-full bg-blue-200 blur-3xl opacity-40" />
+        {/* Ambient Glows */}
+        <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-blue-500/20 blur-3xl pointer-events-none" />
+        <div className="absolute -bottom-24 -right-24 w-96 h-96 rounded-full bg-indigo-500/25 blur-3xl pointer-events-none" />
 
         {/* Logo */}
-
         <div className="flex items-center gap-3 z-10">
-          <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center">
-            <FaGraduationCap className="text-white" />
+          <div className="w-10 h-10 bg-gradient-to-tr from-blue-600 to-cyan-500 rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-500/25">
+            <FaGraduationCap className="text-xl" />
           </div>
 
-          <h1 className="font-bold text-xl">
+          <span className="font-extrabold text-xl text-white tracking-tight">
             AI Course Builder
-          </h1>
+          </span>
         </div>
 
-        {/* Illustration */}
-
-        <div className="flex flex-col items-center text-center z-10">
-
-          <img
-            src="https://storage.googleapis.com/uxpilot-auth.appspot.com/default-placeholder.png"
-            alt=""
-            className="rounded-3xl shadow-xl mb-8 max-w-md"
-          />
-
-          <div className="bg-white rounded-xl shadow-lg p-4 flex items-center gap-3">
-
-            <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center">
-              <FaBrain className="text-blue-600" />
+        {/* Rich Showcase Component */}
+        <div className="relative z-10 my-auto py-8">
+          {/* Glass Card Mockup */}
+          <div className="relative max-w-md mx-auto bg-white/10 backdrop-blur-xl border border-white/15 rounded-3xl p-6 shadow-2xl">
+            <div className="flex items-center justify-between pb-4 border-b border-white/10">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-xl bg-blue-500/20 border border-blue-400/30 flex items-center justify-center text-blue-400">
+                  <FaBrain size={20} />
+                </div>
+                <div>
+                  <h4 className="font-bold text-sm text-white">Full Stack AI Developer</h4>
+                  <p className="text-xs text-blue-200">12 Weeks • 10 hrs/week</p>
+                </div>
+              </div>
+              <span className="text-xs font-bold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-0.5 rounded-full">
+                Active
+              </span>
             </div>
 
-            <div className="text-left">
-              <h3 className="font-semibold">
-                AI Powered
-              </h3>
-
-              <p className="text-sm text-gray-500">
-                Personalized Learning
-              </p>
+            <div className="mt-4 space-y-2.5">
+              <div className="flex items-center justify-between text-xs text-slate-300">
+                <span>Progress Milestone</span>
+                <span className="font-bold text-white">75%</span>
+              </div>
+              <div className="w-full h-2 rounded-full bg-white/10 overflow-hidden">
+                <div className="w-3/4 h-full bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full" />
+              </div>
             </div>
 
-            <div className="ml-3">
-              <FaCheck className="text-green-500" />
+            <div className="mt-5 p-3 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between">
+              <div className="flex items-center gap-2.5">
+                <div className="w-7 h-7 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs">
+                  <FaCheck />
+                </div>
+                <div>
+                  <p className="text-xs font-semibold text-white">Next: Transformers & LLMs</p>
+                  <p className="text-[10px] text-slate-400">3 Video Tutorials • 1 Quiz</p>
+                </div>
+              </div>
+              <span className="text-[11px] font-bold text-blue-300">Week 4</span>
             </div>
-
           </div>
 
-          <h2 className="text-4xl font-bold mt-10">
-            Your journey to
-            <br />
-            <span className="text-blue-600">mastery</span>
-            <br />
-            starts here.
-          </h2>
-
-          <p className="mt-4 text-gray-500 max-w-md">
-            AI-generated learning roadmaps tailored to your goals,
-            pace and learning style.
-          </p>
-
-          <div className="flex gap-10 mt-10">
-
-            <div>
-              <h3 className="font-bold text-xl">100+</h3>
-              <p className="text-gray-500 text-sm">
-                Topics
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-bold text-xl">AI</h3>
-              <p className="text-gray-500 text-sm">
-                Personalized
-              </p>
-            </div>
-
-            <div>
-              <h3 className="font-bold text-xl">Free</h3>
-              <p className="text-gray-500 text-sm">
-                Forever
-              </p>
-            </div>
-
+          <div className="mt-10 text-center max-w-md mx-auto">
+            <h2 className="text-3xl font-extrabold tracking-tight leading-tight text-white">
+              Your journey to{" "}
+              <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
+                mastery
+              </span>{" "}
+              starts here.
+            </h2>
+            <p className="mt-3 text-sm text-slate-300 leading-relaxed">
+              Log in to resume your personal roadmap, review quizzes, and download verified certificates.
+            </p>
           </div>
-
         </div>
 
         <Link
           to="/"
-          className="flex items-center justify-center gap-2 text-gray-500 hover:text-blue-600"
+          className="inline-flex items-center gap-2 text-xs font-semibold text-slate-400 hover:text-white transition-colors z-10"
         >
-          <FaArrowLeft />
-          Back to Home
+          <FaArrowLeft size={12} />
+          <span>Back to Home</span>
         </Link>
-
       </div>
 
       {/* RIGHT PANEL */}
-
-      <div className="flex-1 flex items-center justify-center px-6">
-
-        <div className="w-full max-w-md">
+      <div className="flex-1 flex items-center justify-center p-6 sm:p-12">
+        <div className="w-full max-w-md bg-white rounded-3xl p-6 sm:p-10 border border-slate-200/80 shadow-xl lg:shadow-none lg:border-none">
 
           {/* Mobile Logo */}
 

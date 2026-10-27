@@ -79,56 +79,102 @@ const Register = () => {
   };
 
   return (
-    <div className="min-h-screen flex bg-white">
+    <div className="min-h-screen flex bg-slate-50 lg:bg-white">
 
       {/* Left Side */}
-      <div className="hidden lg:flex lg:w-1/2 bg-slate-50 border-r items-center justify-center flex-col px-12">
+      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white p-12 flex-col justify-between relative overflow-hidden">
+        {/* Ambient Glows */}
+        <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-blue-500/20 blur-3xl pointer-events-none" />
+        <div className="absolute -bottom-24 -right-24 w-96 h-96 rounded-full bg-indigo-500/25 blur-3xl pointer-events-none" />
 
-        <div className="flex items-center gap-3 mb-8">
-          <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center">
-            <FaGraduationCap className="text-white" />
+        {/* Brand */}
+        <div className="flex items-center gap-3 z-10">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-500 flex items-center justify-center text-white shadow-lg shadow-blue-500/25">
+            <FaGraduationCap className="text-xl" />
           </div>
-
-          <h1 className="text-xl font-bold">
+          <span className="text-xl font-extrabold text-white tracking-tight">
             AI Course Builder
-          </h1>
+          </span>
         </div>
 
-        <img
-          src="https://storage.googleapis.com/uxpilot-auth.appspot.com/default-placeholder.png"
-          alt=""
-          className="rounded-3xl shadow-xl max-w-md"
-        />
+        {/* Center Visual Mockup */}
+        <div className="relative z-10 my-auto py-8">
+          <div className="relative max-w-md mx-auto bg-white/10 backdrop-blur-xl border border-white/15 rounded-3xl p-6 shadow-2xl space-y-4">
+            <div className="flex items-center justify-between pb-3 border-b border-white/10">
+              <span className="text-xs font-bold text-blue-300">New Learner Profile</span>
+              <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-500/20 text-blue-300">
+                AI Ready
+              </span>
+            </div>
 
-        <h2 className="text-4xl font-bold mt-10 text-center">
-          Build your path
-          <br />
-          to
-          <span className="text-blue-600"> expertise</span>
-        </h2>
+            <div className="space-y-2">
+              <div className="flex items-center gap-3 p-3 rounded-2xl bg-white/5 border border-white/10">
+                <div className="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-sm font-bold">
+                  ✓
+                </div>
+                <div>
+                  <h5 className="text-xs font-bold text-white">Custom Goal Formulation</h5>
+                  <p className="text-[11px] text-slate-400">Tailored to your career timeline</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-3 p-3 rounded-2xl bg-white/5 border border-white/10">
+                <div className="w-8 h-8 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center text-sm font-bold">
+                  ✓
+                </div>
+                <div>
+                  <h5 className="text-xs font-bold text-white">Curated Media Resources</h5>
+                  <p className="text-[11px] text-slate-400">YouTube, documentation, and quizzes</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-3 p-3 rounded-2xl bg-white/5 border border-white/10">
+                <div className="w-8 h-8 rounded-xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center text-sm font-bold">
+                  ✓
+                </div>
+                <div>
+                  <h5 className="text-xs font-bold text-white">Verified Certificates</h5>
+                  <p className="text-[11px] text-slate-400">Downloadable completion credentials</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-10 text-center max-w-md mx-auto">
+            <h2 className="text-3xl font-extrabold tracking-tight text-white leading-tight">
+              Build your path to{" "}
+              <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
+                expertise
+              </span>
+            </h2>
+            <p className="text-slate-300 text-sm mt-3 leading-relaxed">
+              Create an account in seconds. Start with 100+ free learning tracks.
+            </p>
+          </div>
+        </div>
 
         <Link
           to="/"
-          className="mt-10 flex items-center gap-2 text-gray-500 hover:text-blue-600"
+          className="inline-flex items-center gap-2 text-xs font-semibold text-slate-400 hover:text-white transition-colors z-10"
         >
-          <FaArrowLeft />
-          Back to Home
+          <FaArrowLeft size={12} />
+          <span>Back to Home</span>
         </Link>
-
       </div>
 
       {/* Right Side */}
-      <div className="flex-1 flex justify-center items-center px-6">
-
-        <div className="w-full max-w-md">
-
+      <div className="flex-1 flex justify-center items-center p-6 sm:p-12">
+        <div className="w-full max-w-md bg-white rounded-3xl p-6 sm:p-10 border border-slate-200/80 shadow-xl lg:shadow-none lg:border-none">
           <div className="mb-8">
-            <h1 className="text-4xl font-bold">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200/60 mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-blue-600" />
+              <span className="text-[11px] font-bold text-blue-700 uppercase tracking-wider">Free Access</span>
+            </div>
+            <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
               Create Account
             </h1>
-
-            <p className="text-gray-500 mt-2">
-              Register to start your learning journey.
+            <p className="text-slate-500 text-sm mt-2">
+              Register now to start your personalized AI journey.
             </p>
           </div>
 
