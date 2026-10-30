@@ -78,6 +78,22 @@ const Hero = () => {
               </a>
             </div>
 
+            {/* Trust Highlights */}
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-x-5 gap-y-2 mt-5 text-xs font-medium text-slate-500">
+              <span className="inline-flex items-center gap-1.5">
+                <FaCircleCheck className="text-emerald-500 text-[13px]" />
+                No credit card required
+              </span>
+              <span className="inline-flex items-center gap-1.5">
+                <FaCircleCheck className="text-emerald-500 text-[13px]" />
+                Powered by Gemini AI
+              </span>
+              <span className="inline-flex items-center gap-1.5">
+                <FaCircleCheck className="text-emerald-500 text-[13px]" />
+                Instant AI roadmap
+              </span>
+            </div>
+
             {/* Quick Metrics Bar */}
             <div className="grid grid-cols-3 gap-4 sm:gap-8 mt-12 pt-10 border-t border-slate-200/70 max-w-lg mx-auto lg:mx-0">
               <div>
