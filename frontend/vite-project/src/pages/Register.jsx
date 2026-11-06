@@ -16,7 +16,7 @@ import { FcGoogle } from "react-icons/fc";
 const Register = () => {
   const navigate = useNavigate();
 
-  const API = import.meta.env.VITE_API_URL;
+  const API = import.meta.env.VITE_API_URL || "/api";
 
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
@@ -48,7 +48,11 @@ const Register = () => {
     try {
       setLoading(true);
 
-      await axios.post(`${API}/accounts/register/`, {
+      const endpoint = API.endsWith("/")
+        ? `${API}accounts/register/`
+        : `${API}/accounts/register/`;
+
+      await axios.post(endpoint, {
         username: formData.username,
         email: formData.email,
         password: formData.password,
@@ -58,20 +62,28 @@ const Register = () => {
 
       navigate("/login");
     } catch (error) {
-      console.log(error);
+      console.error("Registration error:", error);
 
-      if (error.response?.data) {
+      if (error.response?.data && typeof error.response.data === "object") {
         const data = error.response.data;
 
         if (data.username) {
-          alert(data.username[0]);
+          alert(Array.isArray(data.username) ? data.username[0] : data.username);
         } else if (data.email) {
-          alert(data.email[0]);
+          alert(Array.isArray(data.email) ? data.email[0] : data.email);
         } else if (data.password) {
-          alert(data.password[0]);
+          alert(Array.isArray(data.password) ? data.password[0] : data.password);
+        } else if (data.detail) {
+          alert(data.detail);
+        } else if (data.message) {
+          alert(data.message);
+        } else if (data.error) {
+          alert(data.error);
         } else {
           alert("Registration Failed");
         }
+      } else {
+        alert(error.message || "Registration Failed. Unable to reach backend server.");
       }
     } finally {
       setLoading(false);

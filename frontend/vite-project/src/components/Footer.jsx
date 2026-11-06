@@ -6,8 +6,8 @@ import {
   FaEnvelope,
   FaArrowUp,
   FaArrowRight,
-  FaSparkles,
 } from "react-icons/fa";
+import { HiSparkles } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -53,7 +53,7 @@ const Footer = () => {
           <div className="relative flex flex-col md:flex-row md:items-center justify-between gap-6">
             <div>
               <div className="flex items-center gap-2 text-blue-400 text-xs font-bold uppercase tracking-[0.2em] mb-3">
-                <FaSparkles />
+                <HiSparkles />
                 Your learning journey starts here
               </div>
 

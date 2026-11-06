@@ -67,11 +67,10 @@ class RegisterView(APIView):
             )
 
 
-        # NOTE: no status= here, so this currently returns HTTP 200
-        # even though registration failed. Consider adding
-        # status=status.HTTP_400_BAD_REQUEST if that's not intentional.
-
-        return Response(serializer.errors)
+        return Response(
+            serializer.errors,
+            status=status.HTTP_400_BAD_REQUEST
+        )
 
 
 class LoginView(APIView):
