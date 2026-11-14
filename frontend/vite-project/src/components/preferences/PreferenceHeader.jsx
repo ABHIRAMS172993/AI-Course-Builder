@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { FaWandMagicSparkles, FaClockRotateLeft } from "react-icons/fa6";
+import { FaClockRotateLeft, FaBolt } from "react-icons/fa6";
+import { HiSparkles } from "react-icons/hi2";
 
 const PreferenceHeader = () => {
-  const API = import.meta.env.VITE_API_URL;
+  const API = import.meta.env.VITE_API_URL || "/api";
 
   const [lastGenerated, setLastGenerated] = useState("Never");
   const [loading, setLoading] = useState(true);
@@ -26,7 +27,8 @@ const PreferenceHeader = () => {
 
         if (response.data && response.data.length > 0) {
           const latestDate = new Date(response.data[0].created_at);
-          
+
+
           setLastGenerated(
             latestDate.toLocaleDateString("en-IN", {
               day: "numeric",
@@ -46,74 +48,72 @@ const PreferenceHeader = () => {
   }, [API]);
 
   return (
-    <div className="mb-10 flex flex-col xl:flex-row xl:items-center justify-between gap-6 border-b border-slate-100 dark:border-slate-800/60 pb-8">
-      {/* Title & Badge */}
-      <div className="max-w-2xl">
-        {/* Animated Badge */}
-        <div className="inline-flex items-center gap-2 px-3 py-1 bg-gradient-to-r from-indigo-500/10 to-blue-500/10 border border-indigo-100/80 dark:border-indigo-500/20 rounded-full text-indigo-700 dark:text-indigo-300 text-xs font-semibold uppercase tracking-wider mb-3.5 shadow-sm shadow-indigo-500/5">
-          <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-600 dark:bg-indigo-400"></span>
-          </span>
-          AI Powered
-        </div>
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-6 border-b border-slate-200/80">
+        {/* Title & Badge */}
+        <div className="max-w-2xl">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200/60 text-blue-700 text-[11px] font-bold uppercase tracking-wider mb-3">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600" />
+              </span>
+              <HiSparkles size={12} className="text-blue-600" />
+              <span>AI-Powered Generator</span>
+            </div>
 
-        {/* Premium Gradient Typography */}
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white">
-          Roadmap <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600 dark:from-indigo-400 dark:to-blue-400">Preferences</span>
-        </h1>
-
-        <p className="mt-3 text-base md:text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-          Tell us about your goals and we'll generate a personalized, step-by-step 
-          learning path just for you.
-        </p>
-      </div>
-
-      {/* Info Cards Container (Aligned Horizontally) */}
-      <div className="flex items-center gap-3 sm:gap-4 w-full xl:w-auto">
-        {/* Last Generated Card (Glassmorphic) */}
-        <div className="group flex-1 xl:flex-initial bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border border-slate-200/60 dark:border-slate-800/80 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 ease-out px-4 py-3 sm:px-5 sm:py-4 flex items-center gap-3 sm:gap-4">
-          <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-indigo-50 to-blue-50 dark:from-indigo-500/10 dark:to-blue-500/10 flex items-center justify-center shrink-0 border border-indigo-100/50 dark:border-indigo-500/20 group-hover:scale-110 transition-transform duration-300">
-            <FaClockRotateLeft className="text-indigo-600 dark:text-indigo-400 text-base sm:text-lg transition-transform group-hover:rotate-[-15deg] duration-300" />
-          </div>
-
-          <div>
-            <p className="text-[10px] sm:text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">
-              Last Generated
-            </p>
-            <p className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-200 mt-0.5 min-h-[16px] sm:min-h-[20px] flex items-center">
-              {loading ? (
-                <span className="flex items-center gap-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-slate-400 dark:bg-slate-500 animate-bounce [animation-delay:-0.3s]"></span>
-                  <span className="w-1.5 h-1.5 rounded-full bg-slate-400 dark:bg-slate-500 animate-bounce [animation-delay:-0.15s]"></span>
-                  <span className="w-1.5 h-1.5 rounded-full bg-slate-400 dark:bg-slate-500 animate-bounce"></span>
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-slate-900 leading-tight">
+                Roadmap{" "}
+                <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 bg-clip-text text-transparent">
+                  Preferences
                 </span>
-              ) : (
-                lastGenerated
-              )}
-            </p>
-          </div>
-        </div>
+              </h1>
 
-        {/* Hero Feature Tag (Interactive Card with Light Sweep/Shine Effect) */}
-        <div className="group relative overflow-hidden flex flex-1 xl:flex-initial items-center gap-3 sm:gap-3.5 bg-gradient-to-r from-indigo-600 via-indigo-700 to-blue-600 text-white rounded-2xl px-4 py-3 sm:px-5 sm:py-4 shadow-lg shadow-indigo-500/20 dark:shadow-indigo-950/40 hover:shadow-xl hover:shadow-indigo-500/30 hover:-translate-y-0.5 transition-all duration-300 cursor-pointer">
-          {/* Light sweep element */}
-          <div className="absolute inset-0 w-[200%] h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out" />
+                <p className="mt-3 text-sm sm:text-base text-slate-500 leading-relaxed max-w-xl">
+                  Configure your career goals, experience level, and study habits. Our AI
+                  engine will synthesize an optimized weekly curriculum tailored for you.
+                </p>
+              </div>
 
-          <div className="relative z-10 w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-white/10 dark:bg-white/5 backdrop-blur-sm flex items-center justify-center shrink-0 border border-white/20 group-hover:scale-110 transition-transform duration-300">
-            <FaWandMagicSparkles className="text-base sm:text-xl text-indigo-100 group-hover:text-white transition-colors duration-300" />
-          </div>
-          
-          <div className="relative z-10">
-            <p className="font-bold text-xs sm:text-sm tracking-wide leading-tight">AI Roadmap</p>
-            <p className="text-[10px] sm:text-xs text-indigo-200 mt-0.5 font-medium group-hover:text-indigo-100 transition-colors duration-300">
-              Custom Tailored
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+                    {/* Info Stats Badges */}
+                    <div className="flex items-center gap-3 sm:gap-4 shrink-0">
+                      {/* Last Generated */}
+                      <div className="flex items-center gap-3.5 px-4 py-3 sm:px-5 sm:py-3.5 bg-white rounded-2xl border border-slate-200/80 shadow-xs hover:border-slate-300 transition-all">
+                        <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center shrink-0 border border-blue-100">
+                          <FaClockRotateLeft size={16} />
+                        </div>
+                        <div>
+                            <p className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
+                              Last Generated
+                            </p>
+                              <p className="text-xs sm:text-sm font-extrabold text-slate-800 mt-0.5">
+                                {loading ? (
+                <span className="inline-block w-12 h-3 bg-slate-200 animate-pulse rounded" />
+                                ) : (
+                                  lastGenerated
+                                )}
+                              </p>
+                            </div>
+                        </div>
+
+                            {/* Engine Status Card */}
+                            <div className="relative overflow-hidden flex items-center gap-3 px-4 py-3 sm:px-5 sm:py-3.5 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white rounded-2xl shadow-md shadow-indigo-950/20 border border-indigo-900/40">
+                              <div className="w-10 h-10 rounded-xl bg-indigo-500/20 text-indigo-300 flex items-center justify-center shrink-0 border border-indigo-500/30">
+                                <FaBolt size={15} className="text-amber-400" />
+                              </div>
+                                  <div>
+                                    <div className="flex items-center gap-1.5">
+                                      <span className="text-[10px] font-bold uppercase tracking-wider text-indigo-300">
+                                        AI Engine
+                                      </span>
+                                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                                    </div>
+                                    <p className="text-xs sm:text-sm font-extrabold text-white mt-0.5">
+                                      Gemini 2.0
+                                    </p>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          );
 };
 
-export default PreferenceHeader;
+                          export default PreferenceHeader;

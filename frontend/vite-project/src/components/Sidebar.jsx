@@ -4,15 +4,16 @@ import {
   FaGraduationCap,
   FaHome,
   FaRoad,
-  FaBook, 
+  FaBook,
   FaUser,
-  FaCog,
+  FaSlidersH,
   FaSignOutAlt,
   FaClipboardCheck,
   FaBars,
   FaTimes,
   FaAward,
 } from "react-icons/fa";
+import { HiSparkles } from "react-icons/hi2";
 
 const Sidebar = ({ logout: propLogout }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,46 +32,62 @@ const Sidebar = ({ logout: propLogout }) => {
     }
   };
 
-  const menu = [
+  const navSections = [
     {
-      name: "Home",
-      icon: <FaHome size={16} />,
-      path: "/",
+      title: "Overview",
+      items: [
+        {
+          name: "Home",
+          icon: FaHome,
+          path: "/",
+        },
+        {
+          name: "Dashboard",
+          icon: FaHome,
+          path: "/dashboard",
+        },
+      ],
     },
     {
-      name: "Dashboard",
-      icon: <FaHome size={16} />,
-      path: "/dashboard",
+      title: "AI Learning Engine",
+      items: [
+        {
+          name: "Preferences",
+          icon: FaSlidersH,
+          path: "/preferences",
+          badge: "AI Setup",
+        },
+        {
+          name: "Current Roadmap",
+          icon: FaRoad,
+          path: "/roadmap",
+        },
+        {
+          name: "My Roadmaps",
+          icon: FaBook,
+          path: "/myroadmaps",
+        },
+      ],
     },
     {
-      name: "Preferences",
-      icon: <FaCog size={16} />,
-      path: "/preferences",
-    },
-    {
-      name: "Current Roadmap",
-      icon: <FaRoad size={16} />,
-      path: "/roadmap",
-    },
-    {
-      name: "My Roadmaps",
-      icon: <FaBook size={16} />,
-      path: "/myroadmaps",
-    },
-    {
-      name: "Quiz Assessments",
-      icon: <FaClipboardCheck size={16} />,
-      path: "/quiz/results",
-    },
-    {
-      name: "Certificates",
-      icon: <FaAward size={16} />,
-      path: "/certificates",
-    },
-    {
-      name: "Profile",
-      icon: <FaUser size={16} />,
-      path: "/profile",
+      title: "Credentials",
+      items: [
+        {
+          name: "Quiz Assessments",
+          icon: FaClipboardCheck,
+          path: "/quiz/results",
+        },
+        {
+          name: "Certificates",
+          icon: FaAward,
+          path: "/certificates",
+        },
+        {
+          name: "Profile",
+          icon: FaUser,
+          path: "/profile",
+        },
+      ],
     },
   ];
 
@@ -78,121 +95,172 @@ const Sidebar = ({ logout: propLogout }) => {
     <>
       {/* Mobile Header Bar & Hamburger Toggle Button */}
       <div className="lg:hidden fixed top-0 left-0 right-0 h-16 bg-white/95 backdrop-blur-md border-b border-slate-200/80 px-4 flex items-center justify-between z-40">
-        <div className="flex items-center gap-2.5">
-          <div className="w-9 h-9 bg-gradient-to-tr from-blue-600 to-indigo-600 text-white rounded-xl shadow-xs flex items-center justify-center">
-            <FaGraduationCap size={18} />
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 bg-gradient-to-tr from-blue-600 via-indigo-600 to-violet-600 text-white rounded-xl shadow-md shadow-blue-500/20 flex items-center justify-center">
+                <FaGraduationCap size={18} />
+              </div>
+              <div>
+                <h2 className="font-extrabold text-sm text-slate-900 tracking-tight leading-none">
+                  AI Course Builder
+                </h2>
+                <span className="text-[10px] font-semibold text-blue-600 tracking-wide">
+                  Learning Portal
+                </span>
+              </div>
+            </div>
+
+            <button
+              onClick={toggleSidebar}
+              aria-label="Toggle Navigation Menu"
+              className="p-2.5 rounded-xl text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors focus:outline-hidden"
+            >
+              {isOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
+            </button>
           </div>
-          <h2 className="font-extrabold text-base text-slate-900 tracking-tight">
-            AI Course Builder
-          </h2>
-        </div>
 
-        <button
-          onClick={toggleSidebar}
-          aria-label="Toggle Navigation Menu"
-          className="p-2 rounded-xl text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors focus:outline-hidden"
-        >
-          {isOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
-        </button>
-      </div>
+          {/* Dark Overlay Backdrop for Mobile */}
+          {isOpen && (
+            <div
+              onClick={closeSidebar}
+              className="lg:hidden fixed inset-0 bg-slate-900/50 backdrop-blur-xs z-45 transition-opacity"
+            />
+          )}
 
-      {/* Dark Overlay Backdrop for Mobile */}
-      {isOpen && (
-        <div
-          onClick={closeSidebar}
-          className="lg:hidden fixed inset-0 bg-slate-900/40 backdrop-blur-xs z-45 transition-opacity"
-        />
-      )}
-
-      {/* Sidebar Drawer */}
-      <aside
-        className={`fixed left-0 top-0 w-64 h-screen bg-white border-r border-slate-200/80 shadow-xl lg:shadow-none flex flex-col justify-between z-50 transition-transform duration-300 ease-in-out ${
-          isOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
-        }`}
+          {/* Sidebar Drawer */}
+          <aside
+                }`}
       >
         {/* Top Header & Navigation */}
         <div className="flex flex-col flex-1 min-h-0">
           {/* App Logo */}
-          <div className="h-16 flex items-center justify-between px-6 border-b border-slate-100 shrink-0">
-            <div className="flex items-center gap-2.5">
-              <div className="w-9 h-9 bg-gradient-to-tr from-blue-600 to-indigo-600 text-white rounded-xl shadow-xs flex items-center justify-center">
-                <FaGraduationCap size={18} />
+          <div className="h-20 flex items-center justify-between px-6 border-b border-slate-100/90 shrink-0">
+            <div className="flex items-center gap-3">
+              <div className="relative w-10 h-10 bg-gradient-to-br from-blue-600 via-indigo-600 to-violet-600 text-white rounded-2xl shadow-md shadow-indigo-500/25 flex items-center justify-center">
+                <FaGraduationCap size={20} />
+                <span className="absolute -bottom-1 -right-1 flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500 border-2 border-white" />
+                </span>
               </div>
               <div className="flex flex-col">
-                <span className="font-extrabold text-sm text-slate-900 tracking-tight leading-none">
-                  AI Course Builder
-                </span>
-                <span className="text-[10px] font-semibold text-slate-400 uppercase tracking-widest leading-none mt-1">
-                  Portal
-                </span>
+                <div className="flex items-center gap-1.5">
+                  <span className="font-extrabold text-sm text-slate-900 tracking-tight leading-none">
+                    AI Course Builder
+                  </span>
+                </div>
+                <div className="flex items-center gap-1.5 mt-1.5">
+                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider leading-none">
+                    Portal
+                  </span>
+                  <span className="w-1 h-1 rounded-full bg-slate-300" />
+                  <span className="inline-flex items-center gap-1 text-[9px] font-extrabold px-1.5 py-0.5 rounded-full bg-blue-50 text-blue-700 border border-blue-200/60 leading-none">
+                    <HiSparkles size={9} /> AI Core
+                  </span>
+                </div>
               </div>
             </div>
 
             {/* Mobile Close Button inside Drawer */}
             <button
               onClick={closeSidebar}
-              className="lg:hidden text-slate-400 hover:text-slate-600 p-1 rounded-lg"
+              className="lg:hidden text-slate-400 hover:text-slate-600 p-1.5 rounded-lg hover:bg-slate-100 transition-colors"
             >
               <FaTimes size={18} />
             </button>
           </div>
 
           {/* Navigation Menu */}
-          <div className="flex-1 overflow-y-auto px-3 py-4 space-y-1">
-            {menu.map((item) => (
-              <NavLink
-                key={item.name}
-                to={item.path}
-                onClick={closeSidebar}
-                className={({ isActive }) =>
-                  `flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-xs sm:text-sm transition-all duration-150 ${
-                    isActive
-                      ? "bg-blue-50 text-blue-700 font-bold border border-blue-200/50 shadow-xs"
-                      : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
-                  }`
-                }
-              >
-                <span className="shrink-0">{item.icon}</span>
-                <span className="truncate">{item.name}</span>
-              </NavLink>
-            ))}
-          </div>
-        </div>
-
-        {/* Bottom User Info & Logout */}
-        <div className="p-4 border-t border-slate-100 bg-slate-50/70 space-y-3 shrink-0">
-          {/* User Brief */}
-          <div className="flex items-center gap-3 px-2">
-            <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-600 text-white flex items-center justify-center font-bold text-xs shrink-0 shadow-xs">
-              {(user?.first_name ?? user?.username ?? "U")
-                .charAt(0)
-                .toUpperCase()}
-            </div>
-            <div className="truncate">
-              <h3 className="text-xs font-bold text-slate-800 truncate">
-                {user?.first_name || user?.username || "Student"}
-              </h3>
-              <p className="text-[11px] text-slate-500 truncate">
-                {user?.email || "student@example.com"}
+        <div className="flex-1 overflow-y-auto px-3.5 py-5 space-y-6 scrollbar-thin">
+          {navSections.map((section) => (
+            <div key={section.title} className="space-y-1">
+              <p className="px-3 text-[10px] font-extrabold tracking-wider uppercase text-slate-400 mb-2">
+                {section.title}
               </p>
-            </div>
-          </div>
+              {section.items.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <NavLink
+                    key={item.name}
+                    to={item.path}
+                    onClick={closeSidebar}
+                    className={({ isActive }) =>
+                      `group relative flex items-center justify-between px-3.5 py-2.5 rounded-xl font-medium text-xs transition-all duration-200 ${isActive
+                        ? "bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-semibold shadow-md shadow-blue-500/20"
+                        : "text-slate-600 hover:bg-slate-100/80 hover:text-slate-900"
+                      }`
+                    }
+                  >
+                    {({ isActive }) => (
+                      <>
+                        <div className="flex items-center gap-3">
+                          <span
+                            className={`shrink-0 p-1.5 rounded-lg transition-colors ${isActive
+                                ? "bg-white/20 text-white"
+                                : "text-slate-400 group-hover:text-blue-600 group-hover:bg-blue-50"
+                              }`}
+                          >
+                            <Icon size={14} />
+                          </span>
+                          <span className="truncate">{item.name}</span>
+                        </div>
 
-          {/* Logout Button */}
-          <button
-            onClick={() => {
-              closeSidebar();
-              safeLogout();
-            }}
-            className="w-full flex items-center justify-center gap-2 px-3 py-2 rounded-xl text-xs font-semibold text-rose-600 hover:bg-rose-50 hover:text-rose-700 transition-colors cursor-pointer border border-transparent hover:border-rose-200/60"
-          >
-            <FaSignOutAlt size={13} />
-            <span>Sign Out</span>
-          </button>
+                        {item.badge && (
+                          <span
+                            className={`text-[9px] font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wider ${isActive
+                                ? "bg-white/20 text-white"
+                                : "bg-blue-50 text-blue-700 border border-blue-200/50"
+                              }`}
+                          >
+                            {item.badge}
+                          </span>
+                        )}
+                      </>
+                    )}
+                  </NavLink>
+                );
+              })}
+            </div>
+          ))}
         </div>
-      </aside>
-    </>
-  );
+      </div>
+
+      {/* Bottom User Info & Logout */}
+            <div className="p-4 border-t border-slate-100 bg-slate-50/80 backdrop-blur-md space-y-3 shrink-0">
+              {/* User Card */}
+              <div className="flex items-center gap-3 p-2 rounded-xl bg-white border border-slate-200/60 shadow-xs">
+                <div className="relative w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white flex items-center justify-center font-bold text-xs shrink-0 shadow-sm shadow-blue-500/20">
+                  {(user?.first_name ?? user?.username ?? "U")
+                    .charAt(0)
+                    .toUpperCase()}
+                  <span className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 bg-emerald-500 border-2 border-white rounded-full" />
+                </div>
+                    <div className="truncate flex-1">
+                      <div className="flex items-center justify-between">
+                        <h3 className="text-xs font-bold text-slate-800 truncate">
+                          {user?.first_name || user?.username || "Learner"}
+                        </h3>
+                      </div>
+                      <p className="text-[11px] text-slate-400 truncate">
+                        {user?.email || "learner@domain.com"}
+                      </p>
+                    </div>
+                </div>
+
+                {/* Logout Button */}
+                <button
+                  onClick={() => {
+                    closeSidebar();
+                    safeLogout();
+                  }}
+                  className="w-full flex items-center justify-center gap-2 px-3 py-2 rounded-xl text-xs font-semibold text-slate-600 hover:text-rose-600 hover:bg-rose-50/80 transition-all duration-200 cursor-pointer border border-slate-200/60 hover:border-rose-200/60"
+                >
+                  <FaSignOutAlt size={12} />
+                  <span>Sign Out</span>
+                </button>
+              </div>
+            </aside>
+          </>
+          );
 };
 
-export default Sidebar;
+          export default Sidebar;
