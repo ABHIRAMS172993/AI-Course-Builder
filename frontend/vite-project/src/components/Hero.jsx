@@ -32,17 +32,7 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           {/* Left Content */}
           <div className="w-full lg:w-[55%] text-center lg:text-left">
-            {/* Feature pill badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md border border-blue-200/80 shadow-xs mb-6 hover:border-blue-300 transition-colors">
-              <span className="flex h-2 w-2 rounded-full bg-blue-600 animate-pulse" />
-              <span className="text-xs font-bold text-slate-800 tracking-wide">
-                Next-Gen AI Learning Platform
-              </span>
-              <span className="text-[10px] uppercase font-extrabold px-2 py-0.5 rounded-md bg-blue-50 text-blue-700">
-                v2.0
-              </span>
-            </div>
-
+           
             {/* Main Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.12]">
               Master Any Skill with{" "}
