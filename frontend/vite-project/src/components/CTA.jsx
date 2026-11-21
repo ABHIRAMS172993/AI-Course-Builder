@@ -11,7 +11,7 @@ const CTA = () => {
           <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-indigo-500/25 blur-3xl rounded-full pointer-events-none" />
 
           <div className="relative z-10 max-w-3xl mx-auto">
-            
+
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight mb-5">
               Ready to Accelerate Your{" "}
               <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-indigo-300 bg-clip-text text-transparent">

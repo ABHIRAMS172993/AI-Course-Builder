@@ -44,13 +44,7 @@ const HowItWorks = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Heading */}
         <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200/60 mb-4">
-            <span className="w-1.5 h-1.5 rounded-full bg-blue-600" />
-            <span className="text-xs font-bold text-blue-700 uppercase tracking-widest">
-              Simple 3-Step Process
-            </span>
-          </div>
-
+         
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight">
             How It Works
           </h2>
