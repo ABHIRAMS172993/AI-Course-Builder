@@ -70,13 +70,7 @@ const Features = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200/60 mb-4">
-            <span className="w-1.5 h-1.5 rounded-full bg-blue-600" />
-            <span className="text-xs font-bold text-blue-700 uppercase tracking-widest">
-              Core Capabilities
-            </span>
-          </div>
-
+          
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
             Everything You Need to{" "}
             <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
