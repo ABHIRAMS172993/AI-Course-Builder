@@ -81,8 +81,8 @@ const Dashboard = () => {
 
       {/* Main Content Area */}
       {/* FIXED: pt-20 on mobile clears mobile top bar; ml-0 on mobile, lg:ml-64 on desktop */}
-      <main className="flex-1 ml-0 lg:ml-64 pt-20 lg:pt-10 p-4 sm:p-6 lg:p-10 transition-all duration-300 min-w-0">
-        
+      <main className="flex-1 ml-0 lg:ml-8 pt-8 lg:pt-10 p-4 sm:p-6 lg:p-10 transition-all duration-300 min-w-0">
+
         {/* Welcome Header */}
         <div className="mb-6 sm:mb-8 animate-[fadeUp_0.8s_ease-out]">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight leading-snug">
@@ -91,9 +91,9 @@ const Dashboard = () => {
               {user?.first_name
                 ? `${user.first_name} ${user.last_name || ""}`.trim()
                 : (user?.username || "").replace(
-                    /^\w/,
-                    (char) => char.toUpperCase()
-                  )}
+                  /^\w/,
+                  (char) => char.toUpperCase()
+                )}
             </span>
             <span className="inline-block ml-2 animate-[wave_1.8s_ease-in-out_infinite] origin-[70%_70%]">
               👋
@@ -181,7 +181,7 @@ const Dashboard = () => {
               <span className="text-slate-600">Completion Rate</span>
               <span className="text-blue-600">{dashboard.progress_percentage}%</span>
             </div>
-            
+
             {/* Gradient Progress Bar */}
             <div className="w-full h-3 rounded-full bg-slate-100 overflow-hidden">
               <div
@@ -196,7 +196,7 @@ const Dashboard = () => {
 
         {/* Quick Action Navigation Cards - 1 col on mobile, 3 cols on tablet/desktop */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-5 mt-6 sm:mt-8">
-          
+
           {/* Primary Action Card */}
           <button
             onClick={() => navigate("/preferences")}
