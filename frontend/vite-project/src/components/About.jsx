@@ -15,12 +15,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Text */}
           <div>
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200/60 mb-4">
-              <span className="w-1.5 h-1.5 rounded-full bg-blue-600" />
-              <span className="text-xs font-bold text-blue-700 uppercase tracking-widest">
-                Architecture & Mission
-              </span>
-            </div>
+
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">
               Empowering Independent Learners with{" "}
