@@ -53,9 +53,9 @@ const QuizResult = () => {
     const average =
       totalQuizzes > 0
         ? (
-            results.reduce((sum, q) => sum + Number(q.percentage), 0) /
-            totalQuizzes
-          ).toFixed(1)
+          results.reduce((sum, q) => sum + Number(q.percentage), 0) /
+          totalQuizzes
+        ).toFixed(1)
         : 0;
 
     return {
@@ -67,7 +67,7 @@ const QuizResult = () => {
   }, [results]);
 
 
-   const logout = () => {
+  const logout = () => {
     localStorage.clear();
     navigate("/login");
   };
@@ -76,10 +76,10 @@ const QuizResult = () => {
   return (
     <div className="bg-slate-50 min-h-screen text-slate-800 antialiased">
       <div className="flex">
-        <Sidebar logout={logout}/>
+        <Sidebar logout={logout} />
 
-       
-        <main className="flex-1 ml-0 lg:ml-64 px-4 sm:px-6 lg:px-8 pt-20 lg:pt-8 pb-12 max-w-7xl mx-auto w-full min-w-0 transition-all duration-300">
+
+        <main className="flex-1 ml-0 lg:ml-8 pt-8 px-4 sm:px-6 lg:px-8 pt-20 lg:pt-8 pb-12 max-w-7xl mx-auto w-full min-w-0 transition-all duration-300">
           {/* Header */}
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6 sm:mb-8">
             <div>
@@ -222,11 +222,10 @@ const QuizResult = () => {
                     </div>
 
                     <span
-                      className={`inline-flex items-center justify-center px-3.5 py-1 rounded-full text-[11px] sm:text-xs font-bold uppercase tracking-wider self-start sm:self-center ${
-                        result.passed
-                          ? "bg-emerald-100 text-emerald-800"
-                          : "bg-rose-100 text-rose-800"
-                      }`}
+                      className={`inline-flex items-center justify-center px-3.5 py-1 rounded-full text-[11px] sm:text-xs font-bold uppercase tracking-wider self-start sm:self-center ${result.passed
+                        ? "bg-emerald-100 text-emerald-800"
+                        : "bg-rose-100 text-rose-800"
+                        }`}
                     >
                       {result.passed ? "PASSED" : "FAILED"}
                     </span>
@@ -248,9 +247,8 @@ const QuizResult = () => {
                         Percentage
                       </p>
                       <h2
-                        className={`text-xl sm:text-2xl font-bold mt-1 ${
-                          result.passed ? "text-emerald-600" : "text-rose-600"
-                        }`}
+                        className={`text-xl sm:text-2xl font-bold mt-1 ${result.passed ? "text-emerald-600" : "text-rose-600"
+                          }`}
                       >
                         {result.percentage}%
                       </h2>
@@ -283,9 +281,8 @@ const QuizResult = () => {
                     </div>
                     <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden">
                       <div
-                        className={`h-full rounded-full transition-all duration-500 ${
-                          result.passed ? "bg-emerald-500" : "bg-rose-500"
-                        }`}
+                        className={`h-full rounded-full transition-all duration-500 ${result.passed ? "bg-emerald-500" : "bg-rose-500"
+                          }`}
                         style={{
                           width: `${result.percentage}%`,
                         }}

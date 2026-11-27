@@ -149,7 +149,7 @@ const RoadmapPage = () => {
     }
   };
 
-   const logout = () => {
+  const logout = () => {
     localStorage.clear();
     navigate("/login");
   };
@@ -172,8 +172,8 @@ const RoadmapPage = () => {
       <div className="flex">
         <Sidebar logout={logout} />
 
-       
-        <main className="flex-1 ml-0 lg:ml-64 px-4 sm:px-6 lg:px-8 pt-20 lg:pt-8 pb-12 min-w-0 transition-all duration-300">
+
+        <main className="flex-1 ml-0 lg:ml-8 pt-8 px-4 sm:px-6 lg:px-8 pt-20 lg:pt-8 pb-12 min-w-0 transition-all duration-300">
           <div className="max-w-5xl mx-auto space-y-6 sm:space-y-8">
             <RoadmapHeader />
 
@@ -197,11 +197,10 @@ const RoadmapPage = () => {
                 return (
                   <div
                     key={week.id || week.week}
-                    className={`bg-white rounded-2xl shadow-xs p-4 sm:p-6 lg:p-8 transition-shadow ${
-                      !week.completed
-                        ? "border-2 border-blue-500"
-                        : "border border-slate-200/80"
-                    }`}
+                    className={`bg-white rounded-2xl shadow-xs p-4 sm:p-6 lg:p-8 transition-shadow ${!week.completed
+                      ? "border-2 border-blue-500"
+                      : "border border-slate-200/80"
+                      }`}
                   >
                     {/* Header Info */}
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-3 sm:gap-4">
@@ -315,7 +314,7 @@ const RoadmapPage = () => {
                           className="w-full sm:w-auto bg-purple-600 hover:bg-purple-700 disabled:bg-gray-400 text-white px-5 py-2.5 sm:px-6 sm:py-3 rounded-xl font-semibold text-sm sm:text-base transition-colors"
                         >
                           {quizLoading ===
-                          `${week.roadmap_id}-${week.week}`
+                            `${week.roadmap_id}-${week.week}`
                             ? "Generating..."
                             : "Generate Quiz"}
                         </button>

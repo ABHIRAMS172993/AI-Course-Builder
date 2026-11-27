@@ -45,7 +45,7 @@ const RoadmapDetail = () => {
     weeks.length > 0 ? Math.round((completedWeeks / weeks.length) * 100) : 0;
 
 
-   const logout = () => {
+  const logout = () => {
     localStorage.clear();
     navigate("/login");
   };
@@ -87,7 +87,7 @@ const RoadmapDetail = () => {
 
         {/* Responsive Content Container */}
         <main className="flex-1 ml-0 lg:ml-64 px-4 sm:px-6 lg:px-8 pt-16 lg:pt-8 pb-12 w-full max-w-7xl mx-auto min-w-0 transition-all duration-300">
-          
+
           {loading ? (
             <div className="bg-white rounded-2xl p-8 sm:p-12 text-center shadow-md">
               <div className="animate-spin h-8 w-8 border-4 border-blue-600 border-t-transparent rounded-full mx-auto mb-4"></div>

@@ -76,7 +76,7 @@ const CertificatesAll = () => {
           - `pt-20 lg:pt-8`: Adds clearance for top navigation bars on mobile.
           - `px-4 sm:px-6 lg:px-8`: Dynamically scales container side padding.
         */}
-        <main className="flex-1 ml-0 lg:ml-64 px-4 sm:px-6 lg:px-8 pt-20 lg:pt-8 pb-12 max-w-7xl mx-auto w-full min-w-0 transition-all duration-300">
+        <main className="flex-1 ml-0 lg:ml-8 pt-8 px-4 sm:px-6 lg:px-8 pt-20 lg:pt-8 pb-12 max-w-7xl mx-auto w-full min-w-0 transition-all duration-300">
           {/* Header */}
           <div className="mb-6 sm:mb-8">
             <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
